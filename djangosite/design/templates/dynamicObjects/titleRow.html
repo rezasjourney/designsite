@@ -1,0 +1,66 @@
+<div class="titleRow container">
+	<a class="pageTitle" href="/design/?userID={{userID}}">
+		<span>DesignScape</span>
+	</a>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			
+			<ul class="nav">
+			 	
+				<li class="dropdown {% ifequal viewTypeClass 'study'%}active{% endifequal %}">
+			 		<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+			 			Create Design Layout
+			 			<span class="caret"></span>
+			 		</a>
+			 		<ul class="dropdown-menu">
+			 			<li class="{% ifequal viewType 'simple2'%}active{% endifequal %}" >
+							<a href="/design/createLayout?design=simple2&userID={{userID}}">Abstract Design</a>
+						</li>
+						<li class="{% ifequal viewType 'simple'%}active{% endifequal %}" >
+							<a href="/design/createLayout?design=simple&userID={{userID}}">Abstract Design #2</a>
+						</li>
+						<li class="{% ifequal viewType 'simple3'%}active{% endifequal %}" >
+							<a href="/design/createLayout?design=simple3&userID={{userID}}">Abstract Design #3</a>
+						</li>
+						<li class="{% ifequal viewType 'simple4'%}active{% endifequal %}" >
+							<a href="/design/createLayout?design=simple4&userID={{userID}}">Abstract Design #4</a>
+						</li>
+						
+						<li class="{% ifequal viewType 'absdesign'%}active{% endifequal %}" >
+							<a href="/design/createLayout?design=absdesign&userID={{userID}}">Geometry of Design</a>
+						</li>
+						<li class="{% ifequal viewType 'artshow'%}active{% endifequal %}" >
+							<a href="/design/createLayout?design=artshow&userID={{userID}}">Art Show</a>
+						</li>
+						<li class="{% ifequal viewType 'mba'%}active{% endifequal %}" >
+							<a href="/design/createLayout?design=mba&userID={{userID}}">MBA</a>
+						</li>
+						<li class="{% ifequal viewType 'club'%}active{% endifequal %}" >
+							<a href="/design/createLayout?design=club&userID={{userID}}">Club</a>
+						</li>
+						
+						<li class="{% ifequal viewType 'conference'%}active{% endifequal %}" >
+							<a href="/design/createLayout?design=conference&userID={{userID}}">Conference</a>
+						</li>
+						
+						<li class="{% ifequal viewType 'dojo'%}active{% endifequal %}" >
+							<a href="/design/createLayout?design=dojo&userID={{userID}}">Dojo</a>
+						</li>	
+													
+						<li class="{% ifequal viewType 'sigcover'%}active{% endifequal %}" >
+							<a href="/design/createLayout?design=sigcover&userID={{userID}}">Siggraph</a>
+						</li>	
+									
+					</ul>	
+			 	</li>
+			 	
+			 	
+			 	
+			 	<li {% ifequal viewType 'importDesign'%}class="active"{% endifequal %}>
+					<a href="/design/importDesign?userID={{userID}}">Import Design</a>
+			 	</li>
+		 	</ul>
+		</div>
+	</div>
+</div>

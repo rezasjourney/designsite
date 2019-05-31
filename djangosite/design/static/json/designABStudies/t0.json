@@ -1,0 +1,33 @@
+{
+    "hitNumber": 0, 
+    "tasks": [
+        {
+            "designA": "design_1385323355104-A35X7KKSA5ZCVF-2C914IXKO2L9M0V64RXX9YOFKRIBCA-0", 
+            "designB": "design_1385323355104-AH0ZG2TJNOHKA-25F7H57DZKPFYNVALY4M85LBQ942CA-0", 
+            "suggID": 1, 
+            "taskID": 0, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1371586674077-A14GSKVEQOSIFD-21405BMJTUHYGLXNXQIADS5ZUDOGLC-1", 
+            "designB": "design_1371586674077-A35OKJOXZ8KUCO-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-2", 
+            "suggID": 1, 
+            "taskID": 1, 
+            "taskType": "consistency"
+        }, 
+        {
+            "designA": "design_1371586674077-A35C73HYFK4TLZ-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-2", 
+            "designB": "design_1371586674077-A27VWYGK7AIK1B-21405BMJTUHYGLXNXQIADS5ZUDOGLC-2", 
+            "suggID": 0, 
+            "taskID": 2, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1385323355104-A3V1RXWK0FP0G5-2C914IXKO2L9M0V64RXX9YOFKRIBCA-2", 
+            "designB": "design_1385323355104-A318QP0E1HS9DX-25F7H57DZKPFYNVALY4M85LBQ942CA-1", 
+            "suggID": 1, 
+            "taskID": 3, 
+            "taskType": "real"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+	<div class="resultsRow {% block specialRowClasses%}{% endblock %}">
+		<div class="fontID">
+			<div class="fontImage">
+				<img src="{{font.imageURL}}">
+			</div>
+		</div>
+		<div class="fontResultsRightPane">
+			<div class="fontName">
+				{% block fontName %}
+				<span class="fontNameP">{{font.name}}</span>
+				{% endblock %}
+			</div>
+			{% block fontStaticstics %}
+				{% block fontScore %}
+				{% endblock %}
+				{% block attributes %}
+					{% block presentAttributes %}
+					{% endblock %}
+					{% block otherAttributes %}
+					{% endblock %}
+				{% endblock %}
+			{% endblock %}
+			{% block hiddenAttribs %}
+			{% endblock %}
+		</div>
+		
+		{% block showMore %}
+		{% endblock %}
+	</div>

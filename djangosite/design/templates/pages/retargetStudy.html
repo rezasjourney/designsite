@@ -1,0 +1,464 @@
+{% extends "pages/abstract/baseTemplate.html" %}
+
+
+{% block title %}
+	{% if not minimalistic %}
+		{% if includeTitleBar %}
+			{{block.super}}	
+		{% endif %}	
+	{% endif %}
+	
+	<script>
+	if (typeof console === 'undefined'){
+		console={'log':function(){},'error':function(){}}
+	}
+	</script>
+{% endblock title %}
+
+
+
+{% block beginning %}
+
+	<form id="mturk_form" method="POST" action="https://workersandbox.mturk.com/mturk/externalSubmit">
+
+	{% block studyInstructions %}
+		
+			
+	<h1 align="center">Resize 5 Graphic Design Layouts</h1>
+		
+
+	
+	
+
+	<div class="row-fluid">
+		<div class="offset1 span10 well">
+			<h3>Instructions:</h3>
+		
+			<p>
+			Your task is to create a new version of 5 graphic designs in a different size. Given the original design, you will  <strong> position and scale</strong> elements for the new size. 
+			
+			</p>
+			<p>
+			 You should create a layout which <b>a) looks like the original design, b) looks good,  c) is clear to read and understand, and d) contains all the given elements. </b>
+			These goals might conflict, forcing you to make tradeoffs. For example, making an exact copy of the original layout might look bad or have unreadable text, so the elements have to be re-arranged for the design to work.
+			But try not to change the layout of the original too much.
+			</p>
+			
+			<p>
+			Try to match the sizes of the original design. If the text is readable in the original, try to make it readable in the new design. If the text is very small in the original design
+			try to leave it small.  Some designs have latin text which starts with <i>Lorem Ipsum</i>. This placeholder text is meant to be generic descriptive text appropriate for the design. 
+			</p>
+			
+			<div id="mturkEvaluation">
+				<h3>Evaluation:</h3>
+
+				
+				<ul>
+					
+					<li><b>Do not randomly place elements.</b> Your designs will be evaluated by other users, so random designs will be easily found and rejected.</li>
+					
+					<li><b>Do not remove elements.</b> All the elements must be partially visible (though they can be partially offscreen or overlapping if they are in the original design)</li>
+					
+					
+					<li><b>Match the element sizes of the original as much as possible.</b> Don't radically shrink or grow elements. </li>
+					
+					<li><b>Match the style of the original as much as possible.</b> Don't create an entirely different style with the elements. For example, if elements don't overlap in the original, don't make them overlap if the resized version.</li>
+					
+					<li><b>Don't simply shrink the layouts to fit in the new size.</b> The new layout should still be readable. </li>
+					 
+				</ul>
+				Please look at the examples below to better understand these criteria.
+					
+			</div>
+			</p>
+			
+	
+
+			<h3>Resizing Examples</h3>
+			Below are some example images with the original and the resized designs. Note that <b>there may be more than one new acceptable design.</b>
+			The examples with a green check mark are good examples, those with a red X are bad examples.
+			<table border=1>
+			<tr><td><b>Original</b></td><td><b>Resized</b></td></tr>
+			<tr><td><img width=300 src="/design/static/img/instructions/athena_400_600.jpg" > </td><td><b>Good Resize Version #1.</b><br><img width=450 src="/design/static/img/instructions/athena_600_400_1.jpg" > </td><td><img width=100 src="/design/static/img/instructions/greencheck.jpg"> </td></tr>
+			<tr><td><img width=300 src="/design/static/img/instructions/athena_400_600.jpg" > </td><td><b>Good Resize Version #2.</b> <br><img width=450 src="/design/static/img/instructions/athena_600_400_2.jpg" > </td><td><img width=100 src="/design/static/img/instructions/greencheck.jpg" > </td></tr>
+			<tr><td><img width=300 src="/design/static/img/instructions/athena_400_600.jpg" > </td><td><b>Bad Resize.</b> Note the very different style, elements sizes, and relative locations.<br><img width=450 src="/design/static/img/instructions/athena_600_400_3.jpg" > </td><td><img width=100 src="/design/static/img/instructions/redx.jpg" > </td></tr>
+			<tr><td><img width=300 src="/design/static/img/instructions/athena_400_600.jpg" > </td><td><b>Bad Resize. </b>Note the very different style, elements sizes, and relative locations.<br><img width=450 src="/design/static/img/instructions/athena_600_400_4.jpg" > </td><td><img width=100 src="/design/static/img/instructions/redx.jpg" > </td></tr>
+			
+			<tr><td><img width=450 src="/design/static/img/instructions/bird_600_400.jpg" > </td><td><b>Good Resize.</b><br><img width=300 src="/design/static/img/instructions/bird_400_600_2.jpg" > </td><td><img width=100 src="/design/static/img/instructions/greencheck.jpg"> </td></tr>
+			<tr><td><img width=450 src="/design/static/img/instructions/bird_600_400.jpg" > </td><td><b>Bad Resize.</b> Note the layouts is exactly the same as the original but the text is hard to read and elements are much smaller than the original.<br><img width=300 src="/design/static/img/instructions/bird_400_600_1.jpg" > </td><td><img width=100 src="/design/static/img/instructions/redx.jpg" > </td></tr>
+			
+			<!--<tr><td><img width=400 src=athena_0_orig.jpg > </td><td>Resize to a small scale. Try to keep the text readable (if it's readable in the original)<br><img width=200 src=athena_200_300.jpg> </td></tr>
+			<tr><td><img width=400 src=athena_0_orig.jpg > </td><td>Resized to a very different aspect ratio.<br><img width=900 src=athena_900_300.jpg> </td></tr>
+			-->
+			</table>
+			<hr>
+						</p>
+			
+			{% block specificStudyInstructions %}
+			
+			{% endblock specificStudyInstructions %}
+			
+
+		</div>
+	</div>
+		
+	{% endblock studyInstructions %}
+	<hr>
+	{% block interfaceTutorial %}
+		{% if not minimalistic %}
+			<div class="row-fluid">
+				<div class="offset1 span10 well">
+					
+					{% if suggestions == 1 %}
+						<h3>How to Use the Suggestion Interface:</h3>
+			
+						<br>
+						This interface is designed to provide you with suggestions when you are creating a layout. As you move elements, the interface will make
+						suggestions and automatically adjust the elements. If you don't want elements to move, you can fix them to prevent automatic updates (see below).
+						<br>
+						<br>
+						If the interface is working, the loading icon is shown: <img width=20 src="/design/static/icons/snake.png" />. You can still move elements while the interface is working.
+						<br>
+						<br>
+					{% else %}
+						<h3>How to Use the Interface:</h3>
+					{% endif %}
+			
+
+		
+					<ol>
+						{% if suggestions == 1 %}
+						<li>
+							<strong>Change How Elements Automatically Move</strong>
+							<br>
+							If you want to fix elements so they won't move automatically, you can select one or more elements and press the red lock icon at the top <img width=20 src="/design/static/icons/locked.png"/>, or the lock icon
+							beside the element.
+							The yellow lock icon <img width=20 src="/design/static/icons/tweakable.png" /> means the elements will stay near that current location and only move a bit.
+						
+							The open green lock <img width=20 src="/design/static/icons/unlocked.png" /> means the elements can move anywhere in the layout.
+					
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/states-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/states-after.jpg" />
+						</li>
+						<!--
+						<li>
+							<strong>Undo/Redo Automatic Suggestions</strong>
+							<br>
+							If you want to go back to a previous layout, you can press the <strong>Undo</strong> button at the top. 
+							You can also use the <strong>Redo</strong> button to go forward.
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/undo-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/undo-after.jpg" />
+						</li>
+							-->
+						{% endif %}
+						
+						
+						<li>
+							<strong>Resizing Elements</strong>
+							<br>
+							To resize elements, drag the round circles on the corners.
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/resizing-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/resizing-after.jpg" />
+						</li>
+					
+						<li>
+							<strong>Changing the Number of Lines</strong>
+							<br>
+							To change the number of lines for each element, drag the red diamonds left or right.<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/numLines-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/numLines-after.jpg" />
+						</li>
+						<!--
+						<li>
+							<strong>Saving a Layout</strong>
+							<br>
+							When you find a layout that you want to save, press the 'Save Layout.' <strong> Saving a layout will automatically reset the main layout to a random initial layout.</strong> You can remove the layout later by pressing the remove button beside it.  <strong>If you mouse over the saved layout, it will appear as the main layout. Click the saved layout to set this as the main layout.</strong><br>
+							{% if suggestions == 1 %}
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/saving-int-before.jpg" />
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/saving-int-after.jpg" />
+							{% else %}
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/saving-before.jpg" />
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/saving-after.jpg" />	
+							{% endif %}
+							
+							<br>
+						</li>
+				
+						<li>
+							<strong>Reset the Layout</strong>
+							<br>
+							If you want to reset the layout to a random initial layout, press the 'Reset Layout' button. <strong>Resetting will not affect your saved layouts.</strong><br>
+							{% if suggestions == 1 %}
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/reset-int-before.jpg" />
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/reset-int-after.jpg" />
+							{% else %}
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/reset-before.jpg" />
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/reset-after.jpg" />		
+							{% endif %}
+							<br>
+						</li>
+						-->
+						
+					</ol>
+
+
+				</div>
+			</div>
+		{% endif %}
+	{% endblock interfaceTutorial %}
+	<hr>
+
+
+{% endblock beginning %}
+
+{% block introduction %}
+
+	
+	{% block instructions %}
+	{% endblock instructions %}
+
+	{% block beforeControls %}
+	{% endblock beforeControls %}
+
+	{% block controls %}
+	{% endblock controls %}
+	
+	
+
+	{% block beforeInterface %}
+
+	{% endblock beforeInterface %}
+
+	{% block interface %}
+		{% include "pages/createDesign.html" with design=design %}
+	{% endblock interface %}
+	
+	{% block afterInterface %}
+	{% endblock afterInterface %}
+	
+			
+	{% comment %}
+	{% block questionnaire %}
+	<div id="mturkQuestionnaire">
+		<hr>
+		<br>
+		<div class="row-fluid">
+			
+					
+				
+			<div class="offset1 span10 well">
+				<p>The following questions will only be used to break down responses by 
+				age/gender/country.</p>
+
+				<p>Please enter the country you have lived most in:</p>
+				
+				<p>
+					<select name="country" size="1">
+						{% include "staticObjects/countryList.html" %}
+					</select>
+				</p>
+				
+				<p>Age: <input name="age" type="text"> 
+				<br>
+				<input name="sex" value="male" type="radio"> Male <br>
+				<input name="sex" value="female" type="radio"> Female <br>
+				<br>
+				Are a fluent speaker of English?<br>
+				<input name="language" value="yes" type="radio"> Yes
+				<br>
+				<input name="language" value="no" type="radio"> No
+				<br>
+
+				<p>How much experience have you had working with graphic design?
+				<br>
+				<input name="typexp" value="none" type="radio"> None <br>
+				<input name="typexp" value="some" type="radio"> Some <br>
+				<input name="typexp" value="professional" type="radio"> Professional
+				<br>
+			</div>
+			
+		</div>
+	</div>
+	{% endblock questionnaire %}
+	{% endcomment %}
+
+{% endblock introduction %}
+
+
+
+{% block ending %}
+	{% block interfaceSpecificInputs %}
+	{% endblock interfaceSpecificInputs %}
+
+	{% block opinionsAndSubmit %}
+
+	<input type="hidden" id="ipaddr" name="ipaddr" value="">
+	<input type="hidden" id="assignmentId" name="assignmentId" value="">
+	<input type="hidden" id="userInputLog" name="userInputLog" value="">
+	<input type="hidden" id="statusLog" name="statusLog" value="">
+	<input type="hidden" id="errorLog" name="errorLog" value="">
+	
+	<input type="hidden" id="studyType" name="studyType" value="retarget">
+	<input type="hidden" id="studyOrder" name="studyOrder" value="">
+	
+	<input type="hidden" id="transferRate" name="transferRate" value="">
+	<input type="hidden" id="latency" name="latency" value="">
+
+	<input type="hidden" id="sendLayoutTime" name="sendLayoutTime" value="">
+	<input type="hidden" id="initResponseTime" name="initResponseTime" value="">
+	<input type="hidden" id="convergenceTime" name="convergenceTime" value="">
+	
+	<input type="hidden" id="userAgent" name="userAgent" value="">
+	<input type="hidden" id="userID" name="userID" value="{{ userID }}">
+	<input type="hidden" id="windowDimensions" name="windowDimensions" value="">
+	
+	<input type="hidden" id="startDateTime" name="startDateTime" value="">
+	<input type="hidden" id="totalTime" name="totalTime" value="">
+	<input type="hidden" id="layoutStartTime" name="layoutStartTime" value="">
+	<input type="hidden" id="layoutTimes" name="layoutTimes" value="">
+	<input type="hidden" id="layoutIDs" name="layoutIDs" value="">
+	
+	<input type="hidden" id="interface" name="interface" value="">
+	
+	<input type="hidden" id="layout0" name="layout0" value="">
+	<input type="hidden" id="layout1" name="layout1" value="">
+	<input type="hidden" id="layout2" name="layout2" value="">
+	<input type="hidden" id="layout3" name="layout3" value="">
+	<input type="hidden" id="layout4" name="layout4" value="">
+	<input type="hidden" id="layout5" name="layout5" value="">
+	<input type="hidden" id="layout6" name="layout6" value="">
+
+
+	<input type="hidden" id="retarget_layout0" name="retarget_layout0" value="">
+	<input type="hidden" id="retarget_layout1" name="retarget_layout1" value="">
+	<input type="hidden" id="retarget_layout2" name="retarget_layout2" value="">
+	<input type="hidden" id="retarget_layout3" name="retarget_layout3" value="">
+	<input type="hidden" id="retarget_layout4" name="retarget_layout4" value="">
+	<input type="hidden" id="retarget_layout5" name="retarget_layout5" value="">
+	<input type="hidden" id="retarget_layout6" name="retarget_layout6" value="">
+
+	<input type="hidden" id="responses" name="responses" value="">
+
+	<hr>
+	
+			<div class="row-fluid" id="commentsBox">
+				<div class="offset1 span10 well">
+					
+					<div id="mturkCommentsAndSubmit">
+						<p>Please provide any comments or suggestions you may have below, we 
+						appreciate your input! <strong>If you notice any bugs or wierd behavior, please let us know, including your browser. Thanks! </strong> </p>
+						{% block attributeComments %}
+						
+						{% endblock attributeComments %}
+			
+
+						<p>Comments or suggestions about the interface or HIT (optional):</p>
+						<p>
+							<textarea name="hit_comments"style="width:500px;height:70px"></textarea>
+						</p>
+			
+						<p><input  id="submitStudyButton" type="submit"  class="btn" value="Submit Results" onclick="return validateFormResults()"></p>
+			
+					</div>	
+
+				</div>
+			</div>
+	
+		
+
+	{% endblock opinionsAndSubmit %}
+	</form>	
+
+{% endblock ending %}
+
+
+
+
+{% block scripts %}
+<script src="/design/static/js/mturk.js"></script>
+{% endblock scripts %}
+
+
+
+
+{% block extraScripts %}
+	<script>
+	
+		$('#startDateTime').data("date",new Date())
+	
+		$('#tabs').css('visibility', 'hidden');
+		
+		$('#infoButton').hide()
+		$('#suggReporting').hide()
+		$('#saveLayoutButton').hide()
+		$('#resetLayoutButton').hide()
+		$('.modifications').hide()
+		
+		 if (gup('assignmentId') != "ASSIGNMENT_ID_NOT_AVAILABLE")
+		 {
+		 	$('#nextDesignButton').show()
+		 }
+		
+		$('#retarget_lk').click()
+		
+		$('#canvas').data("modificationsEnabled",false)
+		
+		console.log("url:"+window.location.href)
+		console.log("url:"+window.location.href)
+		var retarget_study=gup('retargetSequence')
+	
+		console.log("loading retarget study " + retarget_study)
+		var jsonLoad = $.getJSON(sprintf('/design/static/retarget/%s.json', retarget_study), function(retargets) {
+			console.log('retargets obtained');
+			console.log(retargets.design_sequence)
+
+			$('#canvas').data("sequence_type","retargetting")
+			$('#canvas').data("design_sequence",retargets.design_sequence)
+			$('#canvas').data("sequence_index",0)
+			
+			loadDesignFile(retargets.design_sequence[0].design)
+			
+			executeAfterTextRendering(setupRetargetting)
+			
+		});
+	
+	
+	    document.getElementById('assignmentId').value = gup('assignmentId');
+	    //
+	    // Check if the worker is PREVIEWING the HIT or if they've ACCEPTED the HIT
+	    //
+		//alert(getURLParameter('assignmentId'))
+	    if (getURLParameter('assignmentId') == "ASSIGNMENT_ID_NOT_AVAILABLE")
+	    {
+		
+			
+		  // If we're previewing, disable the button and give it a helpful message
+		  document.getElementById('submitStudyButton').disabled = true;
+		  
+		  
+		  document.getElementById('submitStudyButton').value = "You must ACCEPT the HIT before you can do the full HIT or submit.";
+	    } 
+		else 
+		{
+			//console.log("trying to set new form action")
+			//console.log("referrer")
+			console.log(document.referrer)
+	        var form = document.getElementById('mturk_form');
+	        if (document.referrer && ( document.referrer.indexOf('workersandbox') == -1) ) {
+	        	console.log("setting new form action")
+	            form.action = "https://www.mturk.com/mturk/externalSubmit";
+	        }
+	    }
+	    //$('#mturk_form').submit(function(){return validateFormResults()});
+	    //$('#submitStudyButton').click
+	    //$('#clearQueryURL').click(function(){location.hash="";});
+	    $('#userAgent').val(navigator.userAgent);
+	    
+
+    </script>
+{% endblock extraScripts %}
+{% block errorHandling %}
+{% endblock errorHandling %}

@@ -1,0 +1,14 @@
+<table>
+<tr>
+	<th>Distance</th>
+	<th>Font A</th>
+	<th>Font B</th>
+</tr>
+{% for row in fontList %}
+	<tr>
+		<td>{{row.distance|floatformat:1}}</td>
+		{% with row.font1 as font%}{% include "dynamicObjects/fontSimilarityCell.html"%}{% endwith %}
+		{% with row.font2 as font%}{% include "dynamicObjects/fontSimilarityCell.html"%}{% endwith %}
+	</tr>
+{% endfor %}
+</table>

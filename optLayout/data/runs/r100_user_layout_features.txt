@@ -1,0 +1,109 @@
+Layout Energy: -255.485214
+0	400.0 	 -0.82	 -328.3 	nl:3.0 Text Size 
+1	600.0 	 -0.76	 -453.3 	nl:3.0 Graphic Size 
+2	5000.0 	 0.00	  0.0 	nl:1.0 Min Text Size 
+3	5000.0 	 0.00	  0.0 	nl:1.0 Min Graphic Size 
+4	  0.0 	 0.00	  0.0 	nl:1.0 Whitespace 
+5	1000.0 	 0.03	 32.4 	nl:10.0 Spread 
+6	5000.0 	 0.00	  0.0 	nl:10.0 Text Out of Bounds 
+7	5000.0 	 0.00	  0.0 	nl:10.0 Graphic Out of Bounds 
+8	5000.0 	 0.00	  0.0 	nl:10.0 Text Overlap 
+9	  0.0 	 0.00	  0.0 	nl:10.0 Graphic Overlap 
+10	  0.0 	 0.00	  0.0 	nl:10.0 Graphic Text Overlap 
+11	 75.0 	 -0.31	 -23.2 	nl:3.0 Text X Symmetry 
+12	 25.0 	 -0.03	 -0.7 	nl:3.0 Text Y Symmetry 
+13	 75.0 	 -0.05	 -3.7 	nl:3.0 Graphic X Symmetry 
+14	 25.0 	 -0.18	 -4.5 	nl:3.0 Graphic Y Symmetry 
+15	300.0 	 -0.16	 -48.0 	nl:0.0 Align X-Left 
+16	350.0 	 -0.09	 -32.7 	nl:0.0 Align X-Center 
+17	 10.0 	 -0.08	 -0.8 	nl:0.0 Align X-Right 
+18	 10.0 	 -0.14	 -1.4 	nl:1.0 Align Y-Bottom 
+19	 10.0 	 -0.03	 -0.3 	nl:1.0 Align Y-Center 
+20	100.0 	 -0.10	 -10.2 	nl:1.0 Align Y-Top 
+21	500.0 	 0.15	 77.0 	nl:1.0 Align Error X 
+22	500.0 	 0.06	 29.6 	nl:1.0 Align Error Y 
+23	  0.0 	 0.00	  0.0 	nl:1.0 Align Group Sizes 
+24	250.0 	 -0.89	 -221.3 	nl:1.0 Text Importance Pearson 
+25	250.0 	 -0.00	 -0.0 	nl:1.0 Graphic Importance Pearson 
+26	  1.0 	 -0.68	 -0.7 	nl:0.1 Text X Position 
+27	  1.0 	 -0.42	 -0.4 	nl:0.1 Graphic X Position 
+28	  1.0 	 -0.68	 -0.7 	nl:0.1 Text Y Position 
+29	  1.0 	 -0.32	 -0.3 	nl:0.1 Graphic Y Position 
+30	  1.0 	 -0.33	 -0.3 	nl:0.1 Text X Position - Reverse 
+31	  1.0 	 -0.59	 -0.6 	nl:0.1 Graphic X Position - Reverse 
+32	  1.0 	 -0.32	 -0.3 	nl:0.1 Text Y Position - Reverse 
+33	 20.0 	 -0.68	 -13.6 	nl:0.1 Graphic Y Position - Reverse 
+34	300.0 	 0.88	 263.5 	nl:10.0 Pairwise Distances Avg 
+35	300.0 	 1.00	 300.0 	nl:10.0 Pairwise Distances Min 
+36	  0.0 	 0.00	  0.0 	nl:1.0 Text Margins Avg 
+37	300.0 	 0.35	 105.1 	nl:50.0 Text Margins Min 
+38	  0.0 	 0.00	  0.0 	nl:1.0 Graphic Margins Avg 
+39	300.0 	 0.19	 58.4 	nl:50.0 Graphic Margins Min 
+40	 10.0 	 -0.08	 -0.8 	nl:1.0 Text Size Variance 
+41	 10.0 	 1.35	 13.5 	nl:1.0 Text X Flow 
+42	100.0 	 1.18	 118.0 	nl:1.0 Text Y Flow 
+43	  0.0 	 0.00	  0.0 	nl:0.1 Num Regions 
+44	200.0 	 -0.93	 -185.8 	nl:1.0 Text Region X Symmetry 
+45	200.0 	 -0.87	 -174.9 	nl:1.0 Graphic Region X Symmetry 
+46	  0.0 	 0.00	  0.0 	nl:1.0 Text X Reverse Symmetry 
+47	  0.0 	 0.00	  0.0 	nl:1.0 Text Y Reverse Symmetry 
+48	  0.0 	 0.00	  0.0 	nl:1.0 Graphic X Reverse Symmetry 
+49	  0.0 	 0.00	  0.0 	nl:1.0 Graphic Y Reverse Symmetry 
+50	  0.0 	 0.53	  0.0 	nl:1.0 Text X Position Variance 
+51	  0.0 	 0.39	  0.0 	nl:1.0 Graphic X Position Variance 
+52	  0.0 	 0.70	  0.0 	nl:1.0 Text Y Position Variance 
+53	  0.0 	 0.04	  0.0 	nl:1.0 Graphic Y Position Variance 
+54	  0.0 	 0.00	  0.0 	nl:1.0 Text Distances Avg 
+55	  0.0 	 0.00	  0.0 	nl:1.0 Element Region Difference 
+56	  0.0 	 0.00	  0.0 	nl:1.0 Empty Region 
+57	  0.0 	 0.00	  0.0 	nl:10.0 Region Overlap 
+58	100.0 	 0.24	 23.7 	nl:10.0 Line Length 
+59	400.0 	 0.00	  0.0 	nl:3.0 Element 0 Position Difference 
+60	400.0 	 0.00	  0.0 	nl:3.0 Element 1 Position Difference 
+61	400.0 	 0.00	  0.0 	nl:3.0 Element 2 Position Difference 
+62	400.0 	 0.00	  0.0 	nl:3.0 Element 3 Position Difference 
+63	400.0 	 0.00	  0.0 	nl:3.0 Element 4 Position Difference 
+64	400.0 	 0.00	  0.0 	nl:3.0 Element 5 Position Difference 
+65	400.0 	 0.00	  0.0 	nl:3.0 Element 6 Position Difference 
+66	400.0 	 0.00	  0.0 	nl:3.0 Element 7 Position Difference 
+67	400.0 	 0.00	  0.0 	nl:3.0 Element 8 Position Difference 
+68	400.0 	 0.00	  0.0 	nl:3.0 Element 9 Position Difference 
+69	400.0 	 0.00	  0.0 	nl:3.0 Element 10 Position Difference 
+70	400.0 	 0.00	  0.0 	nl:3.0 Element 11 Position Difference 
+71	400.0 	 0.00	  0.0 	nl:3.0 Element 12 Position Difference 
+72	400.0 	 0.00	  0.0 	nl:3.0 Element 13 Position Difference 
+73	400.0 	 0.00	  0.0 	nl:3.0 Element 14 Position Difference 
+74	100.0 	 0.00	  0.0 	nl:3.0 Element 0 Height Difference 
+75	100.0 	 0.00	  0.0 	nl:3.0 Element 1 Height Difference 
+76	100.0 	 0.00	  0.0 	nl:3.0 Element 2 Height Difference 
+77	100.0 	 0.00	  0.0 	nl:3.0 Element 3 Height Difference 
+78	100.0 	 0.00	  0.0 	nl:3.0 Element 4 Height Difference 
+79	100.0 	 0.00	  0.0 	nl:3.0 Element 5 Height Difference 
+80	100.0 	 0.00	  0.0 	nl:3.0 Element 6 Height Difference 
+81	100.0 	 0.00	  0.0 	nl:3.0 Element 7 Height Difference 
+82	100.0 	 0.00	  0.0 	nl:3.0 Element 8 Height Difference 
+83	100.0 	 0.00	  0.0 	nl:3.0 Element 9 Height Difference 
+84	100.0 	 0.00	  0.0 	nl:3.0 Element 10 Height Difference 
+85	100.0 	 0.00	  0.0 	nl:3.0 Element 11 Height Difference 
+86	100.0 	 0.00	  0.0 	nl:3.0 Element 12 Height Difference 
+87	100.0 	 0.00	  0.0 	nl:3.0 Element 13 Height Difference 
+88	100.0 	 0.00	  0.0 	nl:3.0 Element 14 Height Difference 
+89	 50.0 	 1.13	 56.5 	nl:5.0 Graphic Size Variance 
+90	100.0 	 0.00	  0.0 	nl:5.0 Text Diag Flow 
+91	400.0 	 0.02	  7.1 	nl:1.0 Group Distance 
+92	3000.0 	 0.00	  0.0 	nl:10.0 No Overlap Regions 
+93	  0.0 	 0.82	  0.0 	nl:1.0 Text Size Reverse 
+94	  0.0 	 0.55	  0.0 	nl:1.0 Graphic Size Reverse 
+95	  0.0 	 0.00	  0.0 	nl:1.0 Whitespace Reverse 
+96	300.0 	 0.00	  0.0 	nl:10.0 Previous Layout 
+97	100.0 	 -1.00	 -100.0 	nl:0.1 Group Alignment 
+98	100.0 	 0.00	  0.0 	nl:5.0 Group Text Size Variance 
+99	100.0 	 0.00	  0.0 	nl:5.0 Group Graphic Size Variance 
+100	 25.0 	 0.00	  0.0 	nl:5.0 Group Graphic X Align Variance 
+101	 25.0 	 0.00	  0.0 	nl:5.0 Group Graphic Y Align Variance 
+102	1500.0 	 0.00	  0.0 	nl:1.0 Hidden Element 
+103	500.0 	 0.00	  0.0 	nl:1.0 Alignment Lines 
+104	2000.0 	 0.00	  0.0 	nl:5.0 Size Constraints 
+105	1000.0 	 0.00	  0.0 	nl:5.0 Alignment Constraints 
+106	100.0 	 0.00	  0.0 	nl:5.0 Relative Difference 
+Eval: -255.485214 -255.485260

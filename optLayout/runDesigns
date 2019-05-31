@@ -1,0 +1,10 @@
+#!/bin/bash
+
+while true; do
+	./optLayout -r 10 &
+	cpulimit -p `pgrep optLayout` -l 50 &
+	sleep 5
+	killall optLayout
+	sleep 2
+	killall -9 optLayout
+done

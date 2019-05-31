@@ -1,0 +1,9 @@
+	<div class="attributeQuantityScore">
+		<span class="notStaticLabel{% if attribute.presence %} presenceActive{% endif %}"> </span>
+		<span class="tagName attribName">{{attribute.name}}</span>
+		<span class="attribScore">{{attribute.score|floatformat:0}}</span>
+		{% if attribute.relativeScore %}
+		<span class="attribRelativeScore">{% if attribute.relativeScore > 0 %}+{% endif %}{{attribute.relativeScore|floatformat:0}}</span>
+		{% endif %}
+		<span class="addTag {% if attribute.inQuery %}{% else %}plus{% endif %}"></span>
+	</div>

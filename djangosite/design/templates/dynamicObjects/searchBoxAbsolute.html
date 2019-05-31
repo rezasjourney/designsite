@@ -1,0 +1,9 @@
+<div class="ui-widget">
+	<div class="queryContainer" id="queryElt"> <input id="attribSearch" type="text" data-provide="typeahead" data-items="4" size="25" class="oddInput"> </div>
+	<form name="input" action="/~libeks/fontQuery/search/" id="attributeSearchForm">
+		<button id="submitButton" class="submitButton btn" type="button" onclick="submitFirstForm()">Search</button>
+		<input type="hidden" name="text" value="" />
+		<input type="hidden" name="userID" value="{{userID}}">
+		<input type="hidden" name="type" value="attribSearch" />
+	</form>
+</div>

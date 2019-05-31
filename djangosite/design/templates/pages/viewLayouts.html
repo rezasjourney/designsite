@@ -1,0 +1,236 @@
+{% extends "pages/abstract/baseTemplate.html" %}
+
+{% block scriptSources %}
+<script src="/design/static/js/serverProcessing.js"></script>
+<script src="/design/static/js/design.js"></script>
+<script src="/design/static/js/viewLayouts.js"></script>
+<script src="/design/static/js/kinetic-v4.5.2.min.js"></script>
+
+{{block.super}}
+{% endblock %}
+
+{% block content %}
+
+
+	
+<div class="row-fluid">
+	
+	<div class="span12" >
+		
+		<div id="stats">
+			
+			<strong>Num Error Runs: </strong>
+			<span id="numErrorRuns" >0</span><br>	
+			
+			<strong>Num OK Runs: </strong>
+			<span id="numOKRuns" >0</span><br>	
+			
+			<br>
+			<div id="pairedStats">
+				
+				
+				<strong>Suggestion Accepted Count:</strong> <span id="suggestionAcceptedCount"></span><br>
+				<strong>Suggestion Ignored Count:</strong> <span id="suggestionIgnoredCount"></span><br>
+				<br>
+				
+				<strong>Brainstorm Accepted Count:</strong> <span id="brainstormAcceptedCount"></span><br>
+				<strong>Tweak Accepted Count:</strong> <span id="tweakAcceptedCount"></span><br>
+				<br>
+				
+				<strong>Direct Mean Time:</strong> <span id="directTime"></span><br>
+				<strong>Suggestion Mean Time:</strong> <span id="suggestionTime"></span><br>
+				<strong>Adaptive Mean Time:</strong> <span id="adaptiveTime"></span><br>
+				<br>
+				
+				<strong>Direct Mean Interactions:</strong> <span id="directInteractions"></span><br>
+				<strong>Suggestion Mean Interactions:</strong> <span id="suggestionInteractions"></span><br>
+				<strong>Adaptive Mean Interactions:</strong> <span id="adaptiveInteractions"></span><br>
+				<br>
+				
+				<strong>Direct Mean Rating:</strong> <span id="directRating"></span><br>
+				<strong>Suggestion Mean Rating:</strong> <span id="suggestionRating"></span><br>
+				<strong>Adaptive Mean Rating:</strong> <span id="adaptiveRating"></span><br>
+				<br>
+				
+				
+				<strong># Prefer Direct over Suggestion:</strong> <span id="directSuggestionPrefer"></span><br>
+				<strong># Prefer Suggestion over Direct:</strong> <span id="suggestionDirectPrefer"></span><br>
+				
+				<br>
+				
+				<strong># Prefer Direct over Adaptive:</strong> <span id="directAdaptivePrefer"></span><br>
+				<strong># Prefer Adaptive over Direct:</strong> <span id="adaptiveDirectPrefer"></span><br>
+				
+				
+				<br>
+				
+				</br>
+			</div>
+			
+			
+			<strong>Median Overall Time: </strong>
+			<span id="meanOverallTime" >---</span> min<br>
+			
+			<strong>Mean Time Per Layout: </strong>
+			<span id="meanDesignTime" >---</span> min<br>
+			
+			<strong>Median Time Per Layout: </strong>
+			<span id="medianDesignTime" >---</span> min<br>
+			
+			
+			<strong>Mean Interactions Per Layout: </strong>
+			<span id="meanInteractions" >---</span><br> 
+			
+			<strong>Median Interactions Per Layout: </strong>
+			<span id="medianInteractions" >---</span><br>
+			
+	
+			
+			<hr style="background:#000; border:0; height:4px" />
+		</div>
+		
+		
+		<div id="user_layouts">
+			<strong>Test #<span class="testNumber" ></span></strong><br><br>
+			<table border=1>
+				<!--
+				<tr style="display:none;" class='canvas_row'>
+					<td><canvas id="design0"  ></canvas></td>
+					<td><canvas id="design1"  ></canvas></td>
+					<td><canvas id="design2"  ></canvas></td>
+					<td><canvas id="design3"  ></canvas></td>
+					<td><canvas id="design4"  ></canvas></td>
+				</tr>
+				-->
+				<tr  class='image_row'>
+					<td style="display:none;"><img id="img0"  src=''></img></td>
+					<td style="display:none;"><img id="img1"  src=''></img></td>
+					<td style="display:none;"><img id="img2"  src=''></img></td>
+					<td style="display:none;"><img id="img3"  src=''></img></td>
+					<td style="display:none;"><img id="img4"  src=''></img></td>
+				</tr>
+				<tr  class='states_row'>
+					<td style="display:none;"><img id="stateImg0"  src=''></img></td>
+					<td style="display:none;"><img id="stateImg1"  src=''></img></td>
+					<td style="display:none;"><img id="stateImg2"  src=''></img></td>
+					<td style="display:none;"><img id="stateImg3"  src=''></img></td>
+					<td style="display:none;"><img id="stateImg4"  src=''></img></td>
+				</tr>		
+				
+				<tr class='stats_row'>
+					<td style="display:none;"><span id="type0"></span><br> <span id="time0"></span> min <br>Interactions(w/o views): <span id="numinteractions0"></span> <br><textarea style="width:300; height:200" id="interactions0"> </textarea> <br> <a id="playback0" href=''>Playback</a> </td>
+					<td style="display:none;"><span id="type1"></span><br> <span id="time1"></span> min <br>Interactions(w/o views): <span id="numinteractions1"></span> <br><textarea style="width:300; height:200" id="interactions1"> </textarea> <br> <a id="playback1" href=''>Playback</a> </td>
+					<td style="display:none;"><span id="type2"></span><br> <span id="time2"></span> min <br>Interactions(w/o views): <span id="numinteractions2"></span> <br><textarea style="width:300; height:200" id="interactions2"> </textarea> <br> <a id="playback2" href=''>Playback</a> </td>
+					<td style="display:none;"><span id="type3"></span><br> <span id="time3"></span> min <br>Interactions(w/o views): <span id="numinteractions3"></span> <br><textarea style="width:300; height:200" id="interactions3"> </textarea> <br> <a id="playback3" href=''>Playback</a> </td>
+					<td style="display:none;"><span id="type4"></span><br> <span id="time4"></span> min <br>Interactions(w/o views): <span id="numinteractions4"></span> <br><textarea style="width:300; height:200" id="interactions4"> </textarea> <br> <a id="playback4" href=''>Playback</a> </td>
+				</tr>
+			</table>
+			
+			
+			<strong>Interface: </strong><br>
+			<a style="color:#0000FF;" class="interface" href=viewLayouts></a><br>
+			
+			<strong>Design: </strong><br>
+			<a style="color:#0000FF;" class="designID" href=viewLayouts></a><br>
+			
+			<strong>Worker: </strong><br>
+			<a style="color:#0000FF;" class="workerID" href=viewLayouts></a><br>
+			<!--
+			<br>
+			<div class="pairedQuestions">
+			<strong>How often do you create graphic designs? </strong><span class="experience"> </span><br>
+			<strong>Direct Rating: </strong><span class="directRating"> </span><br>
+			<strong>Suggestion Rating: </strong><span class="suggRating"> </span><br>
+			<strong>Interface Preference: </strong><span class="interfacePref"> </span><br>
+			<strong>Interface Comments: </strong><span class="interfaceComments"> </span><br>
+			<br>
+			</div>
+			-->
+			<strong>Date: </strong><br>
+			<span class="date" ></span><br>
+			
+			<strong>Total Time: </strong><span class="totalTime" ></span> min. <strong>Latency: </strong><span class="latency" ></span> ms.<strong>Response Time: </strong><span class="responseTime" ></span> ms. <strong>Transfer Rate: </strong><span class="transferRate" ></span> kbps.
+			<br>
+			
+			<br>
+			<strong>Inteface Comments: </strong><br>
+			<div class="interfaceComments" ></div><br>
+			<br>
+			
+			<strong>HIT Comments: </strong><br>
+			<div class="hitComments" ></div><br>
+			
+			
+			
+			<strong>Errors? </strong><span class="errors" >No</span><br>
+			<button  class="statusLogShow" type="button" name="align" class= "btn btn-small" onclick="toggle('statusLog',true,this)" >Show Log</button>
+			
+			
+			<button  style="display:none;" class="statusLogHide" type="button" name="align" class= "btn btn-small" onclick="toggle('statusLog',false,this)" >Hide Log</button>
+			<div class='well statusLogOuter' style="display:none;">
+				<span class="statusLog"> </span>				
+				<div  style="display:none;" id=crashInfo>
+					Error Image: <img id="errorImage"  src=''>				
+				</div>
+			</div>
+			<br>
+			<!--
+			<button  class="userInputShow" type="button" name="align" class= "btn btn-small" onclick="toggle('userInput',true,this)" >Show User Input Log</button>
+			<button  style="display:none;" class="userInputHide" type="button" name="align" class= "btn btn-small" onclick="toggle('userInput',false,this)" >Hide User Input Log</button>
+			<div class='well userInputOuter' style="display:none;" >
+				<span class="userInputLog"> </span>
+			</div>
+			-->
+
+			
+			<hr style="background:#000; border:0; height:2px" />
+		</div>
+		
+	
+	</div>
+	
+</div>
+
+
+<strong>Suggestion Interface Images</strong>
+<div id="suggestionAcceptedImages"></div>
+
+<br>
+<strong>Baseline Interface Images</strong>
+<div id="baselineImages"></div>
+
+<br>
+<strong>Adaptive Interface Images</strong>
+<div id="adaptiveImages"></div>
+
+
+
+<strong>Comments</strong>
+<div id="comments"></div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+	
+	
+
+			
+	
+	if (gup('checkImages')!='')
+		$('.canvas_row').show()
+
+	///setupSliders()
+	var design_name="{{design}}"
+	if (gup('design')!='')
+	{
+		design_name=gup('design').split("?")[0];
+	}
+		
+		
+	getLayoutList();	
+	
+	
+	
+</script>
+{% endblock %}

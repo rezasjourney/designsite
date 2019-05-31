@@ -1,0 +1,20 @@
+<div class="row-fluid">
+	<div class="ui-widget btn-group offset1 span10">
+		<form name="input" action="/~libeks/fontQuery/search/" id="fontAttribSearchForm">
+			<div class="thick-border">
+				<div class="btn-group border-containee btn-block">
+					<div class="queryContainer" id="fontQueryElt"> 
+						<input id="fontAttribSearch" type="text" data-provide="typeahead" data-items="4" size="25" class="oddInput">
+					</div>
+					<div id="submitButton" class="submitButton btn btn-large btn-inverse" type="button" onclick="submitBothForm()"><i class="icon-search icon-white"></i></div>
+				</div>
+			</div>
+			<input type="hidden" name="userID" value="{{userID}}">
+			<input type="hidden" name="text" value="" />
+			<input type="hidden" name="type" value="fontAttribSearch" />
+			<input type="hidden" name="thresholdMethod" value="{{thresholdMethod|default:'t_50p'}}">
+			<input type="hidden" name="numberOfFontsToReturn" value="5" />
+			<input type="hidden" name="selectedFont" value="" />
+		</form>
+	</div>
+</div>

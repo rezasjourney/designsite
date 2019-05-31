@@ -1,0 +1,337 @@
+{% extends "pages/abstract/studyTemplate.html" %}
+
+
+{% block title %}
+	{% if not minimalistic %}
+		{% if includeTitleBar %}
+			{{block.super}}	
+		{% endif %}	
+	{% endif %}
+	
+	<script>
+	if (typeof console === 'undefined'){
+		console={'log':function(){},'error':function(){}}
+	}
+	</script>
+{% endblock title %}
+
+
+
+{% block beginning %}
+
+
+	{% block studyInstructions %}
+		
+			
+	<h1 align="center">Match Graphic Design Layouts</h1>
+
+
+	<div class="row-fluid">
+		<div class="offset1 span10 well">
+			<h3>Instructions:</h3>
+		
+			<p>
+			Your task is to match an existing graphic design by modifying text and graphical elements. 
+			
+			<!--
+			If the elements are the same as the original design, simply position and scale the elements to match the original.	
+			If the elements are not the same, you should create a layout which <b>a) looks like the original design, b) looks good,  c) is clear to read and understand, and d) contains all the given elements. </b>
+			These goals might conflict, forcing you to make tradeoffs. For example, making an exact copy of the original layout might look bad or have unreadable text, so the elements have to be re-arranged for the design to work.
+			But try not to change the layout style of the original too much.
+			-->
+			</p>
+			
+			
+			<p>
+			You will create layouts with  two different interfaces. The <strong> Suggestion </strong> interface will make automatic suggestions for elements, and in the <strong>Direct</strong> interface user specifies each element's position and scale directly.
+			Your task is to create a layout in both interfaces, and then rate each interface.
+			</p>	
+			
+			<p>
+			There is a tutorial task for both interfaces for you to learn the tools. You can skip these tutorials if you are already comfortable with the interface.
+			</p>	
+
+			<p>
+				<strong>If the HIT doesn't work</strong>, please submit the HIT with a <strong> detailed comment</strong> at the bottom explaining the problem. You will still be paid for the HIT if you complete an error report.
+				<strong>Do not submit error reports for multiple HITs though. </strong> If other HITs don't work, just return them.
+			</p>	
+			
+			<!--
+
+			
+			<p>
+			Try to match the sizes of the original design. If the text is readable in the original, try to make it readable in the new design. If the text is very small in the original design
+			try to leave it small.  Some designs have latin text which starts with <i>Lorem Ipsum</i>. This placeholder text is meant to be generic descriptive text appropriate for the design. 
+			</p>
+			-->
+			
+			
+			
+			<div id="mturkEvaluation">
+				<h3>Evaluation:</h3>
+
+				
+				<ul>
+					
+					<li>The element sizes and positions don't have to match exactly, but should be close. If the elements are positioned in a different layout, the HIT will be rejected.
+					</li>
+					
+					
+					<!--
+					<li><b>Do not randomly place elements.</b> Your designs will be evaluated by other users, so random designs will be easily found and rejected.</li>
+					
+					<li><b>Do not remove elements.</b> All the elements must be partially visible (though they can be partially offscreen or overlapping if they are in the original design)</li>
+					
+					
+					<li><b>Match the element sizes of the original as much as possible.</b> Don't radically shrink or grow elements. </li>
+					
+					<li><b>Match the style of the original as much as possible.</b> Don't create an entirely different style with the elements. For example, if elements don't overlap in the original, don't make them overlap if the resized version.</li>
+					-->
+					 
+				</ul>
+					
+			</div>
+			
+			
+
+			
+			{% block specificStudyInstructions %}
+			
+			{% endblock specificStudyInstructions %}
+			
+
+		</div>
+	</div>
+		
+	{% endblock studyInstructions %}
+	<hr>
+	{% block interfaceTutorial %}
+		{% if not minimalistic %}
+			<div class="row-fluid">
+				<div class="offset1 span10 well">
+					
+					
+						<h3>How to Use the Direct Interface:</h3>
+						<ol>
+							<li>
+								<strong>Resizing Elements</strong>
+								<br>
+								To resize elements, drag the round circles on the corners.
+								<br>
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/resizing-before.jpg" />
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/resizing-after.jpg" />
+							</li>
+							<li>
+								<strong>Changing the Number of Lines</strong>
+								<br>
+								To change the number of lines for each element, drag the red diamonds left or right.<br>
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/numLines-before.jpg" />
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/numLines-after.jpg" />
+							</li>
+							<!--
+								<li>
+								<strong>Reset the Layout</strong>
+								<br>
+								If you want to reset the layout to a random initial layout, press the 'Reset Layout' button. <br>
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/reset-before.jpg" />
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/reset-after.jpg" />		
+								
+								<br>
+								</li>
+							-->
+							
+						</ol>
+			
+						<h3>How to Use the Suggestion Interface:</h3>
+			
+						<br>
+						As well as the previous tools, this will provide you with suggestions when you are creating a layout. As you move elements, the interface will make
+						suggestions and automatically adjust the elements. If you don't want elements to move, you can fix them to prevent automatic updates (see below).
+						<br>
+						<br>
+						If the interface is working, the loading icon is shown: <img width=20 src="/design/static/icons/snake.png" />. You can still move elements while the interface is working.
+						<br>
+						<br>
+				
+			
+
+		
+					<ol>
+				
+						<li>
+							<strong>Change How Elements Automatically Move</strong>
+							<br>
+							If you want to fix elements so they won't move automatically, you can select one or more elements and press the red lock icon at the top <img width=20 src="/design/static/icons/locked.png"/>, or the lock icon
+							beside the element.
+							The yellow lock icon <img width=20 src="/design/static/icons/tweakable.png" /> means the elements will stay near that current location and only move a bit.
+						
+							The open green lock <img width=20 src="/design/static/icons/unlocked.png" /> means the elements can move anywhere in the layout.
+					
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/states-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/states-after.jpg" />
+						</li>
+						<li>
+							<strong>Undo/Redo Automatic Suggestions</strong>
+							<br>
+							If you want to go back to a previous layout, you can press the <strong>Undo</strong> button at the top. 
+							You can also use the <strong>Redo</strong> button to go forward.
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/undo-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/undo-after.jpg" />
+						</li>
+					
+						
+						
+					</ol>
+
+
+				</div>
+			</div>
+		{% endif %}
+	{% endblock interfaceTutorial %}
+	<hr>
+
+
+{% endblock beginning %}
+
+{% block introduction %}
+
+	
+	{% block instructions %}
+	{% endblock instructions %}
+
+	{% block beforeControls %}
+	{% endblock beforeControls %}
+
+	{% block controls %}
+	{% endblock controls %}
+	
+	
+
+	{% block beforeInterface %}
+
+	{% endblock beforeInterface %}
+
+	{% block interface %}
+		{% include "pages/createDesign.html" with design=design %}
+	{% endblock interface %}
+	
+	{% block afterInterface %}
+	{% endblock afterInterface %}
+	
+
+
+{% endblock introduction %}
+
+
+
+{% block ending %}
+	{% block interfaceSpecificInputs %}
+	{% endblock interfaceSpecificInputs %}
+
+
+{% endblock ending %}
+
+
+
+
+{% block scripts %}
+<script src="/design/static/js/mturk.js"></script>
+{% endblock scripts %}
+
+
+
+
+{% block extraScripts %}
+	<script>
+	
+		$('#startDateTime').data("date",new Date())
+	
+		$('#tabs').css('visibility', 'hidden');
+		
+		$('#infoButton').hide()
+		$('#suggReporting').hide()
+		$('#saveLayoutButton').hide()
+		$('#resetLayoutButton').hide()
+		$('.modifications').hide()
+		
+		 if (gup('assignmentId') != "ASSIGNMENT_ID_NOT_AVAILABLE")
+		 	$('#startStudyButton').show()
+		
+		$('#retarget_lk').click()
+		
+		$('#canvas').data("modificationsEnabled",false)
+		
+		
+	
+		start_str='Tutorial-'
+		
+
+		var design=gup("pairedDesign")
+		var match_design=gup("matchDesign")
+		
+		if (match_design=='')
+			match_design=design;
+		
+		var design_sequence=[]
+		if (Math.random()<0.5)
+		{
+			$('#canvas').data("suggestionsEnabled",false)
+			$('.suggestions').hide()
+			$('#interface').data("interface",['baseline'])
+			design_sequence.push({design:"retarget/design_direct_tut",match_design:"retarget/design_direct_tut"})
+			design_sequence.push({design:design,match_design:match_design})
+			design_sequence.push({design:"retarget/design_sugg_tut",match_design:"retarget/design_sugg_tut"})
+			design_sequence.push({design:design,match_design:match_design})
+			
+			start_str+='Baseline'
+		}
+		else
+		{
+			$('#canvas').data("suggestionsEnabled",true)
+			$('.suggestions').show()
+			$('#interface').data("interface",['suggestions'])
+			
+			design_sequence.push({design:"retarget/design_sugg_tut",match_design:"retarget/design_sugg_tut"})
+			design_sequence.push({design:design,match_design:match_design})
+			design_sequence.push({design:"retarget/design_direct_tut",match_design:"retarget/design_direct_tut"})
+			design_sequence.push({design:design,match_design:match_design})
+			
+			start_str+='Suggestions'
+		}
+		
+		
+		$('#canvas').data("user_input_log",[start_str])
+		$('#canvas').data("design_sequence",design_sequence)
+		$('#canvas').data("sequence_type","paired")
+		$('#canvas').data("randomizeInit",true)
+		
+	
+	
+	    document.getElementById('assignmentId').value = gup('assignmentId');
+	    
+	    if (gup('assignmentId') == "ASSIGNMENT_ID_NOT_AVAILABLE")
+	    {
+		
+		  // If we're previewing, disable the button and give it a helpful message
+		  document.getElementById('submitStudyButton').disabled = true;
+		  document.getElementById('submitStudyButton').value = "You must ACCEPT the HIT before you can do the full HIT or submit.";
+	    } 
+		else 
+		{
+
+			console.log(document.referrer)
+	        var form = document.getElementById('mturk_form');
+	        if (document.referrer && ( document.referrer.indexOf('workersandbox') == -1) ) {
+	        	console.log("setting new form action")
+	            form.action = "https://www.mturk.com/mturk/externalSubmit";
+	        }
+	    }
+	    $('#userAgent').val(navigator.userAgent);
+	    
+
+    </script>
+{% endblock extraScripts %}
+{% block errorHandling %}
+{% endblock errorHandling %}

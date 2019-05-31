@@ -1,0 +1,68 @@
+{% extends "pages/abstract/baseTemplate.html" %}
+
+{% block scriptSources %}
+<script src="/design/static/js/serverProcessing.js"></script>
+<script src="/design/static/js/selectDesign.js"></script>
+<script src="/design/static/js/kinetic-v4.5.2.min.js"></script>
+
+{{block.super}}
+{% endblock %}
+
+{% block content %}
+
+
+
+<span id="designs" class="span12">
+	
+	<div  style="width: 930px;height:600px;overflow-y:auto" >
+		<table border=1>
+		<tr id='layout_row'>
+		<td><a href="/design/create&design=new"><canvas id="design0" width="300" height="200" style="border:1px solid #000000;background-color:#f4f1e7"></canvas></a></td>
+		<td><a href="/design/create&design=new"><canvas id="design1" width="300" height="200" style="border:1px solid #000000;background-color:#f4f1e7"></canvas></a></td>
+		<td><a href="/design/create&design=new"><canvas id="design2" width="300" height="200" style="border:1px solid #000000;background-color:#f4f1e7"></canvas></a></td>
+		</tr>
+		</table>
+	</div>
+	<button type="button" name="align" class= "btn btn-small btn-success" onclick="createNewDesign()">Create New Design</button>
+	
+</span>
+
+		
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+
+
+ 	var dir=gup("dir")
+ 	
+ 	if (dir=='')
+ 	{
+ 		var url= window.location.href;
+ 		
+ 		var idx=url.indexOf("select")	
+ 		
+ 		var idx2=url.indexOf("/",idx)
+ 		if (idx2>-1)
+ 		{
+ 			dir=url.substring(idx+7,url.length)
+ 			
+ 			if (dir!='')
+ 			{
+	 			console.log("found dir"+dir)
+	 			var last_char=dir.charAt(dir.length-1)
+	 			console.log(last_char)
+	 			if (last_char!='/')
+	 				dir+="/"
+ 			}
+ 		}
+ 		
+ 	}
+	//"+dir+"
+	getDesignList(dir);	
+	function createNewDesign(){
+		window.location.replace("/design/create&design=new")		
+	}
+</script>
+{% endblock %}

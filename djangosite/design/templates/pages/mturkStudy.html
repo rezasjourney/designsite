@@ -1,0 +1,543 @@
+{% extends "pages/abstract/baseTemplate.html" %}
+
+
+{% block title %}
+	{% if not minimalistic %}
+		{% if includeTitleBar %}
+			{{block.super}}	
+		{% endif %}	
+	{% endif %}
+	
+	<script>
+	if (typeof console === 'undefined'){
+		console={'log':function(){},'error':function(){}}
+	}
+	</script>
+{% endblock title %}
+
+
+
+{% block beginning %}
+
+	<form id="mturk_form" method="POST" action="https://workersandbox.mturk.com/mturk/externalSubmit">
+
+	{% block studyInstructions %}
+		
+			
+	<h1 align="center">Create 3 Graphic Design Layouts</h1>
+		
+
+	
+	
+
+	<div class="row-fluid">
+		<div class="offset1 span10 well">
+			<h3>Instructions:</h3>
+	
+			<p>Your task for this HIT is to position and scale elements to create <strong>3 different layouts</strong>.
+			
+			The layouts should contain all the elements, and they should all be visible. You should save three layouts that clearly convey the information of the design and look good.  If elements overlap, the text
+			should still be readable.
+			</p>
+			
+			
+			
+			<p>
+			<strong>The three layouts should be visually distinct from each other, with a different style and element sizes.</strong> Once you have a layout you like, press the <i>Create New Layout</i> button to move to the next layout. 
+			</p>
+			
+			<p>
+				If the HIT doesn't work, or a bug prevents you from completing the HIT, please submit the HIT with a <strong> detailed comment</strong> at the bottom explaining the problem. You will still be paid for the HIT if you complete an error report.
+				<strong>Do not submit error reports for multiple HITs though. </strong> If other HITs don't work, just return them.
+			</p>
+			
+			<!--
+			<p>
+			Bonus: When using the tool, you can also <strong>like</strong> or <strong> dislike </strong> the last automatic update, and provide a short explanation for your response. You will be paid a bonus of $0.5, if you provide at least 3 likes and 3 dislikes with helpful explanations.
+			</p>	
+			-->
+			
+			<p>
+			
+			<div id="mturkEvaluation">
+				<h3>Evaluation:</h3>
+				<strong>The layouts do not need to be perfect but reasonable effort is required. Your actions and time spent creating the layouts are recorded.</strong> If the layouts are obviously made very quickly will little effort, or the layouts are judged to be very similar to each other,
+				the HIT will be rejected.
+					
+			</div>
+			</p>
+			
+			<p>Examples are shown below of acceptable and not acceptable layouts.
+			</p>
+			
+			<br>
+			<strong>Good Layouts:</strong><br>
+			<table border="1">
+			<tr><td><img style='border:1px solid #000000' width=300 src="/design/static/img/instructions/layout1.png" />	</td><td><img width=50 src="/design/static/img/greencheck.png" /> </td></tr>
+			<tr><td><img style='border:1px solid #000000' width=300 src="/design/static/img/instructions/layout4.png" />	</td><td><img width=50 src="/design/static/img/greencheck.png" /> </td></tr>
+			<tr><td><img style='border:1px solid #000000' width=300 src="/design/static/img/instructions/layout5.png" />	</td><td><img width=50 src="/design/static/img/greencheck.png" /> </td></tr>
+			<tr><td><img style='border:1px solid #000000' width=300 src="/design/static/img/instructions/layout6.png" />	</td><td><img width=50 src="/design/static/img/greencheck.png" /> </td></tr>
+			
+			</table>
+			
+			<br><br>
+			<strong>Bad Layouts:</strong><br>
+			<table border="1">
+			<tr><td><img style='border:1px solid #000000' width=300 src="/design/static/img/instructions/badlayout1.png" />	</td><td><img width=50 src="/design/static/img/redx.png" /> <br>Elements are too small and poor placed.</td></tr>
+			<tr><td><img style='border:1px solid #000000' width=300 src="/design/static/img/instructions/badlayout2.png" />	</td><td><img width=50 src="/design/static/img/redx.png" /> <br>Elements overlap and are hard to read, text elements are also outside the boundary.</td></tr>
+			
+			<tr><td><span><img style='border:1px solid #000000' width=200 src="/design/static/img/instructions/layout1.png" /> &nbsp;<img style='border:1px solid #000000' width=200 src="/design/static/img/instructions/layout2.png" /></span>	</td><td><img width=50 src="/design/static/img/redx.png" /> <br>Layouts are too similar. Elements are only slightly smaller.</td></tr>
+			<tr><td><span><img style='border:1px solid #000000' width=200 src="/design/static/img/instructions/layout1.png" /> &nbsp;<img style='border:1px solid #000000' width=200 src="/design/static/img/instructions/layout3.png" /></span>	</td><td><img width=50 src="/design/static/img/redx.png" /> <br>Layouts are too similar. The two columns have only been flipped.</td></tr>
+			
+			</table>
+			</p>
+			
+			{% block specificStudyInstructions %}
+			
+			{% endblock specificStudyInstructions %}
+			
+
+		</div>
+	</div>
+		
+	{% endblock studyInstructions %}
+	<hr>
+	{% block interfaceTutorial %}
+		{% if not minimalistic %}
+			<div class="row-fluid">
+				<div class="offset1 span10 well">
+					
+					{% if suggestions == 1 %}
+						<h3>How to Use the Suggestion Interface:</h3><br>
+						
+						<div id=sugg_instructions>
+				
+							This interface is designed to provide you with suggestions when you are creating a layout. To view a suggestion, simply mouse over the layout, and click to accept. <br><br>
+							
+							<strong>Tweaking Suggestions.</strong>
+							
+							As you move elements, the interface will make suggestions based on your current layout and place them on the left.
+							<br>
+							<br>
+						</div>
+						
+						<strong>Brainstorming Suggestions.</strong>
+						The system will also show you different designs in a variety of styles on the right. You can choose any of these designs as a starting point.
+						
+			
+			
+						<!--
+						
+						
+						This interface is designed to provide you with suggestions when you are creating a layout. As you move elements, the interface will make
+						suggestions and automatically adjust the elements. If you don't want elements to move, you can fix them to prevent automatic updates (see below).
+						<br>
+						-->
+						<br>
+						<br>
+						If the interface is working, the loading icon is shown: <img width=20 src="/design/static/icons/snake.png" />. You can still move elements while the interface is working.
+						
+						
+						<br>
+						<br>
+					{% else %}
+						<h3>How to Use the Interface:</h3>
+					{% endif %}
+			
+
+		
+					<ol>
+						{% if suggestions == 1 %}
+						<li>
+							<strong>Change How Elements Automatically Move</strong>
+							<br>
+							If you want to fix elements so they will not move in the suggestions, you can select one or more elements and press the red lock icon at the top <img width=20 src="/design/static/icons/locked.png"/>, or the lock icon
+							beside the element. 
+							The open green lock <img width=20 src="/design/static/icons/unlocked.png" /> means the elements can move or resize, though they will stay near their last position. 
+					
+							
+							<!--
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/states-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/states-after.jpg" />
+							-->
+						</li>
+
+						{% endif %}
+						<li>
+							<strong>Keep Elements the Same Size</strong>
+							<br>
+							If you select a group of elements, you can force them to have the same size. If you modify one later on, the rest will also updated. <br>
+						</li>
+	
+						<!--
+						<li>
+							<strong>Resizing Elements</strong>
+							<br>
+							To resize elements, drag the round circles on the corners.
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/resizing-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/resizing-after.jpg" />
+						</li>
+						-->
+						<li>
+							<strong>Undo/Redo</strong>
+							<br>
+							If you want to go back to a previous layout, you can press the <strong>Undo</strong> button at the top. 
+							You can also use the <strong>Redo</strong> button to go forward.
+							<!--
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/undo-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/undo-after.jpg" />
+							
+							-->
+						</li>
+						<li>
+							<strong>Randomize the Layout</strong>
+							<br>
+							If you want to shuffle the layout to a random initial layout, press the 'Randomize' button. <br>
+						</li>
+						<li>
+							<strong>Changing the Number of Lines</strong>
+							<br>
+							To change the number of lines for each element, drag the red diamonds left or right.<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/numLines-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/numLines-after.jpg" />
+						</li>
+
+						<!--
+						<li>
+					
+							<strong>Saving a Layout</strong>
+							<br>
+							When you find a layout that you want to save, press the 'Save Layout.' <strong> Saving a layout will automatically reset the main layout to a random initial layout.</strong> You can remove the layout later by pressing the remove button beside it.  <strong>If you mouse over the saved layout, it will appear as the main layout. Click the saved layout to set this as the main layout.</strong><br>
+							{% if suggestions == 1 %}
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/saving-int-before.jpg" />
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/saving-int-after.jpg" />
+							{% else %}
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/saving-before.jpg" />
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/saving-after.jpg" />	
+							{% endif %}
+						
+							<br>
+						</li>
+						-->
+						<!--
+						<li>
+							<strong>Reset the Layout</strong>
+							<br>
+							If you want to reset the layout to a random initial layout, press the 'Reset Layout' button. <strong>Resetting will not affect your saved layouts.</strong><br>
+							{% if suggestions == 1 %}
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/reset-int-before.jpg" />
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/reset-int-after.jpg" />
+							{% else %}
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/reset-before.jpg" />
+								<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/reset-after.jpg" />		
+							{% endif %}
+							<br>
+						</li>
+						-->
+						
+					</ol>
+
+
+				</div>
+			</div>
+		{% endif %}
+	{% endblock interfaceTutorial %}
+	<hr>
+
+
+{% endblock beginning %}
+
+{% block introduction %}
+
+	
+	{% block instructions %}
+	{% endblock instructions %}
+
+	{% block beforeControls %}
+	{% endblock beforeControls %}
+
+	{% block controls %}
+	{% endblock controls %}
+	
+	
+
+	{% block beforeInterface %}
+
+	{% endblock beforeInterface %}
+
+	{% block interface %}
+		{% include "pages/createDesign.html" with design=design %}
+	{% endblock interface %}
+	
+	{% block afterInterface %}
+	{% endblock afterInterface %}
+	
+			
+	{% comment %}
+	{% block questionnaire %}
+	<div id="mturkQuestionnaire">
+		<hr>
+		<br>
+		<div class="row-fluid">
+			
+					
+				
+			<div class="offset1 span10 well">
+				<p>The following questions will only be used to break down responses by 
+				age/gender/country.</p>
+
+				<p>Please enter the country you have lived most in:</p>
+				
+				<p>
+					<select name="country" size="1">
+						{% include "staticObjects/countryList.html" %}
+					</select>
+				</p>
+				
+				<p>Age: <input name="age" type="text"> 
+				<br>
+				<input name="sex" value="male" type="radio"> Male <br>
+				<input name="sex" value="female" type="radio"> Female <br>
+				<br>
+				Are a fluent speaker of English?<br>
+				<input name="language" value="yes" type="radio"> Yes
+				<br>
+				<input name="language" value="no" type="radio"> No
+				<br>
+
+				<p>How much experience have you had working with graphic design?
+				<br>
+				<input name="typexp" value="none" type="radio"> None <br>
+				<input name="typexp" value="some" type="radio"> Some <br>
+				<input name="typexp" value="professional" type="radio"> Professional
+				<br>
+			</div>
+			
+		</div>
+	</div>
+	{% endblock questionnaire %}
+	{% endcomment %}
+
+{% endblock introduction %}
+
+
+
+{% block ending %}
+	{% block interfaceSpecificInputs %}
+	{% endblock interfaceSpecificInputs %}
+
+	{% block opinionsAndSubmit %}
+
+	<input type="hidden" id="ipaddr" name="ipaddr" value="">
+	<input type="hidden" id="assignmentId" name="assignmentId" value="">
+	<input type="hidden" id="userInputLog" name="userInputLog" value="">
+	<input type="hidden" id="statusLog" name="statusLog" value="">
+	<input type="hidden" id="errorLog" name="errorLog" value="">
+	
+	<input type="hidden" id="studyType" name="studyType" value="variation">
+	
+	<input type="hidden" id="transferRate" name="transferRate" value="">
+	<input type="hidden" id="latency" name="latency" value="">
+	
+	<input type="hidden" id="sendLayoutTime" name="sendLayoutTime" value="">
+	<input type="hidden" id="initResponseTime" name="initResponseTime" value="">
+	<input type="hidden" id="convergenceTime" name="convergenceTime" value="">
+	
+	
+	<input type="hidden" id="userAgent" name="userAgent" value="">
+	<input type="hidden" id="userID" name="userID" value="{{ userID }}">
+	<input type="hidden" id="windowDimensions" name="windowDimensions" value="">
+	
+	<input type="hidden" id="startDateTime" name="startDateTime" value="">
+	<input type="hidden" id="totalTime" name="totalTime" value="">
+	<input type="hidden" id="layoutStartTime" name="layoutStartTime" value="">
+
+	<input type="hidden" id="layoutTimes" name="layoutTimes" value="">
+	<input type="hidden" id="layoutIDs" name="layoutIDs" value="">
+	
+	
+	
+	<input type="hidden" id="interface" name="interface" value="">
+	
+	
+	
+	
+	<input type="hidden" id="layout0" name="layout0" value="">
+	<input type="hidden" id="layout1" name="layout1" value="">
+	<input type="hidden" id="layout2" name="layout2" value="">
+	<input type="hidden" id="layout3" name="layout3" value="">
+	<input type="hidden" id="layout4" name="layout4" value="">
+	<input type="hidden" id="layout5" name="layout5" value="">
+	<input type="hidden" id="layout6" name="layout6" value="">
+
+
+	<input type="hidden" id="layout_input0" name="layout_input0" value="">
+	<input type="hidden" id="layout_input1" name="layout_input1" value="">
+	<input type="hidden" id="layout_input2" name="layout_input2" value="">
+	<input type="hidden" id="layout_input3" name="layout_input3" value="">
+	<input type="hidden" id="layout_input4" name="layout_input4" value="">
+	<input type="hidden" id="layout_input5" name="layout_input5" value="">
+	
+	<input type="hidden" id="layout_log0" name="layout_log0" value="">
+	<input type="hidden" id="layout_log1" name="layout_log1" value="">
+	<input type="hidden" id="layout_log2" name="layout_log2" value="">
+	<input type="hidden" id="layout_log3" name="layout_log3" value="">
+	<input type="hidden" id="layout_log4" name="layout_log4" value="">
+	<input type="hidden" id="layout_log5" name="layout_log5" value="">
+
+
+	<input type="hidden" id="responses" name="responses" value="">
+
+	<input type="hidden" id="hit_comments" name="hit_comments" value="">
+
+	<hr>
+	
+
+
+
+	{% endblock opinionsAndSubmit %}
+	
+
+
+	
+	
+	</form>	
+	
+	
+	<div class="row-fluid" id="commentsBox">
+		<div class="offset1 span10 well">
+			<div id="mturkCommentsAndSubmit">
+				<p>Please provide any comments or suggestions you may have below, we 
+				appreciate your input! <strong>If you notice any bugs or wierd behavior, please let us know, including your browser. Thanks! </strong> </p>
+				{% block attributeComments %}
+				
+				{% endblock attributeComments %}
+	
+
+				<p>Comments or suggestions about the interface or HIT (optional):</p>
+				<p>
+					<textarea id="user_comments" style="width:500px;height:70px"></textarea>
+				</p>
+	
+				<p><input  id="submitStudyButton" type="submit"  class="btn" value="Submit Results" onclick="return validateFormResults()"></p>
+	
+			</div>	
+
+		</div>
+	</div>
+
+{% endblock ending %}
+
+
+
+
+{% block scripts %}
+<script src="/design/static/js/mturk.js"></script>
+
+
+			
+			
+			
+{% endblock scripts %}
+
+
+
+
+{% block extraScripts %}
+	<script>
+	
+		$('#canvas').data("modificationsEnabled",false)	
+		$('.modifications').hide()
+	
+	
+		$('#startDateTime').data("date",new Date())
+		//$('#tabs').css('visibility', 'hidden');
+		$('#infoButton').hide()
+		
+		
+		var no_sugg=gup("noSuggestions")=='1'
+		
+		
+		var design_sequence=[]
+		
+		$('#canvas').data("suggestionsEnabled",!no_sugg)
+		$('.suggestions').hide()
+		
+		
+
+		
+		
+		
+		if (no_sugg)
+			$('#interface').data("interface",['baseline'])
+		else if ($('#canvas').data("automaticUpdate"))
+		{
+			$('#interface').data("interface",['adaptive'])
+			$('#sugg_instructions').hide()	
+		}
+		else
+			$('#interface').data("interface",['suggestions'])
+		
+		var design=gup("pairedDesign") 
+		
+		var design_sequence=[]
+		
+		
+		$('#saveLayoutButton').hide()
+		
+		
+		var design=gup("pairedDesign")
+		
+		design_sequence.push({design:design})
+		design_sequence.push({design:design})
+		design_sequence.push({design:design})
+		
+		$('#canvas').data("user_input_log",[])
+		$('#canvas').data("design_sequence",design_sequence)
+		$('#canvas').data("sequence_type","style")
+		$('#canvas').data("randomizeInit",true)
+				
+		
+		$('#nextDesignButton').text("Create Next Layout")
+		
+	
+	
+	    document.getElementById('assignmentId').value = gup('assignmentId');
+	    //
+	    // Check if the worker is PREVIEWING the HIT or if they've ACCEPTED the HIT
+	    //
+		//alert(getURLParameter('assignmentId'))
+	    if (getURLParameter('assignmentId') == "ASSIGNMENT_ID_NOT_AVAILABLE")
+	    {
+		
+			
+		  // If we're previewing, disable the button and give it a helpful message
+		  document.getElementById('submitStudyButton').disabled = true;
+		  document.getElementById('submitStudyButton').value = "You must ACCEPT the HIT before you can do the full HIT or submit.";
+	    } 
+		else 
+		{
+			$('#startStudyButton').show()
+			
+			//console.log("trying to set new form action")
+			//console.log("referrer")
+			console.log(document.referrer)
+	        var form = document.getElementById('mturk_form');
+	        if (document.referrer && ( document.referrer.indexOf('workersandbox') == -1) ) {
+	        	console.log("setting new form action")
+	            form.action = "https://www.mturk.com/mturk/externalSubmit";
+	        }
+	    }
+	    //$('#mturk_form').submit(function(){return validateFormResults()});
+	    //$('#submitStudyButton').click
+	    //$('#clearQueryURL').click(function(){location.hash="";});
+	    $('#userAgent').val(navigator.userAgent);
+	    
+
+    </script>
+{% endblock extraScripts %}
+{% block errorHandling %}
+{% endblock errorHandling %}

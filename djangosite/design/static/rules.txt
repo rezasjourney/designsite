@@ -1,0 +1,14 @@
+close,>1,none,Keep Close
+sameSize,>1,same,Keep Same Size
+equalSpacing,>2,none,Equal Spacing Between
+sameAlignment,>1,text,Keep Same Alignment
+figureAboveText,2,graphic text,Figure Above Text
+figureBelowText,2,graphic text,Figure Below Text
+figureAboveLeftText,2,graphic text,Figure Above or Left of Text
+headerAboveBody,2,text text,Header Above Body
+placeAbove,none,none,Above Other Elements
+placeBelow,none,none,Below Other Elements
+placeTop,none,none,Near Top Border
+placeBottom,none,none,Near Bottom Border
+placeLeft,none,none,Near Left Border
+placeRight,none,none,Near Right Border

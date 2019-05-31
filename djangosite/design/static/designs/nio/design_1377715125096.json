@@ -1,0 +1,2680 @@
+{
+	"id": 1,
+	"width": 600,
+	"height": 400,
+	"name": "design_1377715125096",
+	"background_fname": "black.png",
+	"elements": [
+		{
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 0,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type": "graphic",
+			"x": 363,
+			"y": 27,
+			"height": 138,
+			"fname": "328183314_52924747ce_b.jpg",
+			"group_id": "-1",
+			"importance": "4",
+			"type_id": 2,
+			"aspect_ratio": 1.494890510948905,
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":363,\"y\":165,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":569.2948905109489,\"y\":165,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":363,\"y\":27,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":569.2948905109489,\"y\":27,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"id": 5,
+			"width": 206.2948905109489,
+			"fix_alignment": false,
+			"fixed_amount": 0,
+			"curr_pos": {
+				"x": 361.18182373046875,
+				"y": 72
+			},
+			"align_type": -1,
+			"alternate_id": 0,
+			"hidden_img": 0,
+			"hidden": false,
+			"constraints": {
+				"size": [],
+				"alignment": []
+			},
+			"shadow": false,
+			"allow_overlap": false,
+			"fix_alternate": false,
+			"optional": false,
+			"unlock_img": "{\"attrs\":{\"x\":569.2948905109489,\"y\":27,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"tweakable_img": "{\"attrs\":{\"x\":569.2948905109489,\"y\":27,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"lock_img": "{\"attrs\":{\"x\":569.2948905109489,\"y\":27,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"state_img": "{\"attrs\":{\"x\":569.2948905109489,\"y\":27,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"img": "{\"attrs\":{\"x\":363,\"y\":27,\"height\":138,\"width\":206.2948905109489,\"name\":5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"draggable\":true,\"opacity\":1},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":365,\"y\":21,\"height\":135,\"width\":201.81021897810217,\"name\":5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+			"last_x": 363,
+			"last_y": 27
+		},
+		{
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 0,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type": "graphic",
+			"x": 36,
+			"y": 225,
+			"height": 138,
+			"fname": "5171927988_346ff2bda8_b.jpg",
+			"group_id": -1,
+			"importance": "4",
+			"type_id": 2,
+			"aspect_ratio": 1.4970760233918128,
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":36,\"y\":363,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":242.59649122807016,\"y\":363,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":36,\"y\":225,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":242.59649122807016,\"y\":225,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"id": 7,
+			"width": 206.59649122807016,
+			"fix_alignment": false,
+			"fixed_amount": 0,
+			"curr_pos": {
+				"x": 115.18182373046875,
+				"y": 298
+			},
+			"align_type": -1,
+			"alternate_id": 0,
+			"hidden_img": 0,
+			"hidden": false,
+			"constraints": {
+				"size": [],
+				"alignment": []
+			},
+			"shadow": false,
+			"allow_overlap": false,
+			"fix_alternate": false,
+			"optional": false,
+			"unlock_img": "{\"attrs\":{\"x\":242.59649122807016,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"tweakable_img": "{\"attrs\":{\"x\":242.59649122807016,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"lock_img": "{\"attrs\":{\"x\":242.59649122807016,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"state_img": "{\"attrs\":{\"x\":242.59649122807016,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"img": "{\"attrs\":{\"x\":36,\"y\":225,\"height\":138,\"width\":206.59649122807016,\"name\":7,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"draggable\":true,\"opacity\":1},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":36,\"y\":225,\"height\":138,\"width\":206.59649122807016,\"name\":7,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"draggable\":true,\"visible\":true},\"className\":\"Image\"}",
+			"last_x": 36,
+			"last_y": 225
+		},
+		{
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 1,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type": "text",
+			"x": 36,
+			"y": 166,
+			"height": 45.55555555555557,
+			"group_id": -1,
+			"importance": "3",
+			"type_id": 1,
+			"font": "Garamond",
+			"bold": false,
+			"italic": false,
+			"color": "#FFF",
+			"text": "Executive MBA Programs",
+			"align": "center",
+			"sugg_align": "center",
+			"alternate_imgs": {
+				"center": "{\"attrs\":{\"x\":37,\"y\":168,\"width\":532.48,\"height\":52,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":141,\"y\":231,\"width\":317.44,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":36,\"y\":211.55555555555557,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":499.3650793650795,\"y\":211.55555555555557,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":36,\"y\":166,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":499.3650793650795,\"y\":166,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"midRight": "{\"attrs\":{\"x\":493.3650793650795,\"y\":188.77777777777777,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+				"midLeft": "{\"attrs\":{\"x\":30,\"y\":188.77777777777777,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+			},
+			"aspect_ratio": 10.17142857142857,
+			"id": 1,
+			"width": 463.3650793650795,
+			"fix_alignment": false,
+			"fixed_amount": 0,
+			"curr_pos": {
+				"x": 162.5,
+				"y": 185
+			},
+			"align_type": -1,
+			"orig_text": "Executive MBA Programs",
+			"max_line_length": 22,
+			"alignment_imgs": {
+				"center": "{\"attrs\":{\"x\":36,\"y\":166,\"width\":463.3650793650795,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}"
+			},
+			"alignment_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":36,\"y\":166,\"width\":467.88571428571424,\"height\":46,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"alternate_id": 0,
+			"hidden_img": 0,
+			"hidden": false,
+			"constraints": {
+				"size": [],
+				"alignment": []
+			},
+			"shadow": false,
+			"allow_overlap": false,
+			"fix_alternate": false,
+			"optional": false,
+			"unlock_img": "{\"attrs\":{\"x\":499.3650793650795,\"y\":166,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"tweakable_img": "{\"attrs\":{\"x\":570.48,\"y\":167,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"lock_img": "{\"attrs\":{\"x\":570.48,\"y\":167,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"state_img": "{\"attrs\":{\"x\":499.3650793650795,\"y\":166,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"init_font_size": 70,
+			"last_x": 36,
+			"last_y": 166,
+			"init_height": 75,
+			"img": "{\"attrs\":{\"x\":36,\"y\":166,\"width\":463.3650793650795,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":36,\"y\":166,\"width\":467.88571428571424,\"height\":46,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}",
+			"mid_x": 266.68253968253975,
+			"mid_y": 188.77777777777777
+		},
+		{
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 2,
+			"num_alternates": 3,
+			"selected": false,
+			"old_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+			"type": "text",
+			"x": 36,
+			"y": 103,
+			"height": 49,
+			"group_id": "-1",
+			"importance": "3",
+			"type_id": 1,
+			"font": "Garamond",
+			"bold": false,
+			"italic": false,
+			"color": "FFF",
+			"text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+			"align": "left",
+			"sugg_align": "left",
+			"alternate_imgs": {
+				"left": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+				"center": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+				"right": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"left": "{\"attrs\":{\"x\":22,\"y\":15,\"width\":308,\"height\":56,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+				"center": "{\"attrs\":{\"x\":80,\"y\":92,\"width\":440,\"height\":80,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+				"right": "{\"attrs\":{\"x\":42,\"y\":122,\"width\":258.5,\"height\":47,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":36,\"y\":152,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":305.5,\"y\":152,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":36,\"y\":103,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":305.5,\"y\":103,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"midRight": "{\"attrs\":{\"x\":299.5,\"y\":127.5,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+				"midLeft": "{\"attrs\":{\"x\":30,\"y\":127.5,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+			},
+			"aspect_ratio": 5.5,
+			"id": 6,
+			"width": 269.5,
+			"fix_alignment": false,
+			"fixed_amount": 0,
+			"curr_pos": {
+				"x": 152.5,
+				"y": 124
+			},
+			"align_type": -1,
+			"orig_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+			"max_line_length": 29,
+			"alignment_imgs": {
+				"left": "{\"attrs\":{\"x\":36,\"y\":103,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"center": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"right": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"alignment_sugg_imgs": {
+				"left": "{\"attrs\":{\"x\":36,\"y\":103,\"width\":291.5,\"height\":53,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}",
+				"center": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"right": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"alternate_id": 1,
+			"hidden_img": 0,
+			"hidden": false,
+			"constraints": {
+				"size": [],
+				"alignment": []
+			},
+			"shadow": false,
+			"allow_overlap": false,
+			"fix_alternate": false,
+			"optional": false,
+			"unlock_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"tweakable_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"lock_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"state_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"init_font_size": 40,
+			"last_x": 36,
+			"last_y": 103,
+			"init_height": 85,
+			"mid_x": 170.75,
+			"mid_y": 127.5,
+			"img": "{\"attrs\":{\"x\":36,\"y\":103,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":36,\"y\":103,\"width\":291.5,\"height\":53,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}"
+		},
+		{
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 1,
+			"num_alternates": -1,
+			"selected": true,
+			"old_text": "",
+			"type": "text",
+			"x": 303.33441558441564,
+			"y": 225,
+			"height": 27,
+			"group_id": -1,
+			"importance": "2",
+			"type_id": 1,
+			"font": "Garamond",
+			"bold": false,
+			"italic": false,
+			"color": "#FFF",
+			"text": "Get a Global Perspective",
+			"align": "center",
+			"sugg_align": "center",
+			"alternate_imgs": {
+				"center": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":264.06,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":122,\"y\":35,\"width\":352.08,\"height\":36,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":303.33441558441564,\"y\":252,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":565.6201298701299,\"y\":252,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":303.33441558441564,\"y\":225,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":565.6201298701299,\"y\":225,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"midRight": "{\"attrs\":{\"x\":559.6201298701299,\"y\":238.5,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+				"midLeft": "{\"attrs\":{\"x\":297.33441558441564,\"y\":238.5,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+			},
+			"aspect_ratio": 9.714285714285714,
+			"id": 3,
+			"width": 262.2857142857143,
+			"fix_alignment": false,
+			"fixed_amount": 0,
+			"curr_pos": {
+				"x": 126.18182373046875,
+				"y": 301
+			},
+			"align_type": -1,
+			"orig_text": "Get a Global Perspective",
+			"max_line_length": 24,
+			"alignment_imgs": {
+				"center": "{\"attrs\":{\"x\":303.33441558441564,\"y\":225,\"width\":262.2857142857143,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1},\"className\":\"Image\"}"
+			},
+			"alignment_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":262.2857142857143,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"alternate_id": 0,
+			"hidden_img": 0,
+			"hidden": false,
+			"constraints": {
+				"size": [],
+				"alignment": []
+			},
+			"shadow": false,
+			"allow_overlap": false,
+			"fix_alternate": false,
+			"optional": false,
+			"unlock_img": "{\"attrs\":{\"x\":565.6201298701299,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"tweakable_img": "{\"attrs\":{\"x\":567.06,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"lock_img": "{\"attrs\":{\"x\":567.06,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"state_img": "{\"attrs\":{\"x\":565.6201298701299,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"init_font_size": 70,
+			"last_x": 303.33441558441564,
+			"last_y": 225,
+			"init_height": 75,
+			"img": "{\"attrs\":{\"x\":303.33441558441564,\"y\":225,\"width\":262.2857142857143,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":262.2857142857143,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}",
+			"mid_x": 434.1428571428571,
+			"mid_y": 238.5
+		},
+		{
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 5,
+			"num_alternates": 3,
+			"selected": false,
+			"old_text": "",
+			"type": "text",
+			"x": 300,
+			"y": 262,
+			"height": 61,
+			"group_id": -1,
+			"importance": "1",
+			"type_id": 1,
+			"font": "Garamond",
+			"bold": false,
+			"italic": false,
+			"color": "#FFF",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit. \nNam tempor, eros non faucibus tristique, mi tellus luctus\nAugue tellus nec ipsum. Curabitur aliquet dolor lectus,\nPharetra vitae. In hac habitasse platea dictumst donec.\nUt eget ante sit amet nisl pellentesque viverra sit ame",
+			"align": "center",
+			"sugg_align": "center",
+			"alternate_imgs": {
+				"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+				"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+				"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"left": "{\"attrs\":{\"x\":110,\"y\":301,\"width\":380.31111111111113,\"height\":86,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+				"center": "{\"attrs\":{\"x\":275,\"y\":265,\"width\":305.1333333333333,\"height\":69,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+				"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+				"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+			},
+			"aspect_ratio": 4.409090909090909,
+			"id": 2,
+			"width": 268.95454545454544,
+			"fix_alignment": false,
+			"fixed_amount": 0,
+			"curr_pos": {
+				"x": 151.18182373046875,
+				"y": 330
+			},
+			"align_type": -1,
+			"orig_text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit. \nNam tempor, eros non faucibus tristique, mi tellus luctus\nAugue tellus nec ipsum. Curabitur aliquet dolor lectus,\nPharetra vitae. In hac habitasse platea dictumst donec.\nUt eget ante sit amet nisl pellentesque viverra sit ame",
+			"max_line_length": 57,
+			"alignment_imgs": {
+				"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1},\"className\":\"Image\"}",
+				"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"alignment_sugg_imgs": {
+				"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}",
+				"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}",
+				"right": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"alternate_id": 4,
+			"hidden_img": 0,
+			"hidden": false,
+			"constraints": {
+				"size": [],
+				"alignment": []
+			},
+			"shadow": false,
+			"allow_overlap": false,
+			"fix_alternate": false,
+			"optional": false,
+			"unlock_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"tweakable_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"lock_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"state_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"init_font_size": 22,
+			"last_x": 300,
+			"last_y": 262,
+			"init_height": 115,
+			"img": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}"
+		},
+		{
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 1,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type": "text",
+			"x": 461,
+			"y": 366,
+			"height": 13,
+			"group_id": -1,
+			"importance": "0",
+			"type_id": 1,
+			"font": "Garamond",
+			"bold": false,
+			"italic": false,
+			"color": "#FFF",
+			"text": "www.jbi.ukl.edu/mba",
+			"align": "center",
+			"sugg_align": "center",
+			"alternate_imgs": {
+				"center": "{\"attrs\":{\"x\":461,\"y\":366,\"width\":108.67999999999999,\"height\":13,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":245,\"y\":207,\"width\":108.67999999999999,\"height\":13,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"aspect_ratio": 8.4,
+			"id": 4,
+			"width": 109.2,
+			"fix_alignment": false,
+			"fixed_amount": 0,
+			"curr_pos": {
+				"x": 518.1818237304688,
+				"y": 376
+			},
+			"align_type": -1,
+			"orig_text": "www.jbi.ukl.edu/mba",
+			"max_line_length": 19,
+			"alignment_imgs": {
+				"center": "{\"attrs\":{\"x\":461,\"y\":366,\"width\":109.2,\"height\":13,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"4\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1},\"className\":\"Image\"}"
+			},
+			"alignment_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":461,\"y\":366,\"width\":109.2,\"height\":13,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"4\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"alternate_id": 0,
+			"hidden_img": 0,
+			"hidden": false,
+			"constraints": {
+				"size": [],
+				"alignment": []
+			},
+			"shadow": false,
+			"allow_overlap": false,
+			"fix_alternate": false,
+			"optional": false,
+			"unlock_img": "{\"attrs\":{\"x\":570.2,\"y\":366,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"tweakable_img": "{\"attrs\":{\"x\":569.68,\"y\":366,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"lock_img": "{\"attrs\":{\"x\":569.68,\"y\":366,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+			"state_img": "{\"attrs\":{\"x\":570.2,\"y\":366,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+			"init_font_size": 70,
+			"last_x": 461,
+			"last_y": 366,
+			"init_height": 75,
+			"img": "{\"attrs\":{\"x\":461,\"y\":366,\"width\":109.2,\"height\":13,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"4\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":461,\"y\":366,\"width\":109.2,\"height\":13,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"4\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}"
+		}
+	],
+	"background": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":600,\"height\":400,\"name\":\"background\",\"stroke\":\"Red\",\"strokeWidth\":4,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+	"sugg_background": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":600,\"height\":400},\"className\":\"Rect\"}",
+	"overlap_regions": [
+		{
+			"elem_id": 5,
+			"x_min": 0,
+			"y_min": 0,
+			"x_max": 1,
+			"y_max": 1
+		},
+		{
+			"elem_id": 7,
+			"x_min": 0,
+			"y_min": 0,
+			"x_max": 1,
+			"y_max": 1
+		}
+	],
+	"background_elem": {
+		"id": "0",
+		"type": "background",
+		"text": "",
+		"font": "Garamond",
+		"color": "#000",
+		"group_id": 0,
+		"importance": 0,
+		"anchors": [],
+		"loaded": false,
+		"resizing": false,
+		"selected": true,
+		"bold": false,
+		"italic": false,
+		"align": "center",
+		"x": 0,
+		"y": 0,
+		"img": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":600,\"height\":400,\"name\":\"background\",\"stroke\":\"Red\",\"strokeWidth\":4,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+		"curr_pos": {
+			"x": 97.727294921875,
+			"y": 166
+		}
+	},
+	"regions": [
+		{
+			"type": "region",
+			"x": "37",
+			"y": "168",
+			"width": 531,
+			"height": 52,
+			"allow_graphic": false,
+			"allow_text": true,
+			"allow_overlap": false,
+			"selected": false,
+			"img": "{\"attrs\":{\"x\":\"37\",\"y\":\"168\",\"fill\":\"white\",\"opacity\":0.25,\"width\":531,\"height\":52,\"draggable\":true,\"stroke\":\"Red\",\"strokeWidth\":3,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":37,\"y\":220,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":568,\"y\":220,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":37,\"y\":168,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":568,\"y\":168,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			}
+		},
+		{
+			"type": "region",
+			"x": "300",
+			"y": "225",
+			"width": 270,
+			"height": 154,
+			"allow_graphic": false,
+			"allow_text": true,
+			"allow_overlap": false,
+			"selected": false,
+			"img": "{\"attrs\":{\"x\":\"300\",\"y\":\"225\",\"fill\":\"white\",\"opacity\":0.25,\"width\":270,\"height\":154,\"draggable\":true,\"stroke\":\"Red\",\"strokeWidth\":3,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":300,\"y\":379,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":570,\"y\":379,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":300,\"y\":225,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":570,\"y\":225,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			}
+		},
+		{
+			"type": "region",
+			"x": "36",
+			"y": "225",
+			"width": 207,
+			"height": 138,
+			"allow_graphic": true,
+			"allow_text": false,
+			"allow_overlap": false,
+			"selected": false,
+			"img": "{\"attrs\":{\"x\":\"36\",\"y\":\"225\",\"fill\":\"white\",\"opacity\":0.25,\"width\":207,\"height\":138,\"draggable\":true,\"stroke\":\"Red\",\"strokeWidth\":3,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":36,\"y\":363,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":243,\"y\":363,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":36,\"y\":225,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":243,\"y\":225,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			}
+		},
+		{
+			"type": "region",
+			"x": "363",
+			"y": "27",
+			"width": 206,
+			"height": 138,
+			"allow_graphic": true,
+			"allow_text": false,
+			"allow_overlap": false,
+			"selected": false,
+			"img": "{\"attrs\":{\"x\":\"363\",\"y\":\"27\",\"fill\":\"white\",\"opacity\":0.25,\"width\":206,\"height\":138,\"draggable\":true,\"stroke\":\"Red\",\"strokeWidth\":3,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":363,\"y\":165,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":569,\"y\":165,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":363,\"y\":27,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":569,\"y\":27,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			}
+		},
+		{
+			"type": "region",
+			"x": "363",
+			"y": "27",
+			"width": 206,
+			"height": 138,
+			"allow_graphic": true,
+			"allow_text": false,
+			"allow_overlap": false,
+			"selected": false,
+			"img": "{\"attrs\":{\"x\":\"363\",\"y\":\"27\",\"fill\":\"white\",\"opacity\":0.25,\"width\":206,\"height\":138,\"draggable\":true,\"stroke\":\"Red\",\"strokeWidth\":3,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":363,\"y\":165,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":569,\"y\":165,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":363,\"y\":27,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":569,\"y\":27,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			}
+		},
+		{
+			"type": "region",
+			"x": "37",
+			"y": "116",
+			"width": 269,
+			"height": 49,
+			"allow_graphic": false,
+			"allow_text": true,
+			"allow_overlap": false,
+			"selected": false,
+			"img": "{\"attrs\":{\"x\":\"37\",\"y\":\"116\",\"fill\":\"white\",\"opacity\":0.25,\"width\":269,\"height\":49,\"draggable\":true,\"stroke\":\"Red\",\"strokeWidth\":3,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":37,\"y\":165,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":306,\"y\":165,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":37,\"y\":116,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":306,\"y\":116,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			}
+		},
+		{
+			"type": "region",
+			"x": "36",
+			"y": "225",
+			"width": 207,
+			"height": 138,
+			"allow_graphic": true,
+			"allow_text": false,
+			"allow_overlap": false,
+			"selected": false,
+			"img": "{\"attrs\":{\"x\":\"36\",\"y\":\"225\",\"fill\":\"white\",\"opacity\":0.25,\"width\":207,\"height\":138,\"draggable\":true,\"stroke\":\"Red\",\"strokeWidth\":3,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":36,\"y\":363,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":243,\"y\":363,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":36,\"y\":225,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":243,\"y\":225,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			}
+		},
+		{
+			"type": "region",
+			"x": "363",
+			"y": "27",
+			"width": 206,
+			"height": 138,
+			"allow_graphic": true,
+			"allow_text": false,
+			"allow_overlap": false,
+			"selected": false,
+			"img": "{\"attrs\":{\"x\":\"363\",\"y\":\"27\",\"fill\":\"white\",\"opacity\":0.25,\"width\":206,\"height\":138,\"draggable\":true,\"stroke\":\"Red\",\"strokeWidth\":3,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":363,\"y\":165,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":569,\"y\":165,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":363,\"y\":27,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":569,\"y\":27,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			}
+		},
+		{
+			"type": "region",
+			"x": "36",
+			"y": "225",
+			"width": 207,
+			"height": 138,
+			"allow_graphic": true,
+			"allow_text": false,
+			"allow_overlap": false,
+			"selected": false,
+			"img": "{\"attrs\":{\"x\":\"36\",\"y\":\"225\",\"fill\":\"white\",\"opacity\":0.25,\"width\":207,\"height\":138,\"draggable\":true,\"stroke\":\"Red\",\"strokeWidth\":3,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":36,\"y\":363,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":243,\"y\":363,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":36,\"y\":225,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":243,\"y\":225,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			}
+		},
+		{
+			"type": "region",
+			"x": "363",
+			"y": "27",
+			"width": 206,
+			"height": 138,
+			"allow_graphic": true,
+			"allow_text": false,
+			"allow_overlap": false,
+			"selected": false,
+			"img": "{\"attrs\":{\"x\":\"363\",\"y\":\"27\",\"fill\":\"white\",\"opacity\":0.25,\"width\":206,\"height\":138,\"draggable\":true,\"stroke\":\"Red\",\"strokeWidth\":3,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":363,\"y\":165,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":569,\"y\":165,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":363,\"y\":27,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":569,\"y\":27,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			}
+		},
+		{
+			"type": "region",
+			"x": "36",
+			"y": "225",
+			"width": 207,
+			"height": 138,
+			"allow_graphic": true,
+			"allow_text": false,
+			"allow_overlap": false,
+			"selected": false,
+			"img": "{\"attrs\":{\"x\":\"36\",\"y\":\"225\",\"fill\":\"white\",\"opacity\":0.25,\"width\":207,\"height\":138,\"draggable\":true,\"stroke\":\"Red\",\"strokeWidth\":3,\"strokeEnabled\":false},\"className\":\"Rect\"}",
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":36,\"y\":363,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":243,\"y\":363,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":36,\"y\":225,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":243,\"y\":225,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			}
+		}
+	],
+	"element_alts": {
+		"1": {
+			"1": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 1,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 36,
+				"y": 166,
+				"height": 45.55555555555557,
+				"group_id": -1,
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Executive MBA Programs",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":37,\"y\":168,\"width\":532.48,\"height\":52,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":141,\"y\":231,\"width\":317.44,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":36,\"y\":211.55555555555557,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":499.3650793650795,\"y\":211.55555555555557,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":36,\"y\":166,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":499.3650793650795,\"y\":166,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":493.3650793650795,\"y\":188.77777777777777,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":30,\"y\":188.77777777777777,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 10.17142857142857,
+				"id": 1,
+				"width": 463.3650793650795,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 162.5,
+					"y": 185
+				},
+				"align_type": -1,
+				"orig_text": "Executive MBA Programs",
+				"max_line_length": 22,
+				"alignment_imgs": {
+					"center": "{\"attrs\":{\"x\":36,\"y\":166,\"width\":463.3650793650795,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":36,\"y\":166,\"width\":467.88571428571424,\"height\":46,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 0,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":499.3650793650795,\"y\":166,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":570.48,\"y\":167,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":570.48,\"y\":167,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":499.3650793650795,\"y\":166,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 70,
+				"last_x": 36,
+				"last_y": 166,
+				"init_height": 75,
+				"img": "{\"attrs\":{\"x\":36,\"y\":166,\"width\":463.3650793650795,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1,\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":36,\"y\":166,\"width\":467.88571428571424,\"height\":46,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}",
+				"mid_x": 266.68253968253975,
+				"mid_y": 188.77777777777777
+			},
+			"2": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 2,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 38,
+				"y": 167,
+				"height": 45.55555555555557,
+				"group_id": -1,
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Executive\nMBA Programs",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":37,\"y\":168,\"width\":532.48,\"height\":52,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":141,\"y\":231,\"width\":317.44,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 3.05,
+				"id": 1,
+				"width": 532.48,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 214.727294921875,
+					"y": 190
+				},
+				"align_type": -1,
+				"orig_text": "Executive MBA Programs",
+				"max_line_length": 12,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":167,\"width\":138.94444444444449,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":167,\"width\":138.94444444444449,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":167,\"width\":138.94444444444449,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":138.94444444444449,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":138.94444444444449,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":138.94444444444449,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 1,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":499.3650793650795,\"y\":166,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":570.48,\"y\":167,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":570.48,\"y\":167,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":499.3650793650795,\"y\":166,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 40,
+				"init_height": 85,
+				"img": "{\"attrs\":{\"x\":38,\"y\":167,\"width\":138.94444444444449,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":138.94444444444449,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"3": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 3,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 38,
+				"y": 167,
+				"height": 45.55555555555557,
+				"group_id": -1,
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Executive\nMBA \nPrograms",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":37,\"y\":168,\"width\":532.48,\"height\":52,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":141,\"y\":231,\"width\":317.44,\"height\":31,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"1\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 1.2777777777777777,
+				"id": 1,
+				"width": 532.48,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 214.727294921875,
+					"y": 190
+				},
+				"align_type": -1,
+				"orig_text": "Executive MBA Programs",
+				"max_line_length": 9,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":167,\"width\":58.209876543209894,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":167,\"width\":58.209876543209894,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":167,\"width\":58.209876543209894,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":58.209876543209894,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":58.209876543209894,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":58.209876543209894,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 2,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":499.3650793650795,\"y\":166,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":570.48,\"y\":167,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":570.48,\"y\":167,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":499.3650793650795,\"y\":166,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 30,
+				"init_height": 95,
+				"img": "{\"attrs\":{\"x\":38,\"y\":167,\"width\":58.209876543209894,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":58.209876543209894,\"height\":45.55555555555557,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"1\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			}
+		},
+		"2": {
+			"1": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 1,
+				"num_alternates": 3,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 300,
+				"y": 262,
+				"height": 61,
+				"group_id": -1,
+				"importance": "1",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit.  Nam tempor, eros non faucibus tristique, mi tellus luctus Augue tellus nec ipsum. Curabitur aliquet dolor lectus, Pharetra vitae. In hac habitasse platea dictumst donec. Ut eget ante sit amet nisl pellentesque viverra sit ame",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":110,\"y\":301,\"width\":380.31111111111113,\"height\":86,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":275,\"y\":265,\"width\":305.1333333333333,\"height\":69,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 107.25714285714285,
+				"id": 2,
+				"width": 269.7555555555556,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 151.18182373046875,
+					"y": 330
+				},
+				"align_type": -1,
+				"orig_text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit. \nNam tempor, eros non faucibus tristique, mi tellus luctus\nAugue tellus nec ipsum. Curabitur aliquet dolor lectus,\nPharetra vitae. In hac habitasse platea dictumst donec.\nUt eget ante sit amet nisl pellentesque viverra sit ame",
+				"max_line_length": 283,
+				"alignment_imgs": {
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":6542.685714285714,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":6542.685714285714,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 0,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 70,
+				"init_height": 75,
+				"img": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":6542.685714285714,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":6542.685714285714,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"2": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 2,
+				"num_alternates": 3,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 300,
+				"y": 262,
+				"height": 61,
+				"group_id": -1,
+				"importance": "1",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit.  Nam tempor, eros non faucibus tristique, mi tellus luctus Augue tellus nec ipsum.\nCurabitur aliquet dolor lectus, Pharetra vitae. In hac habitasse platea dictumst donec. Ut eget ante sit amet nisl pellentesque viverra sit ame",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":110,\"y\":301,\"width\":380.31111111111113,\"height\":86,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":275,\"y\":265,\"width\":305.1333333333333,\"height\":69,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 26.9,
+				"id": 2,
+				"width": 269.7555555555556,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 151.18182373046875,
+					"y": 330
+				},
+				"align_type": -1,
+				"orig_text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit. \nNam tempor, eros non faucibus tristique, mi tellus luctus\nAugue tellus nec ipsum. Curabitur aliquet dolor lectus,\nPharetra vitae. In hac habitasse platea dictumst donec.\nUt eget ante sit amet nisl pellentesque viverra sit ame",
+				"max_line_length": 143,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":1640.8999999999999,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":1640.8999999999999,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":1640.8999999999999,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":1640.8999999999999,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":1640.8999999999999,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":1640.8999999999999,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 1,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 40,
+				"init_height": 85,
+				"img": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":1640.8999999999999,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":1640.8999999999999,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"3": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 3,
+				"num_alternates": 3,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 300,
+				"y": 262,
+				"height": 61,
+				"group_id": -1,
+				"importance": "1",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit.  Nam tempor, eros non faucibus tristique,\nmi tellus luctus Augue tellus nec ipsum. Curabitur aliquet dolor lectus, Pharetra vitae. In\nhac habitasse platea dictumst donec. Ut eget ante sit amet nisl pellentesque viverra sit ame",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":110,\"y\":301,\"width\":380.31111111111113,\"height\":86,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":275,\"y\":265,\"width\":305.1333333333333,\"height\":69,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 12.71111111111111,
+				"id": 2,
+				"width": 269.7555555555556,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 151.18182373046875,
+					"y": 330
+				},
+				"align_type": -1,
+				"orig_text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit. \nNam tempor, eros non faucibus tristique, mi tellus luctus\nAugue tellus nec ipsum. Curabitur aliquet dolor lectus,\nPharetra vitae. In hac habitasse platea dictumst donec.\nUt eget ante sit amet nisl pellentesque viverra sit ame",
+				"max_line_length": 98,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":775.3777777777777,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":775.3777777777777,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":775.3777777777777,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":775.3777777777777,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":775.3777777777777,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":775.3777777777777,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 2,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 30,
+				"init_height": 95,
+				"img": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":775.3777777777777,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":775.3777777777777,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"4": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 4,
+				"num_alternates": 3,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 300,
+				"y": 262,
+				"height": 61,
+				"group_id": -1,
+				"importance": "1",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit.  Nam tempor,\neros non faucibus tristique, mi tellus luctus Augue tellus nec ipsum.\nCurabitur aliquet dolor lectus, Pharetra vitae. In hac habitasse platea\ndictumst donec. Ut eget ante sit amet nisl pellentesque viverra sit ame",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":110,\"y\":301,\"width\":380.31111111111113,\"height\":86,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":275,\"y\":265,\"width\":305.1333333333333,\"height\":69,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 6.75,
+				"id": 2,
+				"width": 269.7555555555556,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 151.18182373046875,
+					"y": 330
+				},
+				"align_type": -1,
+				"orig_text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit. \nNam tempor, eros non faucibus tristique, mi tellus luctus\nAugue tellus nec ipsum. Curabitur aliquet dolor lectus,\nPharetra vitae. In hac habitasse platea dictumst donec.\nUt eget ante sit amet nisl pellentesque viverra sit ame",
+				"max_line_length": 71,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":411.75,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":411.75,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":411.75,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":411.75,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":411.75,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":411.75,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 3,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 25,
+				"init_height": 105,
+				"img": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":411.75,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":411.75,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"5": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 5,
+				"num_alternates": 3,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 300,
+				"y": 262,
+				"height": 61,
+				"group_id": -1,
+				"importance": "1",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit. \nNam tempor, eros non faucibus tristique, mi tellus luctus\nAugue tellus nec ipsum. Curabitur aliquet dolor lectus,\nPharetra vitae. In hac habitasse platea dictumst donec.\nUt eget ante sit amet nisl pellentesque viverra sit ame",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":110,\"y\":301,\"width\":380.31111111111113,\"height\":86,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":275,\"y\":265,\"width\":305.1333333333333,\"height\":69,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 4.409090909090909,
+				"id": 2,
+				"width": 268.95454545454544,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 151.18182373046875,
+					"y": 330
+				},
+				"align_type": -1,
+				"orig_text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit. \nNam tempor, eros non faucibus tristique, mi tellus luctus\nAugue tellus nec ipsum. Curabitur aliquet dolor lectus,\nPharetra vitae. In hac habitasse platea dictumst donec.\nUt eget ante sit amet nisl pellentesque viverra sit ame",
+				"max_line_length": 57,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 4,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 22,
+				"last_x": 300,
+				"last_y": 262,
+				"init_height": 115,
+				"img": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":268.95454545454544,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"6": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 6,
+				"num_alternates": 3,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 300,
+				"y": 262,
+				"height": 61,
+				"group_id": -1,
+				"importance": "1",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing\nolit.  Nam tempor, eros non faucibus tristique,\nmi tellus luctus Augue tellus nec ipsum.\nCurabitur aliquet dolor lectus, Pharetra vitae. In\nhac habitasse platea dictumst donec. Ut eget\nante sit amet nisl pellentesque viverra sit ame",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":110,\"y\":301,\"width\":380.31111111111113,\"height\":86,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":275,\"y\":265,\"width\":305.1333333333333,\"height\":69,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 3.283333333333333,
+				"id": 2,
+				"width": 269.7555555555556,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 151.18182373046875,
+					"y": 330
+				},
+				"align_type": -1,
+				"orig_text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit. \nNam tempor, eros non faucibus tristique, mi tellus luctus\nAugue tellus nec ipsum. Curabitur aliquet dolor lectus,\nPharetra vitae. In hac habitasse platea dictumst donec.\nUt eget ante sit amet nisl pellentesque viverra sit ame",
+				"max_line_length": 50,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":200.28333333333333,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":200.28333333333333,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":200.28333333333333,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":200.28333333333333,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":200.28333333333333,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":200.28333333333333,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 5,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 20,
+				"init_height": 125,
+				"img": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":200.28333333333333,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":200.28333333333333,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"7": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 7,
+				"num_alternates": 3,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 300,
+				"y": 262,
+				"height": 61,
+				"group_id": -1,
+				"importance": "1",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Lorem ipsum dolor sit amet, consectetur\nadipiscing olit.  Nam tempor, eros non\nfaucibus tristique, mi tellus luctus Augue\ntellus nec ipsum. Curabitur aliquet dolor\nlectus, Pharetra vitae. In hac habitasse\nplatea dictumst donec. Ut eget ante sit\namet nisl pellentesque viverra sit ame",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":110,\"y\":301,\"width\":380.31111111111113,\"height\":86,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":275,\"y\":265,\"width\":305.1333333333333,\"height\":69,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 2.3384615384615386,
+				"id": 2,
+				"width": 269.7555555555556,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 151.18182373046875,
+					"y": 330
+				},
+				"align_type": -1,
+				"orig_text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit. \nNam tempor, eros non faucibus tristique, mi tellus luctus\nAugue tellus nec ipsum. Curabitur aliquet dolor lectus,\nPharetra vitae. In hac habitasse platea dictumst donec.\nUt eget ante sit amet nisl pellentesque viverra sit ame",
+				"max_line_length": 42,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":142.64615384615385,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":142.64615384615385,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":142.64615384615385,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":142.64615384615385,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":142.64615384615385,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":142.64615384615385,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 6,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 18.57142857142857,
+				"init_height": 135,
+				"img": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":142.64615384615385,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":142.64615384615385,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"8": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 8,
+				"num_alternates": 3,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 300,
+				"y": 262,
+				"height": 61,
+				"group_id": -1,
+				"importance": "1",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Lorem ipsum dolor sit amet, consectetur\nadipiscing olit.  Nam tempor,\neros non faucibus tristique, mi tellus\nluctus Augue tellus nec ipsum.\nCurabitur aliquet dolor lectus, Pharetra\nvitae. In hac habitasse platea\ndictumst donec. Ut eget ante sit amet\nnisl pellentesque viverra sit ame",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":110,\"y\":301,\"width\":380.31111111111113,\"height\":86,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":275,\"y\":265,\"width\":305.1333333333333,\"height\":69,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":269.7555555555556,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 2.0142857142857142,
+				"id": 2,
+				"width": 269.7555555555556,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 151.18182373046875,
+					"y": 330
+				},
+				"align_type": -1,
+				"orig_text": "Lorem ipsum dolor sit amet, consectetur adipiscing olit. \nNam tempor, eros non faucibus tristique, mi tellus luctus\nAugue tellus nec ipsum. Curabitur aliquet dolor lectus,\nPharetra vitae. In hac habitasse platea dictumst donec.\nUt eget ante sit amet nisl pellentesque viverra sit ame",
+				"max_line_length": 40,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":122.87142857142857,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":122.87142857142857,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":122.87142857142857,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":122.87142857142857,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":122.87142857142857,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":122.87142857142857,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 7,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":569.7555555555556,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":568.9545454545455,\"y\":262,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 17.5,
+				"init_height": 145,
+				"img": "{\"attrs\":{\"x\":300,\"y\":262,\"width\":122.87142857142857,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":300,\"y\":300,\"width\":122.87142857142857,\"height\":61,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"2\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			}
+		},
+		"3": {
+			"1": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 1,
+				"num_alternates": -1,
+				"selected": true,
+				"old_text": "",
+				"type": "text",
+				"x": 303.33441558441564,
+				"y": 225,
+				"height": 27,
+				"group_id": -1,
+				"importance": "2",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Get a Global Perspective",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":264.06,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":122,\"y\":35,\"width\":352.08,\"height\":36,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":303.33441558441564,\"y\":252,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":565.6201298701299,\"y\":252,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":303.33441558441564,\"y\":225,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":565.6201298701299,\"y\":225,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":559.6201298701299,\"y\":238.5,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":297.33441558441564,\"y\":238.5,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 9.714285714285714,
+				"id": 3,
+				"width": 262.2857142857143,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 126.18182373046875,
+					"y": 301
+				},
+				"align_type": -1,
+				"orig_text": "Get a Global Perspective",
+				"max_line_length": 24,
+				"alignment_imgs": {
+					"center": "{\"attrs\":{\"x\":303.33441558441564,\"y\":225,\"width\":262.2857142857143,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":262.2857142857143,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 0,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":565.6201298701299,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":567.06,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":567.06,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":565.6201298701299,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 70,
+				"last_x": 303.33441558441564,
+				"last_y": 225,
+				"init_height": 75,
+				"img": "{\"attrs\":{\"x\":303.33441558441564,\"y\":225,\"width\":262.2857142857143,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":262.2857142857143,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}",
+				"mid_x": 434.1428571428571,
+				"mid_y": 238.5
+			},
+			"2": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 2,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 303,
+				"y": 225,
+				"height": 27,
+				"group_id": -1,
+				"importance": "2",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Get a\nGlobal Perspective",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":264.06,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":122,\"y\":35,\"width\":352.08,\"height\":36,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 3.675,
+				"id": 3,
+				"width": 264.06,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 126.18182373046875,
+					"y": 301
+				},
+				"align_type": -1,
+				"orig_text": "Get a Global Perspective",
+				"max_line_length": 18,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":99.225,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":99.225,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":99.225,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":303,\"y\":303,\"width\":99.225,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":303,\"y\":303,\"width\":99.225,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":303,\"y\":303,\"width\":99.225,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 1,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":565.6201298701299,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":567.06,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":567.06,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":565.6201298701299,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 40,
+				"init_height": 85,
+				"img": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":99.225,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":303,\"y\":303,\"width\":99.225,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"3": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 3,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 303,
+				"y": 225,
+				"height": 27,
+				"group_id": -1,
+				"importance": "2",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "Get a\nGlobal\nPerspective",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":264.06,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":122,\"y\":35,\"width\":352.08,\"height\":36,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 1.4555555555555555,
+				"id": 3,
+				"width": 264.06,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 126.18182373046875,
+					"y": 301
+				},
+				"align_type": -1,
+				"orig_text": "Get a Global Perspective",
+				"max_line_length": 11,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":39.3,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":39.3,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":39.3,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":303,\"y\":303,\"width\":39.3,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":303,\"y\":303,\"width\":39.3,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":303,\"y\":303,\"width\":39.3,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 2,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":565.6201298701299,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":567.06,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":567.06,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":565.6201298701299,\"y\":225,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 30,
+				"init_height": 95,
+				"img": "{\"attrs\":{\"x\":303,\"y\":225,\"width\":39.3,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":303,\"y\":303,\"width\":39.3,\"height\":27,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"3\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			}
+		},
+		"4": {
+			"1": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 1,
+				"num_alternates": -1,
+				"selected": false,
+				"old_text": "",
+				"type": "text",
+				"x": 461,
+				"y": 366,
+				"height": 13,
+				"group_id": -1,
+				"importance": "0",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "#FFF",
+				"text": "www.jbi.ukl.edu/mba",
+				"align": "center",
+				"sugg_align": "center",
+				"alternate_imgs": {
+					"center": "{\"attrs\":{\"x\":461,\"y\":366,\"width\":108.67999999999999,\"height\":13,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":245,\"y\":207,\"width\":108.67999999999999,\"height\":13,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+				},
+				"aspect_ratio": 8.4,
+				"id": 4,
+				"width": 109.2,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 518.1818237304688,
+					"y": 376
+				},
+				"align_type": -1,
+				"orig_text": "www.jbi.ukl.edu/mba",
+				"max_line_length": 19,
+				"alignment_imgs": {
+					"center": "{\"attrs\":{\"x\":461,\"y\":366,\"width\":109.2,\"height\":13,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"4\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"center": "{\"attrs\":{\"x\":461,\"y\":366,\"width\":109.2,\"height\":13,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"4\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 0,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":570.2,\"y\":366,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":569.68,\"y\":366,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":569.68,\"y\":366,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":570.2,\"y\":366,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 70,
+				"last_x": 461,
+				"last_y": 366,
+				"init_height": 75,
+				"img": "{\"attrs\":{\"x\":461,\"y\":366,\"width\":109.2,\"height\":13,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"4\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"opacity\":1},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":461,\"y\":366,\"width\":109.2,\"height\":13,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"4\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}"
+			}
+		},
+		"6": {
+			"1": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 1,
+				"num_alternates": 3,
+				"selected": true,
+				"old_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"type": "text",
+				"x": 38,
+				"y": 103,
+				"height": 49,
+				"group_id": "-1",
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "FFF",
+				"text": "D.P. Jalla Business Institute, University of Kuala Lumpur",
+				"align": "left",
+				"sugg_align": "left",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":22,\"y\":15,\"width\":308,\"height\":56,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":80,\"y\":92,\"width\":440,\"height\":80,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":42,\"y\":122,\"width\":258.5,\"height\":47,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 22.185714285714287,
+				"id": 6,
+				"width": 269.5,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 209.727294921875,
+					"y": 141
+				},
+				"align_type": -1,
+				"orig_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"max_line_length": 57,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":543.5500000000001,\"height\":24.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":1087.1000000000001,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 0,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 70,
+				"last_x": 38,
+				"last_y": 103,
+				"init_height": 75,
+				"mid_x": 172.75,
+				"mid_y": 127.5,
+				"img": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":543.5500000000001,\"height\":24.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":1087.1000000000001,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"2": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 2,
+				"num_alternates": 3,
+				"selected": false,
+				"old_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"type": "text",
+				"x": 36,
+				"y": 103,
+				"height": 49,
+				"group_id": "-1",
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "FFF",
+				"text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"align": "left",
+				"sugg_align": "left",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":22,\"y\":15,\"width\":308,\"height\":56,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":80,\"y\":92,\"width\":440,\"height\":80,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":42,\"y\":122,\"width\":258.5,\"height\":47,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":36,\"y\":152,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":305.5,\"y\":152,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":36,\"y\":103,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":305.5,\"y\":103,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":299.5,\"y\":127.5,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":30,\"y\":127.5,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 5.5,
+				"id": 6,
+				"width": 269.5,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 152.5,
+					"y": 124
+				},
+				"align_type": -1,
+				"orig_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"max_line_length": 29,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":36,\"y\":103,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0,\"opacity\":1},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":36,\"y\":103,\"width\":291.5,\"height\":53,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 1,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 40,
+				"last_x": 36,
+				"last_y": 103,
+				"init_height": 85,
+				"mid_x": 170.75,
+				"mid_y": 127.5,
+				"img": "{\"attrs\":{\"x\":36,\"y\":103,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":true,\"filter\":\"\",\"rotation\":0,\"scaleX\":1,\"scaleY\":1,\"offsetX\":0,\"offsetY\":0,\"skewX\":0,\"skewY\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":36,\"y\":103,\"width\":291.5,\"height\":53,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":true,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"3": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 3,
+				"num_alternates": 3,
+				"selected": true,
+				"old_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"type": "text",
+				"x": 38,
+				"y": 103,
+				"height": 49,
+				"group_id": "-1",
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "FFF",
+				"text": "D.P. Jalla \nBusiness Institute \nUniversity of Kuala Lumpur",
+				"align": "left",
+				"sugg_align": "left",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":22,\"y\":15,\"width\":308,\"height\":56,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":80,\"y\":92,\"width\":440,\"height\":80,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":42,\"y\":122,\"width\":258.5,\"height\":47,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 3.6666666666666665,
+				"id": 6,
+				"width": 269.5,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 209.727294921875,
+					"y": 141
+				},
+				"align_type": -1,
+				"orig_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"max_line_length": 26,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":269.5,\"height\":73.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":269.5,\"height\":73.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":269.5,\"height\":73.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":179.66666666666666,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":179.66666666666666,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":179.66666666666666,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 2,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 30,
+				"last_x": 38,
+				"last_y": 103,
+				"init_height": 95,
+				"mid_x": 172.75,
+				"mid_y": 127.5,
+				"img": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":269.5,\"height\":73.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":179.66666666666666,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"4": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 4,
+				"num_alternates": 3,
+				"selected": true,
+				"old_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"type": "text",
+				"x": 38,
+				"y": 103,
+				"height": 49,
+				"group_id": "-1",
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "FFF",
+				"text": "D.P. Jalla\nBusiness Institute\nUniversity of\nKuala Lumpur",
+				"align": "left",
+				"sugg_align": "left",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":22,\"y\":15,\"width\":308,\"height\":56,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":80,\"y\":92,\"width\":440,\"height\":80,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":42,\"y\":122,\"width\":258.5,\"height\":47,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 1.69,
+				"id": 6,
+				"width": 269.5,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 209.727294921875,
+					"y": 141
+				},
+				"align_type": -1,
+				"orig_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"max_line_length": 18,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":165.62,\"height\":98,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":165.62,\"height\":98,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":165.62,\"height\":98,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":82.81,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":82.81,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":82.81,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 3,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 25,
+				"last_x": 38,
+				"last_y": 103,
+				"init_height": 105,
+				"mid_x": 172.75,
+				"mid_y": 127.5,
+				"img": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":165.62,\"height\":98,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":82.81,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"5": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 5,
+				"num_alternates": 3,
+				"selected": true,
+				"old_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"type": "text",
+				"x": 38,
+				"y": 103,
+				"height": 49,
+				"group_id": "-1",
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "FFF",
+				"text": "D.P. Jalla\nBusiness\nInstitute\nUniversity of\nKuala Lumpur",
+				"align": "left",
+				"sugg_align": "left",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":22,\"y\":15,\"width\":308,\"height\":56,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":80,\"y\":92,\"width\":440,\"height\":80,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":42,\"y\":122,\"width\":258.5,\"height\":47,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 1.1454545454545455,
+				"id": 6,
+				"width": 269.5,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 209.727294921875,
+					"y": 141
+				},
+				"align_type": -1,
+				"orig_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"max_line_length": 13,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":140.3181818181818,\"height\":122.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":140.3181818181818,\"height\":122.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":140.3181818181818,\"height\":122.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":56.12727272727273,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":56.12727272727273,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":56.12727272727273,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 4,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 22,
+				"last_x": 38,
+				"last_y": 103,
+				"init_height": 115,
+				"mid_x": 172.75,
+				"mid_y": 127.5,
+				"img": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":140.3181818181818,\"height\":122.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":56.12727272727273,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"6": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 6,
+				"num_alternates": 3,
+				"selected": true,
+				"old_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"type": "text",
+				"x": 38,
+				"y": 103,
+				"height": 49,
+				"group_id": "-1",
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "FFF",
+				"text": "D.P. Jalla\nBusiness\nInstitute\nUniversity\nof Kuala\nLumpur",
+				"align": "left",
+				"sugg_align": "left",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":22,\"y\":15,\"width\":308,\"height\":56,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":80,\"y\":92,\"width\":440,\"height\":80,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":42,\"y\":122,\"width\":258.5,\"height\":47,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 0.6583333333333333,
+				"id": 6,
+				"width": 269.5,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 209.727294921875,
+					"y": 141
+				},
+				"align_type": -1,
+				"orig_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"max_line_length": 10,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":96.775,\"height\":147,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":96.775,\"height\":147,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":96.775,\"height\":147,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":32.25833333333333,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":32.25833333333333,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":32.25833333333333,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 5,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 20,
+				"last_x": 38,
+				"last_y": 103,
+				"init_height": 125,
+				"mid_x": 172.75,
+				"mid_y": 127.5,
+				"img": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":96.775,\"height\":147,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":32.25833333333333,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"7": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 7,
+				"num_alternates": 3,
+				"selected": true,
+				"old_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"type": "text",
+				"x": 38,
+				"y": 103,
+				"height": 49,
+				"group_id": "-1",
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "FFF",
+				"text": "D.P. Jalla\nBusiness\n\nInstitute\nUniversity\nof Kuala\nLumpur",
+				"align": "left",
+				"sugg_align": "left",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":22,\"y\":15,\"width\":308,\"height\":56,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":80,\"y\":92,\"width\":440,\"height\":80,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":42,\"y\":122,\"width\":258.5,\"height\":47,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 0.5769230769230769,
+				"id": 6,
+				"width": 269.5,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 209.727294921875,
+					"y": 141
+				},
+				"align_type": -1,
+				"orig_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"max_line_length": 10,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":98.94230769230768,\"height\":171.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":98.94230769230768,\"height\":171.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":98.94230769230768,\"height\":171.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":28.269230769230766,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":28.269230769230766,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":28.269230769230766,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 6,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 18.57142857142857,
+				"last_x": 38,
+				"last_y": 103,
+				"init_height": 135,
+				"mid_x": 172.75,
+				"mid_y": 127.5,
+				"img": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":98.94230769230768,\"height\":171.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":28.269230769230766,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			},
+			"8": {
+				"loaded": true,
+				"resizing": false,
+				"fixed": false,
+				"alternate": -1,
+				"num_lines": 8,
+				"num_alternates": 3,
+				"selected": true,
+				"old_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"type": "text",
+				"x": 38,
+				"y": 103,
+				"height": 49,
+				"group_id": "-1",
+				"importance": "3",
+				"type_id": 1,
+				"font": "Garamond",
+				"bold": false,
+				"italic": false,
+				"color": "FFF",
+				"text": "D.P.\nJalla\nBusiness\nInstitute\nUniversity\nof\nKuala\nLumpur",
+				"align": "left",
+				"sugg_align": "left",
+				"alternate_imgs": {
+					"left": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":37,\"y\":116,\"width\":269.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"alternate_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":22,\"y\":15,\"width\":308,\"height\":56,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":80,\"y\":92,\"width\":440,\"height\":80,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":42,\"y\":122,\"width\":258.5,\"height\":47,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"6\",\"draggable\":true},\"className\":\"Image\"}"
+				},
+				"anchors": {
+					"topLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"topRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"bottomRight": "{\"attrs\":{\"x\":0,\"y\":0,\"fill\":\"red\",\"opacity\":1,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+					"midRight": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midRight\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}",
+					"midLeft": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":8,\"height\":8,\"fill\":\"red\",\"opacity\":1,\"name\":\"midLeft\",\"draggable\":true,\"visible\":false,\"rotation\":150},\"className\":\"Rect\"}"
+				},
+				"aspect_ratio": 0.5,
+				"id": 6,
+				"width": 269.5,
+				"fix_alignment": false,
+				"fixed_amount": 0,
+				"curr_pos": {
+					"x": 209.727294921875,
+					"y": 141
+				},
+				"align_type": -1,
+				"orig_text": "D.P. Jalla Business Institute\nUniversity of Kuala Lumpur",
+				"max_line_length": 10,
+				"alignment_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":98,\"height\":196,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":98,\"height\":196,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":98,\"height\":196,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alignment_sugg_imgs": {
+					"left": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":24.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"center": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":24.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+					"right": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":24.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+				},
+				"alternate_id": 7,
+				"hidden_img": 0,
+				"hidden": false,
+				"constraints": {
+					"size": [],
+					"alignment": []
+				},
+				"shadow": false,
+				"allow_overlap": false,
+				"fix_alternate": false,
+				"optional": false,
+				"unlock_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"tweakable_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"lock_img": "{\"attrs\":{\"x\":308.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":0.75},\"className\":\"Image\"}",
+				"state_img": "{\"attrs\":{\"x\":305.5,\"y\":103,\"height\":15,\"width\":15,\"draggable\":false,\"visible\":false,\"filter\":0,\"opacity\":1},\"className\":\"Image\"}",
+				"init_font_size": 17.5,
+				"last_x": 38,
+				"last_y": 103,
+				"init_height": 145,
+				"mid_x": 172.75,
+				"mid_y": 127.5,
+				"img": "{\"attrs\":{\"x\":38,\"y\":103,\"width\":98,\"height\":196,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}",
+				"sugg_img": "{\"attrs\":{\"x\":38,\"y\":38,\"width\":24.5,\"height\":49,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":2,\"lineJoin\":\"round\",\"dashArray\":[7,5],\"name\":\"6\",\"draggable\":true,\"visible\":false,\"filter\":\"\"},\"className\":\"Image\"}"
+			}
+		}
+	},
+	"region_proposals": false,
+	"saved_layouts": [],
+	"rules": [],
+	"directory": ""
+}

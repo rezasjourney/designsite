@@ -1,0 +1,649 @@
+{% extends "pages/abstract/baseTemplate.html" %}
+
+
+{% block title %}
+	{% if not minimalistic %}
+		{% if includeTitleBar %}
+			{{block.super}}	
+		{% endif %}	
+	{% endif %}
+	
+	<script>
+	if (typeof console === 'undefined'){
+		console={'log':function(){},'error':function(){}}
+	}
+	</script>
+{% endblock title %}
+
+
+
+{% block beginning %}
+
+	<form id="mturk_form" method="POST" action="https://workersandbox.mturk.com/mturk/externalSubmit">
+
+	{% block studyInstructions %}
+		
+			
+	<h1 align="center">Create Graphic Design Layouts</h1>
+		
+
+	
+	
+
+	<div class="row-fluid">
+		<div class="offset1 span10 well">
+			<h3>Instructions:</h3>
+	
+			<p>Your task for this HIT is to position and scale elements to create <strong> 4 different layouts with 2 interfaces</strong>.
+			
+			The layouts should contain all the elements, and they should all be visible. You should create layouts that <strong>clearly convey the information of the design and look good</strong>.  If elements overlap, the text
+			should still be readable.
+			</p>
+			
+			
+			<p>
+			<strong>The layouts should be visually distinct from each other, with a different style and element sizes.</strong> Once you have a layout you like, press the <i>Create New Layout</i> button to move to the next layout. 
+			</p>
+			
+			<p>
+			In this HIT, you will create layouts with two different interfaces. The <strong> Suggestion </strong> interface displays suggested layouts, and in the <strong>Direct</strong> interface user specifies each element's position and scale directly.
+			Your task is to create <strong> two layouts in both interfaces</strong>, and then rate each interface. There is a tutorial task for both interfaces for you to learn the tools. You can skip these tutorials if you are already comfortable with the interface.
+			</p>	
+			<!--
+			<p>
+			Once you have a layout you like, press the <i>Save Layout</i> button to save it. You can remove/modify the previously saved layouts. The three layouts should be visually distinct from each other, with a different style and element sizes. 
+			</p>
+			-->
+			
+			<p>
+				<strong>If the HIT doesn't work</strong>, please submit the HIT with a <strong> detailed comment</strong> at the bottom explaining the problem. You will still be paid for the HIT if you complete an error report.
+				Do not submit error reports for multiple HITs though. If other HITs don't work, just return them.
+			</p>
+			
+			<!--
+			<p>
+			Bonus: When using the tool, you can also <strong>like</strong> or <strong> dislike </strong> the last automatic update, and provide a short explanation for your response. You will be paid a bonus of $0.5, if you provide at least 3 likes and 3 dislikes with helpful explanations.
+			</p>	
+			-->
+			
+			<p>
+			
+			<div id="mturkEvaluation">
+				<h3>Evaluation:</h3>
+				Your layouts will be evaluated by other MTurk workers. <strong>The layouts do not need to be perfect but reasonable effort is required. Your actions and time spent creating the layouts are recorded.</strong> If the layouts are obviously made very quickly with little effort, or the layouts are judged to be very similar to each other,
+				the HIT will be rejected.
+					
+			</div>
+			</p>
+			
+			<p>Examples are shown below of acceptable and not acceptable layouts.
+			</p>
+			
+			<br>
+			<strong>Good Layouts:</strong><br>
+			<table border="1">
+			<tr><td><img style='border:1px solid #000000' width=300 src="/design/static/img/instructions/layout1.png" />	</td><td><img width=50 src="/design/static/img/greencheck.png" /> </td></tr>
+			<tr><td><img style='border:1px solid #000000' width=300 src="/design/static/img/instructions/layout4.png" />	</td><td><img width=50 src="/design/static/img/greencheck.png" /> </td></tr>
+			<tr><td><img style='border:1px solid #000000' width=300 src="/design/static/img/instructions/layout5.png" />	</td><td><img width=50 src="/design/static/img/greencheck.png" /> </td></tr>
+			<tr><td><img style='border:1px solid #000000' width=300 src="/design/static/img/instructions/layout6.png" />	</td><td><img width=50 src="/design/static/img/greencheck.png" /> </td></tr>
+			
+			</table>
+			
+			<br><br>
+			<strong>Bad Layouts:</strong><br>
+			<table border="1">
+			<tr><td><img style='border:1px solid #000000' width=300 src="/design/static/img/instructions/badlayout1.png" />	</td><td><img width=50 src="/design/static/img/redx.png" /> <br>Elements are too small and poor placed.</td></tr>
+			<tr><td><img style='border:1px solid #000000' width=300 src="/design/static/img/instructions/badlayout2.png" />	</td><td><img width=50 src="/design/static/img/redx.png" /> <br>Elements overlap and are hard to read, text elements are also outside the boundary.</td></tr>
+			
+			
+			<tr><td><span><img style='border:1px solid #000000' width=200 src="/design/static/img/instructions/layout1.png" /> &nbsp;<img style='border:1px solid #000000' width=200 src="/design/static/img/instructions/layout2.png" /></span>	</td><td><img width=50 src="/design/static/img/redx.png" /> <br>Layouts are too similar. Elements are only slightly smaller.</td></tr>
+			<tr><td><span><img style='border:1px solid #000000' width=200 src="/design/static/img/instructions/layout1.png" /> &nbsp;<img style='border:1px solid #000000' width=200 src="/design/static/img/instructions/layout3.png" /></span>	</td><td><img width=50 src="/design/static/img/redx.png" /> <br>Layouts are too similar. The two columns have only been flipped.</td></tr>
+			
+			</table>
+			</p>
+			
+			{% block specificStudyInstructions %}
+			
+			{% endblock specificStudyInstructions %}
+			
+
+		</div>
+	</div>
+		
+	{% endblock studyInstructions %}
+	<hr>
+	{% block interfaceTutorial %}
+		{% if not minimalistic %}
+			<div class="row-fluid">
+				<div class="offset1 span10 well">
+					
+					
+						<h3>How to Use the Direct Interface:</h3>
+						<ol>
+							
+							
+						<li>
+							<strong>Changing the Number of Lines</strong>
+							<br>
+							To change the number of lines for each element, drag the red diamonds left or right.<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/numLines-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/numLines-after.jpg" />
+						</li>
+							
+
+							
+						<li>
+							<strong>Undo/Redo</strong>
+							<br>
+							If you want to go back to a previous layout, you can press the <strong>Undo</strong> button at the top. 
+							You can also use the <strong>Redo</strong> button to go forward.
+							<!--
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/undo-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/undo-after.jpg" />
+							
+							-->
+						</li>
+						
+						<li>
+							<strong>Keep Elements the Same Size</strong>
+							<br>
+							If you select a group of elements, you can force them to have the same size. If you modify one later on, the rest will also updated. <br>
+						</li>
+						<li>
+							<strong>Randomize the Layout</strong>
+							<br>
+							If you want to shuffle the layout to a random initial layout, press the 'Randomize' button. <br>
+						</li>
+
+						</ol>
+			
+						<h3>How to Use the Suggestion Interface:</h3>
+			
+			
+						<!--
+						<br>
+						As well as the previous tools, this will provide you with suggestions when you are creating a layout. As you move elements, the interface will make
+						suggestions and automatically adjust the elements. If you don't want elements to move, you can fix them to prevent automatic updates (see below).
+						<br>
+						<br>
+						If the interface is working, the loading icon is shown: <img width=20 src="/design/static/icons/snake.png" />. You can still move elements while the interface is working.
+						<br>
+						<br>
+						-->
+					
+						
+						This interface is designed to provide you with suggestions when you are creating a layout. To view a suggestion, simply mouse over the layout, and click to accept. 
+						<br><br>
+						
+						
+						<div id=sugg_instructions>
+						<strong>Tweaking Suggestions.</strong>
+						
+						As you move elements, the interface will make suggestions based on your current layout and place them on the left.
+						<br>
+						<br>
+						</div>
+						
+						<strong>Brainstorming Suggestions.</strong>
+						The system will also show you different designs in a variety of styles on the right. You can choose any of these designs as a starting point.
+						
+						<br>
+						<br>
+						<strong>Change How Elements Automatically Move.</strong>
+						If you want to fix elements so they will not move in the suggestions, you can select one or more elements and press the red lock icon at the top <img width=20 src="/design/static/icons/locked.png"/>, or the lock icon
+						beside the element. 
+						The open green lock <img width=20 src="/design/static/icons/unlocked.png" /> means the elements can move or resize, though they will stay near their last position. 
+				
+						<!--
+						<br>
+						<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/states-before.jpg" />
+						<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/states-after.jpg" />
+						-->
+						
+						<br>
+						<br>
+					
+				
+			
+					<!--
+		
+					<ol>
+						<li>
+							<strong>See More Suggestions</strong>
+							<br>
+							If you want to see other designs, press the <strong>See More Designs</strong> button.<br>
+							
+							While the designs are being created, the loading icon is shown: <img width=20 src="/design/static/icons/snake.png" />. You can still select any design while the interface is working however.
+							<br>
+						</li>
+				
+						<li>
+							<strong>Change How Elements Appear in the Suggestions</strong>
+							<br>
+							If you want to fix elements so they are fixed in all suggestions, you can select one or more elements and press the red lock icon at the top <img width=20 src="/design/static/icons/locked.png"/>, or the lock icon
+							beside the element.
+							The yellow lock icon <img width=20 src="/design/static/icons/tweakable.png" /> means the elements will stay near that current location and only move a bit.
+						
+							The open green lock <img width=20 src="/design/static/icons/unlocked.png" /> means the elements can move anywhere in the suggested layouts.
+					
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/states-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/states-after.jpg" />
+						</li>
+
+
+						<li>
+							<strong>Undo/Redo Suggestions</strong>
+							<br>
+							If you want to go back to a previous layout, you can press the <strong>Undo</strong> button at the top. 
+							You can also use the <strong>Redo</strong> button to go forward.
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/undo-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/undo-after.jpg" />
+						</li>
+						
+					
+						<li>
+							<strong>Change How Elements Automatically Move</strong>
+							<br>
+							If you want to fix elements so they won't move automatically, you can select one or more elements and press the red lock icon at the top <img width=20 src="/design/static/icons/locked.png"/>, or the lock icon
+							beside the element.
+							The yellow lock icon <img width=20 src="/design/static/icons/tweakable.png" /> means the elements will stay near that current location and only move a bit.
+						
+							The open green lock <img width=20 src="/design/static/icons/unlocked.png" /> means the elements can move anywhere in the layout.
+					
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/states-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/states-after.jpg" />
+						</li>
+						<li>
+							<strong>Undo/Redo Automatic Suggestions</strong>
+							<br>
+							If you want to go back to a previous layout, you can press the <strong>Undo</strong> button at the top. 
+							You can also use the <strong>Redo</strong> button to go forward.
+							<br>
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/undo-before.jpg" />
+							<img style='border:1px solid #000000' width=400 src="/design/static/img/instructions/undo-after.jpg" />
+						</li>
+					
+						
+						
+					</ol>
+				-->
+		
+				</div>
+			</div>
+		{% endif %}
+	{% endblock interfaceTutorial %}
+	<hr>
+
+
+{% endblock beginning %}
+
+{% block introduction %}
+
+	
+	{% block instructions %}
+	{% endblock instructions %}
+
+	{% block beforeControls %}
+	{% endblock beforeControls %}
+
+	{% block controls %}
+	{% endblock controls %}
+	
+	
+
+	{% block beforeInterface %}
+
+	{% endblock beforeInterface %}
+
+	{% block interface %}
+		{% include "pages/createDesign.html" with design=design %}
+	{% endblock interface %}
+	
+	{% block afterInterface %}
+	{% endblock afterInterface %}
+	
+			
+	{% comment %}
+	{% block questionnaire %}
+				<p>The following questions will only be used to break down responses by 
+				age/gender/country.</p>
+
+				<p>Please enter the country you have lived most in:</p>
+				
+				<p>
+					<select name="country" size="1">
+						{% include "staticObjects/countryList.html" %}
+					</select>
+				</p>
+			
+			
+				<p>Age: <input name="age" type="text"> 
+				<br>
+				<input name="sex" value="male" type="radio"> Male <br>
+				<input name="sex" value="female" type="radio"> Female <br>
+				<br>
+				Are a fluent speaker of English?<br>
+				<input name="language" value="yes" type="radio"> Yes
+				<br>
+				<input name="language" value="no" type="radio"> No
+				<br>
+				<br>
+				
+	{% endblock questionnaire %}
+	{% endcomment %}
+
+{% endblock introduction %}
+
+
+
+{% block ending %}
+	{% block interfaceSpecificInputs %}
+	{% endblock interfaceSpecificInputs %}
+	
+	{% block opinionsAndSubmit %}
+
+		<input type="hidden" id="ipaddr" name="ipaddr" value="">
+		<input type="hidden" id="assignmentId" name="assignmentId" value="">
+		<input type="hidden" id="userInputLog" name="userInputLog" value="">
+		<input type="hidden" id="statusLog" name="statusLog" value="">
+		<input type="hidden" id="errorLog" name="errorLog" value="">
+		
+		<input type="hidden" id="studyType" name="studyType" value="variation">
+		
+		<input type="hidden" id="transferRate" name="transferRate" value="">
+		<input type="hidden" id="latency" name="latency" value="">
+		
+		<input type="hidden" id="sendLayoutTime" name="sendLayoutTime" value="">
+		<input type="hidden" id="initResponseTime" name="initResponseTime" value="">
+		<input type="hidden" id="convergenceTime" name="convergenceTime" value="">
+		
+		
+		<input type="hidden" id="userAgent" name="userAgent" value="">
+		<input type="hidden" id="userID" name="userID" value="{{ userID }}">
+		<input type="hidden" id="windowDimensions" name="windowDimensions" value="">
+		
+		<input type="hidden" id="startDateTime" name="startDateTime" value="">
+		<input type="hidden" id="totalTime" name="totalTime" value="">
+		<input type="hidden" id="layoutStartTime" name="layoutStartTime" value="">
+	
+		<input type="hidden" id="layoutTimes" name="layoutTimes" value="">
+		<input type="hidden" id="layoutIDs" name="layoutIDs" value="">
+		
+		
+		
+		<input type="hidden" id="interface" name="interface" value="">
+		
+		
+		<input type="hidden" id="layout0" name="layout0" value="">
+		<input type="hidden" id="layout1" name="layout1" value="">
+		<input type="hidden" id="layout2" name="layout2" value="">
+		<input type="hidden" id="layout3" name="layout3" value="">
+		<input type="hidden" id="layout4" name="layout4" value="">
+		<input type="hidden" id="layout5" name="layout5" value="">
+		
+		
+		<input type="hidden" id="layout_input0" name="layout_input0" value="">
+		<input type="hidden" id="layout_input1" name="layout_input1" value="">
+		<input type="hidden" id="layout_input2" name="layout_input2" value="">
+		<input type="hidden" id="layout_input3" name="layout_input3" value="">
+		<input type="hidden" id="layout_input4" name="layout_input4" value="">
+		<input type="hidden" id="layout_input5" name="layout_input5" value="">
+		
+		<input type="hidden" id="layout_log0" name="layout_log0" value="">
+		<input type="hidden" id="layout_log1" name="layout_log1" value="">
+		<input type="hidden" id="layout_log2" name="layout_log2" value="">
+		<input type="hidden" id="layout_log3" name="layout_log3" value="">
+		<input type="hidden" id="layout_log4" name="layout_log4" value="">
+		<input type="hidden" id="layout_log5" name="layout_log5" value="">
+	
+	
+		<input type="hidden" id="responses" name="responses" value="">
+		
+		<input type="hidden" id="hit_comments" name="hit_comments" value="">
+		<input type="hidden" id="interface_comments" name="interface_comments" value="">
+	
+		<hr>
+		<br>
+		<div class="row-fluid mturkQuestionnaire" style="display:none;">
+				
+			<div class="offset1 span10 well">
+						
+				<p>How often do you create graphic designs?
+				<br>
+				<input name="typexp" value="never" type="radio"> Never <br>
+				<input name="typexp" value="rarely" type="radio"> Rarely<br>
+				<input name="typexp" value="occasionally" type="radio"> Occasionally<br>
+				<input name="typexp" value="frequently" type="radio"> Frequently<br>
+				<input name="typexp" value="veryfrequently" type="radio"> Very Frequently<br>
+				</p>
+				
+				
+				<!--
+				<p>How satisfied were you with the quality of the suggestions in the Suggestion interface?
+					<input name="satisfaction" value="verydissatisfied" type="radio"> Very Dissatisfied
+					<input name="satisfaction" value="dissatisfied" type="radio"> Dissatisfied
+					<input name="satisfaction" value="neutral" type="radio"> Neutral
+					<input name="satisfaction" value="satisfied" type="radio"> Satisfied 
+					<input name="satisfaction" value="verysatisfied" type="radio"> Very Satisfied
+				</p>
+				-->
+				
+				<div id='rating1'>
+				<p id="directRating">How would you rate the Direct interface (where every element is set directly by the user )?<br>
+					<input name="directrating" value="verypoor" type="radio"> Very Poor<br>
+					<input name="directrating" value="poor" type="radio"> Poor<br>
+					<input name="directrating" value="neutral" type="radio"> Neutral<br>
+					<input name="directrating" value="good" type="radio"> Good <br>
+					<input name="directrating" value="verygood" type="radio"> Very Good<br>
+				</p>
+				</div>
+				
+				<div id='rating2'>
+				<p id="suggestionRating">How would you rate the Suggestion interface (where the interface makes suggestions)?<br>
+					<input name="suggestionrating" value="verypoor" type="radio"> Very Poor<br>
+					<input name="suggestionrating" value="poor" type="radio"> Poor<br>
+					<input name="suggestionrating" value="neutral" type="radio"> Neutral<br>
+					<input name="suggestionrating" value="good" type="radio"> Good <br>
+					<input name="suggestionrating" value="verygood" type="radio"> Very Good<br>
+				</p>
+				</div>
+				
+				<p id='interface_pref' >Which interface did you prefer?<br>
+					<!--<input name="pref" value="similar" type="radio"> Both interfaces were similar<br>-->
+					<span  id="direct_pref"> <input name="pref" value="direct" type="radio"> Direct interface<br>  </span>
+					<input name="pref" value="suggestion" type="radio"> Suggestion interface	<br>				
+				</p>
+
+			</div>
+			
+			</div>
+			
+		
+		</form>	
+	
+		<div style="display:none;" class="row-fluid mturkQuestionnaire">	
+			<div class="offset1 span10 well">	
+				<p>
+					Please provide feedback on the interfaces. Why did you prefer one over the other? (optional):<br>
+					<textarea id="user_interface_comments"style="width:500px;height:70px"></textarea>
+				</p>
+			</div>
+		</div>
+				
+
+		<div class="row-fluid"   id="commentsBox">
+			<div class="offset1 span10 well">
+				
+				<div id="mturkCommentsAndSubmit">
+					<p><strong>If you notice any bugs or wierd behavior, please let us know, including your browser. Thanks! </strong> </p>
+					{% block attributeComments %}
+					
+					{% endblock attributeComments %}
+		
+
+					<p>Comments or suggestions about the HIT (optional):</p>
+					<p>
+						<textarea id="user_comments"style="width:500px;height:70px"></textarea>
+					</p>
+		
+					<p><input  id="submitStudyButton" type="submit"  class="btn" value="Submit Results" onclick="return validateFormResults()"></p>
+		
+				</div>	
+
+			</div>
+		</div>
+		
+			
+	
+	{% endblock opinionsAndSubmit %}
+
+	
+
+
+{% endblock ending %}
+
+
+
+
+{% block scripts %}
+<script src="/design/static/js/mturk.js"></script>
+{% endblock scripts %}
+
+
+
+
+{% block extraScripts %}
+	<script>
+	
+		$('#startDateTime').data("date",new Date())
+	
+		$('#tabs').css('visibility', 'hidden');
+		
+		
+		
+		
+		$('#infoButton').hide()
+		
+		//$('#saved_lk').click()
+		$('#saveLayoutButton').css('visibility', 'hidden');
+		$('#showSavedButton').css('visibility', 'hidden');
+		$('.modifications').hide()
+		
+		 if (gup('assignmentId') != "ASSIGNMENT_ID_NOT_AVAILABLE")
+		 	$('#startStudyButton').show()
+		
+		$('#canvas').data("modificationsEnabled",false)
+		
+		$('#mturkQuestionnaire').hide()
+		//setTimeout(resetLayout,1000);
+		
+		
+		start_str='Tutorial-'
+		
+
+		
+
+		var design=gup("pairedDesign")
+		
+		
+		if (design=='rand')
+		{
+			designs=['design_1385323355104','design_1371586674077', 'design_1377715125096']
+			var select=Math.round((Math.random()*10000))%3
+			design=designs[select]
+		}
+		
+		var design_sequence=[]
+		if (Math.random()<0.5)
+		{
+			$('#canvas').data("suggestionsEnabled",false)
+			//$('#canvas').data("automaticUpdate",false)
+			$('.suggestions').hide()
+			$('#interface').data("interface",['baseline'])
+			design_sequence.push({design:"random/design_direct_tut"})
+			design_sequence.push({design:design})
+			design_sequence.push({design:design})
+			design_sequence.push({design:"random/design_sugg_tut"})
+			design_sequence.push({design:design})
+			design_sequence.push({design:design})
+			
+			start_str+='Baseline'
+		}
+		else
+		{
+			$('#canvas').data("suggestionsEnabled",true)
+			$('.suggestions').show()
+			
+				
+			if ($('#canvas').data("automaticUpdate"))
+				$('#interface').data("interface",['adaptive'])
+			
+			else
+				$('#interface').data("interface",['suggestions'])
+			
+			
+			design_sequence.push({design:"random/design_sugg_tut"})
+			design_sequence.push({design:design})
+			design_sequence.push({design:design})
+			design_sequence.push({design:"random/design_direct_tut"})
+			design_sequence.push({design:design})
+			design_sequence.push({design:design})
+			
+			start_str+='Suggestions'
+		}
+		
+		
+		console.log(design_sequence[0].design)
+		$('#canvas').data("user_input_log",[start_str])
+		$('#canvas').data("design_sequence",design_sequence)
+		$('#canvas').data("sequence_type","paired")
+		$('#canvas').data("randomizeInit",true)
+			
+			
+		if ($('#canvas').data("automaticUpdate"))
+		{
+			$('#sugg_instructions').hide()	
+			$('#suggestion_td').hide()
+		}
+		
+		
+		
+	
+	    $('#assignmentId').val(gup('assignmentId'));
+	    //
+	    // Check if the worker is PREVIEWING the HIT or if they've ACCEPTED the HIT
+	    //
+		//alert(getURLParameter('assignmentId'))
+	    if (getURLParameter('assignmentId') == "ASSIGNMENT_ID_NOT_AVAILABLE")
+	    {
+		
+			
+		  // If we're previewing, disable the button and give it a helpful message
+		  document.getElementById('submitStudyButton').disabled = true;
+		  document.getElementById('submitStudyButton').value = "You must ACCEPT the HIT before you can do the full HIT or submit.";
+	    } 
+		else 
+		{
+			//console.log("trying to set new form action")
+			//console.log("referrer")
+			console.log(document.referrer)
+	        var form = document.getElementById('mturk_form');
+	        if (document.referrer && ( document.referrer.indexOf('workersandbox') == -1) ) {
+	        	console.log("setting new form action")
+	            form.action = "https://www.mturk.com/mturk/externalSubmit";
+	        }
+	    }
+	    //$('#mturk_form').submit(function(){return validateFormResults()});
+	    //$('#submitStudyButton').click
+	    //$('#clearQueryURL').click(function(){location.hash="";});
+	    $('#userAgent').val(navigator.userAgent);
+	    
+
+    </script>
+{% endblock extraScripts %}
+{% block errorHandling %}
+{% endblock errorHandling %}

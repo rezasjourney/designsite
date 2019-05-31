@@ -1,0 +1,1 @@
+char *home_dir="/Users/reza/gitprojects/designsite/optLayout/";

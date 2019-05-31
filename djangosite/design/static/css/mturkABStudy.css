@@ -1,0 +1,61 @@
+.container{
+	width:1300px;
+}
+.cell{
+	width:600px;
+}
+
+img {
+	border-style: none;
+	border-width: 1px;
+}
+
+.moreless {
+	color:#ff6633;
+	font-weight:bold;
+}
+
+.attrib {
+	color:#3366ff;
+	font-weight:bold;
+}
+
+.cell {
+	float: left;
+	width: 600px;
+	border-color: #cccccc;
+	border-width: 1px;
+	border-style: solid;
+	background-color:white;
+}
+
+.varCell{
+	float: left;
+	width: 250px;
+	padding: 10px;
+	clear:none;
+}
+
+.imageTitle{
+	text-align:center;
+}
+
+.endRow {
+	clear: left;
+}
+.answerOption{
+	padding-left:5px;
+	float:left;
+	display:block;
+	width:230px;
+}
+input[type=radio].answer, input.radio.answer {
+	float:left;
+	clear:left;
+	padding-top:5px;
+	margin 2px 0 0 2px;
+}
+#subtaskContainer.failure{
+	color:red;
+	font-size:20pt;	
+}

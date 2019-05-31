@@ -1,0 +1,26 @@
+Weights,,,
+Text Size,100,3,1
+Graphic Size,600,3,1
+Text Size Reverse,100,3,1
+Graphic Size Reverse,0,3,1
+Text Size Variance,10,1,1
+Whitespace,0,1,1
+Whitespace Reverse,0,1,1
+Text X Symmetry,75,3,1
+Text Y Symmetry,25,3,1
+Graphic X Symmetry,75,3,1
+Graphic Y Symmetry,25,3,1
+Text X Reverse Symmetry,0,1,1
+Text Y Reverse Symmetry,0,1,1
+Graphic X Reverse Symmetry,0,1,1
+Graphic Y Reverse Symmetry,0,1,1
+Graphic Size Variance,150,5,1
+Pairwise Distances Avg,300,10,1
+Pairwise Distances Min,300,10,1
+Text Margins Avg,0,1,1
+Text Margins Min,300,50,1
+Graphic Margins Avg,0,1,1
+Graphic Margins Min,300,50,1
+Text Diag Flow,100,5,1
+Text X Flow,10,1,1
+Text Y Flow,100,1,1

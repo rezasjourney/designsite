@@ -1,0 +1,57 @@
+	<div class="resultsRow row-fluid">
+		<div class="well"><!--offset2 span8 -->
+			<div class="row-fluid">
+				
+				<div class="fontID span12">
+					<div class="fontImage">
+						<img class='img-rounded' src="/~libeks/fontQuery/static/fontList/Helvetica.gif">
+					</div>
+				</div>
+
+				<div class="row-fluid">
+					<div class="fontResultsTop span12">
+						<span class="fontRank"></span>
+						<span class="fontNameContainer btn-group">
+							<span class="fontNameP fontName btn disabled">Helvetica</span>
+							<span class="btn addFont"><i class="icon-plus"></i></span>
+						</span>
+						<div class="fontScore">
+							<span>Distance: <span class="resultsNumber">100</span></span>
+						</div>
+					</div>
+					<div class="fontResultsLeftPane">
+						<div class="attributes fontQueryAttributes">
+							<div class="attributeQuantityScore btn-group">
+								<span class="tagName attribName btn disabled btn-mini">doodeedoo</span>
+								<span class="attribScore btn btn-mini disabled progress"><span class="score">77.3</span><div class="bar bar-success attribProgressBar" style="width:77.3%;"></div></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="fontResultsRightPane">
+						<span class="otherAttributesLabel">Other attributes:</span>
+						<div class="attributes fontQueryAttributes">
+							<div class="attributeQuantityScore btn-group">
+								<span class="tagName attribName btn disabled btn-mini">thin</span>
+								<span class="attribScore btn btn-mini disabled progress"><span class="score">77.3</span><div class="bar bar-success attribProgressBar" style="width:77.3%;"></div></span>
+								<span class="attribRelativeScore btn btn-mini disabled">+10</span>
+								<span class="addTag btn btn-mini"><i class="icon-plus"></i></span>
+							</div>
+						</div>
+						<div class="attributes otherAttributes">
+							{% with font.otherAttributes as attribList %}
+								{% include "dynamicObjects/attribListRelative.html"%}
+							{% endwith %}
+						</div>
+
+						<div class="attributes hiddenAttribs">
+
+						</div>
+					</div>
+					<div class="showMore">(show all attributes)</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>

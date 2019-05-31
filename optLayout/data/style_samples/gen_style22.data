@@ -1,0 +1,107 @@
+Weights,,,
+Text Size,440.830,3.043,1.000
+Graphic Size,1147.402,2.089,1.000
+Min Text Size,4999.998,1.000,1.000
+Min Graphic Size,4999.998,1.000,1.000
+Whitespace,10.000,48834463.646,1.000
+Spread,1046.140,6.823,1.000
+Text Out of Bounds,4999.998,10.000,1.000
+Graphic Out of Bounds,4999.998,10.000,1.000
+Text Overlap,4999.998,10.000,1.000
+Graphic Overlap,0.000,10.000,1.000
+Graphic Text Overlap,0.000,10.000,1.000
+Text X Symmetry,90.288,3.000,1.000
+Text Y Symmetry,21.064,3.000,1.000
+Graphic X Symmetry,0.000,3.000,1.000
+Graphic Y Symmetry,7.445,3.000,1.000
+Align X-Left,439.321,0.100,1.000
+Align X-Center,475.703,0.100,1.000
+Align X-Right,10.048,0.100,1.000
+Align Y-Bottom,9.011,0.604,1.000
+Align Y-Center,11.278,0.959,1.000
+Align Y-Top,195.576,4.617,1.000
+Align Error X,518.838,1.104,1.000
+Align Error Y,311.836,0.212,1.000
+Align Group Sizes,0.000,1.000,1.000
+Text Importance Pearson,244.647,1.886,1.000
+Graphic Importance Pearson,0.000,1.000,1.000
+Text X Position,17.755,0.100,1.000
+Graphic X Position,23.809,0.110,1.000
+Text Y Position,42.091,0.101,1.000
+Graphic Y Position,19.829,0.100,1.000
+Text X Position - Reverse,34.702,0.100,1.000
+Graphic X Position - Reverse,46.385,0.107,1.000
+Text Y Position - Reverse,16.201,0.100,1.000
+Graphic Y Position - Reverse,26.725,0.108,1.000
+Pairwise Distances Avg,342.978,10.000,1.000
+Pairwise Distances Min,286.712,10.000,1.000
+Text Margins Avg,10.000,48834463.646,1.000
+Text Margins Min,428.542,50.000,1.000
+Graphic Margins Avg,10.000,48834463.646,1.000
+Graphic Margins Min,251.371,50.000,1.000
+Text Size Variance,14.532,1.115,1.000
+Text X Flow,0.000,1.842,1.000
+Text Y Flow,136.495,0.221,1.000
+Num Regions,0.000,0.100,1.000
+Text Region X Symmetry,182.044,1.788,1.000
+Graphic Region X Symmetry,182.858,3.667,1.000
+Text X Reverse Symmetry,1.415,0.246,1.000
+Text Y Reverse Symmetry,27.422,0.326,1.000
+Graphic X Reverse Symmetry,3.598,1.391,1.000
+Graphic Y Reverse Symmetry,70.923,0.483,1.000
+Text X Position Variance,19.395,1.161,1.000
+Graphic X Position Variance,0.000,0.891,1.000
+Text Y Position Variance,26.579,0.724,1.000
+Graphic Y Position Variance,0.000,0.728,1.000
+Text Distances Avg,10.000,42229648.200,1.000
+Element Region Difference,0.000,1.000,1.000
+Empty Region,0.000,1.000,1.000
+Region Overlap,0.000,10.000,1.000
+Line Length,145.787,10.982,1.000
+Element 0 Position Difference,0.000,3.000,0.000
+Element 1 Position Difference,0.000,3.000,0.000
+Element 2 Position Difference,0.000,3.000,0.000
+Element 3 Position Difference,0.000,3.000,0.000
+Element 4 Position Difference,0.000,3.000,0.000
+Element 5 Position Difference,0.000,3.000,0.000
+Element 6 Position Difference,0.000,3.000,0.000
+Element 7 Position Difference,0.000,3.000,0.000
+Element 8 Position Difference,0.000,3.000,0.000
+Element 9 Position Difference,0.000,3.000,0.000
+Element 10 Position Difference,0.000,3.000,0.000
+Element 11 Position Difference,0.000,3.000,0.000
+Element 12 Position Difference,0.000,3.000,0.000
+Element 13 Position Difference,0.000,3.000,0.000
+Element 14 Position Difference,0.000,3.000,0.000
+Element 0 Height Difference,0.000,3.000,0.000
+Element 1 Height Difference,0.000,3.000,0.000
+Element 2 Height Difference,0.000,3.000,0.000
+Element 3 Height Difference,0.000,3.000,0.000
+Element 4 Height Difference,0.000,3.000,0.000
+Element 5 Height Difference,0.000,3.000,0.000
+Element 6 Height Difference,0.000,3.000,0.000
+Element 7 Height Difference,0.000,3.000,0.000
+Element 8 Height Difference,0.000,3.000,0.000
+Element 9 Height Difference,0.000,3.000,0.000
+Element 10 Height Difference,0.000,3.000,0.000
+Element 11 Height Difference,0.000,3.000,0.000
+Element 12 Height Difference,0.000,3.000,0.000
+Element 13 Height Difference,0.000,3.000,0.000
+Element 14 Height Difference,0.000,3.000,0.000
+Graphic Size Variance,156.274,5.062,1.000
+Text Diag Flow,78.346,4.979,1.000
+Group Distance,400.000,6604816.448,1.000
+No Overlap Regions,3000.000,10.000,1.000
+Text Size Reverse,2.301,0.774,1.000
+Graphic Size Reverse,6.656,0.891,1.000
+Whitespace Reverse,10.000,6604816.448,1.000
+Group Alignment,100.000,0.100,1.000
+Group Text Size Variance,100.000,33024080.010,1.000
+Group Graphic Size Variance,100.000,33024080.010,1.000
+Group Graphic X Align Variance,25.000,33024080.010,1.000
+Group Graphic Y Align Variance,25.000,33024080.010,1.000
+Hidden Element,1500.000,1.000,1.000
+Alignment Lines,0.000,1.000,1.000
+Size Constraints,0.000,20.000,0.000
+Alignment Constraints,0.000,20.000,0.000
+Relative Difference,0.000,5.000,0.000

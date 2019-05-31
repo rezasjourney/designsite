@@ -1,0 +1,34 @@
+{% extends "dynamicObjects/abstract/resultsRow.html"%}
+
+{% block fontScore %}
+	<div class="fontScore">
+		<span>Score: <span class="resultsNumber">{{font.score|floatformat:0}}%</span></span>
+	</div>
+{% endblock %}
+{% block presentAttributes %}
+	<div class="attributes fontQueryAttributes">
+		{% with font.queryAttributes as attribList %}
+			{% include "dynamicObjects/attribListAbsolute.html"%}
+		{% endwith %}
+	</div>
+{% endblock %}
+{% block otherAttributes %}
+	<span>Other attributes:</span>
+	<div class="attributes otherAttributes">
+		{% with font.otherAttributes as attribList %}
+			{% include "dynamicObjects/attribListAbsolute.html"%}
+		{% endwith %}
+	</div>
+{% endblock %}
+
+{% block hiddenAttribs %}
+	<div class="attributes hiddenAttribs">
+		{% with font.hiddenAttributes as attribList%}
+			{% include "dynamicObjects/attribListAbsolute.html"%}
+		{% endwith %}
+	</div>
+{% endblock %}
+
+{% block showMore %}
+	<div class="showMore">(show all attributes)</div>
+{% endblock %}

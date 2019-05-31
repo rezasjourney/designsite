@@ -1,0 +1,4 @@
+{% for attribute in attribList %}
+	{% include "dynamicObjects/attribAbsoluteScore.html" %}
+	{% if not forloop.last %}<br />{% endif %}
+{% endfor %}

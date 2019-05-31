@@ -1,0 +1,25 @@
+{% extends "dynamicObjects/abstract/resultsRow.html"%}
+
+{% block specialRowClasses%}originalFontImage{% endblock %}
+{% block fontName %}
+	<span class="fontNameP">Original Font:<br>{{font.name}}</span>
+{% endblock %}
+{% block presentAttributes %}
+	<div class="attributes fontQueryAttributes">
+		{% with originalFont.queryAttributes as attribList %}
+			{% include "dynamicObjects/attribListAbsolute.html"%}
+		{% endwith %}
+	</div>
+{% endblock %}
+
+{% block hiddenAttribs %}
+	<div class="attributes hiddenAttribs">
+		{% with font.hiddenAttributes as attribList%}
+			{% include "dynamicObjects/attribListAbsolute.html"%}
+		{% endwith %}
+	</div>
+{% endblock %}
+
+{% block showMore %}
+	<div class="showMore">(show all attributes)</div>
+{% endblock %}

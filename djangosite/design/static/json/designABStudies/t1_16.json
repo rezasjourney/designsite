@@ -1,0 +1,145 @@
+{
+    "hitNumber": 16, 
+    "tasks": [
+        {
+            "designA": "design_1371586674077-AFN9BWV94JE75-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-0", 
+            "designB": "design_1371586674077-ATMYKYM1251GF-21405BMJTUHYGLXNXQIADS5ZUDOGLC-1", 
+            "suggID": 0, 
+            "taskID": 0, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1371586674077-A14GSKVEQOSIFD-21405BMJTUHYGLXNXQIADS5ZUDOGLC-0", 
+            "designB": "design_1371586674077-A2LR1CD4ZENBAK-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-0", 
+            "suggID": 1, 
+            "taskID": 1, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1385323355104-A3R7CE8MXGRVDT-25F7H57DZKPFYNVALY4M85LBQ942CA-0", 
+            "designB": "design_1385323355104-A2JS4L9W7WE7U8-2C914IXKO2L9M0V64RXX9YOFKRIBCA-0", 
+            "suggID": 0, 
+            "taskID": 2, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1385323355104-A318QP0E1HS9DX-25F7H57DZKPFYNVALY4M85LBQ942CA-0", 
+            "designB": "design_1385323355104-A3U0ZQKX6T3U4Z-2C914IXKO2L9M0V64RXX9YOFKRIBCA-1", 
+            "suggID": 0, 
+            "taskID": 3, 
+            "taskType": "consistency"
+        }, 
+        {
+            "designA": "design_1371586674077-A12BXPP7IY7G58-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-1", 
+            "designB": "design_1371586674077-A2M8R18S384CGC-21405BMJTUHYGLXNXQIADS5ZUDOGLC-1", 
+            "suggID": 0, 
+            "taskID": 4, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1371586674077-A2QLNAR7HVQA5P-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-1", 
+            "designB": "design_1371586674077-A3P5BJ1GA3NLBY-21405BMJTUHYGLXNXQIADS5ZUDOGLC-0", 
+            "suggID": 0, 
+            "taskID": 5, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1371586674077-A2QLNAR7HVQA5P-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-1", 
+            "designB": "design_1371586674077-AU01SDJJ5QTQ6-21405BMJTUHYGLXNXQIADS5ZUDOGLC-0", 
+            "suggID": 0, 
+            "taskID": 6, 
+            "taskType": "consistency"
+        }, 
+        {
+            "designA": "design_1371586674077-A3MPOO447SGD7V-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-0", 
+            "designB": "design_1371586674077-A1OWOEUYGNSMD7-21405BMJTUHYGLXNXQIADS5ZUDOGLC-2", 
+            "suggID": 0, 
+            "taskID": 7, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1371586674077-A2LR1CD4ZENBAK-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-0", 
+            "designB": "design_1371586674077-A14GSKVEQOSIFD-21405BMJTUHYGLXNXQIADS5ZUDOGLC-2", 
+            "suggID": 0, 
+            "taskID": 8, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1371586674077-ATMYKYM1251GF-21405BMJTUHYGLXNXQIADS5ZUDOGLC-1", 
+            "designB": "design_1371586674077-A2QLNAR7HVQA5P-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-2", 
+            "suggID": 1, 
+            "taskID": 9, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1385323355104-A2GL0OYFMIBRDI-25F7H57DZKPFYNVALY4M85LBQ942CA-0", 
+            "designB": "design_1385323355104-A27VWYGK7AIK1B-2C914IXKO2L9M0V64RXX9YOFKRIBCA-1", 
+            "suggID": 0, 
+            "taskID": 10, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1371586674077-A1OWOEUYGNSMD7-21405BMJTUHYGLXNXQIADS5ZUDOGLC-0", 
+            "designB": "design_1371586674077-A2QLNAR7HVQA5P-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-2", 
+            "suggID": 1, 
+            "taskID": 11, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1385323355104-A10OJZHJKJOMX8-25F7H57DZKPFYNVALY4M85LBQ942CA-1", 
+            "designB": "design_1385323355104-A1H6G4OUUZFNNT-2C914IXKO2L9M0V64RXX9YOFKRIBCA-2", 
+            "suggID": 0, 
+            "taskID": 12, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1371586674077-AU01SDJJ5QTQ6-21405BMJTUHYGLXNXQIADS5ZUDOGLC-0", 
+            "designB": "design_1371586674077-A2QLNAR7HVQA5P-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-1", 
+            "suggID": 1, 
+            "taskID": 13, 
+            "taskType": "consistency"
+        }, 
+        {
+            "designA": "design_1371586674077-A12BXPP7IY7G58-2F84J3NAB6BF6YWI6F9T7TJILLTFS9-2", 
+            "designB": "design_1371586674077-A23WYYXPFMZD2X-21405BMJTUHYGLXNXQIADS5ZUDOGLC-1", 
+            "suggID": 0, 
+            "taskID": 14, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1385323355104-A3U0ZQKX6T3U4Z-2C914IXKO2L9M0V64RXX9YOFKRIBCA-2", 
+            "designB": "design_1385323355104-A3SZSLIV001P8W-25F7H57DZKPFYNVALY4M85LBQ942CA-2", 
+            "suggID": 1, 
+            "taskID": 15, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1385323355104-A1UQY88ES3DCOW-2C914IXKO2L9M0V64RXX9YOFKRIBCA-2", 
+            "designB": "design_1385323355104-A3VR70TTTB0Y0A-25F7H57DZKPFYNVALY4M85LBQ942CA-2", 
+            "suggID": 1, 
+            "taskID": 16, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1385323355104-A3SZSLIV001P8W-25F7H57DZKPFYNVALY4M85LBQ942CA-0", 
+            "designB": "design_1385323355104-AI2SQ9ZJMEPFH-2C914IXKO2L9M0V64RXX9YOFKRIBCA-0", 
+            "suggID": 0, 
+            "taskID": 17, 
+            "taskType": "real"
+        }, 
+        {
+            "designA": "design_1385323355104-A3U0ZQKX6T3U4Z-2C914IXKO2L9M0V64RXX9YOFKRIBCA-1", 
+            "designB": "design_1385323355104-A318QP0E1HS9DX-25F7H57DZKPFYNVALY4M85LBQ942CA-0", 
+            "suggID": 1, 
+            "taskID": 18, 
+            "taskType": "consistency"
+        }, 
+        {
+            "designA": "design_1385323355104-A23NHL1Q5LUYB4-25F7H57DZKPFYNVALY4M85LBQ942CA-0", 
+            "designB": "design_1385323355104-A3V1RXWK0FP0G5-2C914IXKO2L9M0V64RXX9YOFKRIBCA-2", 
+            "suggID": 0, 
+            "taskID": 19, 
+            "taskType": "real"
+        }
+    ]
+}

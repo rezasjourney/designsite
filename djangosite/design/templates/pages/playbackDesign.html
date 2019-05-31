@@ -1,0 +1,269 @@
+{% extends "pages/abstract/baseTemplate.html" %}
+
+
+{% block title %}
+	{% if not minimalistic %}
+		{% if includeTitleBar %}
+			{{block.super}}	
+		{% endif %}	
+	{% endif %}
+	
+	<script>
+	if (typeof console === 'undefined'){
+		console={'log':function(){},'error':function(){}}
+	}
+	</script>
+{% endblock title %}
+
+
+
+{% block beginning %}
+
+	<form id="mturk_form" method="POST" action="https://workersandbox.mturk.com/mturk/externalSubmit">
+
+	
+
+{% endblock beginning %}
+
+{% block introduction %}
+
+	
+	{% block instructions %}
+	{% endblock instructions %}
+
+	{% block beforeControls %}
+	{% endblock beforeControls %}
+
+	{% block controls %}
+	{% endblock controls %}
+	
+	
+
+	{% block beforeInterface %}
+
+	{% endblock beforeInterface %}
+
+	{% block interface %}
+		{% include "pages/createDesign.html" with design=design %}
+	{% endblock interface %}
+	
+	{% block afterInterface %}
+			Type: <span id=updateType></span><br>
+			Time: <span id=updateTime></span><br>
+			
+			Update: <span id=playbackIdx></span>
+			<div id="slider"></div>
+			<br>
+	
+			<button  id="stopPlaybackButton" type="button" name="align" class= "btn btn-small" onclick="pausePlayback()" >Pause</button>
+			<button  id="startPlaybackButton" type="button" name="align" class= "btn btn-small" onclick="startPlayback()" >Start</button>
+			<br>
+			<br>
+			<div class=span8>
+
+				<textarea style="width:600px;height:50px" id=layoutInput></textarea><br>
+				<textarea style="width:250px;height:300px" id=updateLayout></textarea>
+				
+			
+			</div>
+	{% endblock afterInterface %}
+	
+			
+
+
+{% endblock introduction %}
+
+
+
+{% block ending %}
+
+
+	</form>	
+
+{% endblock ending %}
+
+
+
+
+{% block scripts %}
+
+
+
+
+
+
+{% endblock scripts %}
+
+
+
+
+{% block extraScripts %}
+	<script>
+			
+		function pausePlayback()
+		{
+			$('#canvas').data("paused",true)
+		}
+			
+		function startPlayback()
+		{
+			$('#canvas').data("paused",false)
+			
+			showLayout($('#canvas').data("log"),-1,$('#slider').slider("value"))
+		}			
+			
+		
+		function showLayout(log, last_time, idx)
+		{
+			if ((idx>=log.length-2))
+			{
+				console.log("finished")
+				return;
+			}
+			
+			
+			$('#playbackIdx').text(Math.round(idx/3))
+			
+			$('#slider').slider('value',idx);
+			
+			console.log("last_time:"+last_time)
+			
+			var type=log[idx].replace(",","")
+			
+			if (type=='sugg')
+				$('#canvas').css("background-color",'#6F6')
+			else
+				$('#canvas').css("background-color",'transparent')
+			
+			var curr_time=parseInt(log[idx+1].replace(",",""))
+			var layout=log[idx+2]
+			
+			var idx2=layout.indexOf("design_")
+			layout=layout.substring(idx2,layout.length)
+			
+			$('#updateType').text(type.replace("user-",""))
+			$('#updateLayout').text(layout)
+			
+			$('#updateTime').text((curr_time-$('#canvas').data("initTime"))/1000)
+			
+			
+			var time_diff=curr_time-last_time
+			if (last_time==-1)
+				time_diff=0
+			
+			console.log("\ntype:"+type)
+			console.log("curr_time:"+curr_time)
+			console.log("layout:"+layout)
+	
+	
+	
+	
+	
+			setCurrentLayout(layout,true,false,undefined,type)
+			
+			console.log("time_diff:"+time_diff)
+			
+			if(!$('#canvas').data("paused"))
+			{
+				var timeoutid=setTimeout(function(){showLayout(log,curr_time,idx+=3)},time_diff)
+				$('#canvas').data("timeout",timeoutid)
+			}
+			
+		}
+	
+		
+		$('#canvas').data("paused",false)
+	
+		$('#startDateTime').data("date",new Date())
+	
+		$('#tabs').css('visibility', 'hidden');
+		
+		$('#infoButton').hide()
+		$('#nextDesignButton').hide()		
+		$('#saved_lk').click()
+		$('#saveLayoutButton').hide()
+		$('.modifications').hide()
+		$('.suggestions').hide()
+		
+		$('#resetLayoutButton').hide()	
+		
+		$('.btn-group').hide()
+		
+		$('#canvas').data("modificationsEnabled",false)
+		$('#canvas').data("suggestionsEnabled",false)
+		
+		$('#mturkQuestionnaire').hide()
+		//setTimeout(resetLayout,1000);
+		
+		$('.modifications').hide()
+		
+		var jsonFile=gup("json")
+		
+		jsonFile=jsonFile.replace(".json","")
+		
+		$('#canvas').data("playback",true)
+		
+		var layout_num=gup("layout")
+		
+		
+		var jsonLoad = $.getJSON(sprintf('/design/static/json/%s.json', jsonFile), function(json) {
+			console.log('json obtained');
+
+
+			$('#layoutInput').text(json['layout_input'+layout_num])
+
+			var log=json['layout_log'+layout_num]
+			
+			log=log.split(";,").join("")
+			//console.log(log)
+			
+			var design=json['layout'+layout_num].split("\n")[0]
+			
+			
+			loadDesignFile(design)
+			
+			
+			log=log.split(",")
+			
+			for (var i=0;i<log.length;i++)
+			{
+				if (log[i].indexOf("design_")>-1)
+				{
+					log[i-2]=":"+log[i-2]
+					log[i-1]=":"+log[i-1]
+					log[i]=":"+log[i]
+				}
+			}
+			
+			var log_str=log.join(",")
+			log=log_str.split(":")
+			
+			
+			$('#canvas').data("log",log)
+			
+			
+			$( "#slider" ).slider({value:0,min:1,max:log.length,step:3, slide:function(event, ui){
+				console.log("slider: "+ui.value)
+				$('#canvas').data("paused",true)
+				
+				$('#playbackIdx').text(Math.round(ui.value/3))
+				
+				clearTimeout($('#canvas').data("timeout"))
+				showLayout(log, -1, ui.value)				
+			}})
+			
+			//console.log(log_str)
+			$('#canvas').data("initTime",parseInt(log[2]))
+			
+			executeAfterTextRendering(function(){showLayout(log,-1,1)})
+					
+		});
+
+	
+
+	    
+
+    </script>
+{% endblock extraScripts %}
+{% block errorHandling %}
+{% endblock errorHandling %}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+	<script type="text/javascript" src="/design/static/jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/design/static/jquery/ui-1.8.24/jquery-ui.min.js"></script>
+	
+	<script type="text/javascript" src="/design/static/js/sprintf-0.6.js"></script>
+	<script type="text/javascript" src="/design/static/jquery/jquery.dataSelector.js"></script>
+	
+
+	{% block javascriptSources %}
+		<script type="text/javascript" src="/design/static/js/main.js"></script>
+	{% endblock javascriptSources %}
+	<!--end javascript-->
+	<!--css-->
+
+	
+	{% block cssSources %}
+		
+		
+		
+		<link href="/design/static/css/custom-theme/jquery-ui-1.8.24.custom.css" rel="stylesheet" type="text/css" />
+		<link href="/design/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="/design/static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+		
+		<link rel="stylesheet" type="text/css" href="/design/static/css/font.css" />
+		<link rel="stylesheet" type="text/css" href="/design/static/css/main.css" />
+	{% endblock cssSources %}
+	{% block pageTitle %}
+		<title>DesignScape</title>
+	{% endblock pageTitle %}
+	<!--end css-->
+
+{% block scriptSources %}
+<!-- should be blank - to be deprecated -->
+{% endblock %}
+
+
+</head>
+<!-- Extra white-space below is just to make it easier to read. :-) -->
+
+<!--[if IE]>   <body class="ie">          <![endif]-->
+<!--[!(IE)]><!-->    <body> <!--<![endif]-->
+	<div class="container">
+
+		
+		{% block bootstrap_guide %}
+			{% comment %}
+			<div class="row-fluid">
+				<div class="span1 gray">1</div>
+				<div class="span1 gray">2</div>
+				<div class="span1 gray">3</div>
+				<div class="span1 gray">4</div>
+				<div class="span1 gray">5</div>
+				<div class="span1 gray">6</div>
+				<div class="span1 gray">7</div>
+				<div class="span1 gray">8</div>
+				<div class="span1 gray">9</div>
+				<div class="span1 gray">10</div>
+				<div class="span1 gray">11</div>
+				<div class="span1 gray">12</div>
+			</div>			
+			{% endcomment %}
+			
+			
+		{% endblock bootstrap_guide %}
+
+
+		
+		<form id="mturk_form" method="POST" action="https://workersandbox.mturk.com/mturk/externalSubmit">
+		
+		{% block beginning %}
+		{% endblock beginning %}
+
+		{% block introduction %}
+		{% endblock introduction %}
+
+
+		{% block content %}
+		<div id="content"> </div>
+		{% endblock %}
+
+		{% block ending %}
+		{% endblock ending %}
+
+		{% block opinionsAndSubmit %}
+	
+	
+	
+	
+	
+		{% endblock opinionsAndSubmit %}
+		
+			
+	{% comment %}
+	{% block questionnaire %}
+	<div id="mturkQuestionnaire">
+		<hr>
+		<br>
+		<div class="row-fluid">
+			
+					
+				
+			<div class="offset1 span10 well">
+				<p>The following questions will only be used to break down responses by 
+				age/gender/country.</p>
+
+				<p>Please enter the country you have lived most in:</p>
+				
+				<p>
+					<select name="country" size="1">
+						{% include "staticObjects/countryList.html" %}
+					</select>
+				</p>
+				
+				<p>Age: <input name="age" type="text"> 
+				<br>
+				<input name="sex" value="male" type="radio"> Male <br>
+				<input name="sex" value="female" type="radio"> Female <br>
+				<br>
+				Are a fluent speaker of English?<br>
+				<input name="language" value="yes" type="radio"> Yes
+				<br>
+				<input name="language" value="no" type="radio"> No
+				<br>
+
+				<p>How much experience have you had working with graphic design?
+				<br>
+				<input name="typexp" value="none" type="radio"> None <br>
+				<input name="typexp" value="some" type="radio"> Some <br>
+				<input name="typexp" value="professional" type="radio"> Professional
+				<br>
+			</div>
+			
+		</div>
+	</div>
+	{% endblock questionnaire %}
+	{% endcomment %}
+		
+		
+		</form>
+
+		{% block scripts %}
+		{% endblock scripts %}
+		{% block extraScripts %}
+		{% endblock extraScripts %}
+		{% block errorHandling %}
+		{% endblock errorHandling %}
+		
+		
+		
+		
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+<div class="ui-widget">
+	<div class="queryContainer" id="fontQueryElt"> <input id="fontAttribSearchAttrib" type="text" data-provide="typeahead" data-items="4" size="25" class="oddInput"> <input id="fontAttribSearchFont" type="text" data-provide="typeahead" data-items="4" size="25" class="oddInput"> </div>
+	<form name="input" action="/~libeks/fontQuery/search/" id="fontAttribSearchForm">
+		<button id="submitButton" class="submitButton btn" type="button" onclick="submitSecondForm()">Search</button>
+		<input type="hidden" name="userID" value="{{userID}}">
+		<input type="hidden" name="text" value="" />
+		<input type="hidden" name="type" value="fontAttribSearch" />
+		<input type="hidden" name="thresholdMethod" value="{{thresholdMethod|default:'t_50p'}}">
+	</form>
+	<div class="searchOptions">
+		<span>Search method:</span>
+		<span id="t_10" class="thresholdTag {% ifequal thresholdMethod 't_10' %}tagOn{% endifequal %}"><a href="#" onclick="setThresholdMethodTo('t_10')">+10</a></span>
+		<span id="t_50p" class="thresholdTag {% if thresholdMethod %}{% ifequal thresholdMethod 't_50p' %}tagOn{% endifequal %}{% else %}tagOn{% endif %}"><a href="#" onclick="setThresholdMethodTo('t_50p')">+50%</a></span>
+		<span id="t_correl_10" class="thresholdTag {% ifequal thresholdMethod 't_correl_10' %}tagOn{% endifequal %}"><a href="#" onclick="setThresholdMethodTo('t_correl_10')">Correl+10</a></span>
+		<span id="t_correl_50p" class="thresholdTag {% ifequal thresholdMethod 't_correl_50p' %}tagOn{% endifequal %}"><a href="#" onclick="setThresholdMethodTo('t_correl_50p')">Correl+50%</a></span>
+	</div>
+</div>

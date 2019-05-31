@@ -1,0 +1,250 @@
+{% extends "pages/abstract/baseTemplate.html" %}
+
+
+{% block scriptSources %}
+<script src="/design/static/js/studyUtils.js?v=1"></script>
+<script src="/design/static/jquery/jquery.imagesloaded.min.js"></script>
+<script src="/design/static/jquery/jquery.ba-bbq.min.js"></script>
+<script src="/design/static/js/mturkABStudy.js"></script>
+<link rel="stylesheet" type="text/css" href="/design/static/css/jquery.countdown.css"> 
+<link rel="stylesheet" type="text/css" href="/design/static/css/mturkABStudy.css"> 
+<script type="text/javascript" src="/design/static/jquery/jquery.countdown.min.js"></script>
+<style type="text/css">
+	.dumbBoxWrap { /* The div that shows/hides. */
+	    display:none; /* starts out hidden */
+	    position:absolute;
+	    top:0;
+	    left:0;
+	    z-index:40001; /* High z-index to ensure it appears above all content */
+	}
+	.dumbBoxOverlay { /* Shades out background when selector is active */
+	    position:fixed;
+	    width:100%;
+	    height:100%;
+	    background-color:black;
+	    opacity:.5; /* Sets opacity so it's partly transparent */
+	    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE transparency */
+	    filter:alpha(opacity=50); /* More IE transparency */
+	    z-index:40001;
+	}
+	.vertical-offset { /* Fixed position to provide the vertical offset */
+	    position:fixed;
+	    top:20%;
+	    width:100%;
+	    z-index:40002; /* ensures box appears above overlay */
+	}
+	.dumbBox { /* The actual box, centered in the fixed-position div */
+	    width:800px; /* Whatever width you want the box to be */
+	    height:400px;
+	    position:relative;
+	    margin:0 auto;
+	    background-color:white;
+	    padding:20px;
+	    /*border:1px solid black;*/
+	    border-radius:10px;
+	    font-size:15px;
+	    font-family:sans-serif;
+	}
+	.confirmation{
+		font-size:20px;
+		font-family: sans-serif;
+		padding:20px;
+		margin: 0 auto;
+		display:inline-block;
+		background-color: #DDD;
+		border:1px solid black;
+		color:black;
+	}
+	.pleaseWait{
+		font-size:30px;
+		color:green;
+	}
+</style>
+{{block.super}}
+{% endblock scriptSources %}
+
+{% block title %}
+	{% if includeTitleBar %}
+		{{block.super}}	
+	{% endif %}
+
+	<script>
+	if (typeof console === 'undefined'){
+		console={'log':function(){},'error':function(){}}
+	}
+	</script>
+{% endblock title %}
+
+{% block pageTitle %}
+	<title>Describe font differences</title>
+{% endblock pageTitle %}
+
+</head>
+<body>
+
+{% block beginning %}
+
+
+<form id="mturk_form" action="https://www.mturk.com/mturk/externalSubmit" method="POST">
+<input type="hidden" name="hitNumber" value="">
+<input type="hidden" name="hitCreationTime" value="">
+<input type="hidden" name="hitBatchNumber" value="">
+<input type="hidden" name="timeTaken" value="">
+<input type="hidden" id="ipaddr" name="ipaddr" value="0.0.0.0">
+<input type="hidden" id="assignmentId" name="assignmentId" value="">
+<input type="hidden" id="hitId" name="hitId" value="">
+<input type="hidden" id="failureReason" name="isFailure" value="">
+<input type="hidden" id="studyName" name="studyName" value="">
+<input type="hidden" id="workerId" name="workerId" value="">
+
+	{% block studyInstructions %}
+	
+	
+	
+		<h1 align="center">Evaluate graphic design layouts</h1>
+		
+		<h2>Instructions</h2>
+		<p>
+		Your task is to choose between two layouts for a graphic design.  <b>You should evaluate layouts on whether they a) look good, b) are clear to read and understand </b>
+		</p>
+		
+		<p>
+		Wh
+		
+		</p>	
+		
+		
+		<p>
+		Please do not randomly choose between designs. 
+		
+		<b>Duplicates pairs have been added to the set</b>. If your duplicates are inconsistent your hits will be rejected. 
+		
+		Your results will be compared to other users.  Since this task can depend on personal preference, you will still be paid even if your results are different from other users. However, to prevent people from  submitting random results, if your results for multiple HITs are consistently very different from other people, your HITs will be rejected.</li>
+		
+		</p>
+
+	
+
+	{% endblock studyInstructions %}
+
+	{% block interfaceTutorial %}
+
+	{% endblock interfaceTutorial %}
+	
+{% endblock beginning %}
+
+{% block introduction %}
+
+	{% block interface %}
+		<div id="subtaskContainer" class="well">
+			<span class="pleaseWait">Please wait while images are loading.</span>
+			<div class="subtask">
+				<h2 class="subtaskLabel" name="title">Subtask <span class="subtaskID">1</span>:<span class="completeString"></span></h2>
+				
+				<p>Which is the best layout?</p>
+				<div class="row">
+					<div class="cell">
+						<p class="imageTitle">Layout A</p>
+						<img class="imageA" style="border-style:solid;border-width:1px;" src="/design/static/images/layouts/imageA.png"/>
+						<br>
+						<input type="radio" value="imageA" class="answer">
+						<label for="" class="answerOption imageA"><strong>Layout A</strong> is better</label>
+					</div>
+					<div class="cell">
+						<p class="imageTitle">Layout B</p>
+						<img class="imageB" style="border-style:solid;border-width:1px;" src="/design/static/images/layouts/imageB.png"/>
+						<br>
+						<input type="radio" value="imageB" class="answer">
+						<label for="" class="answerOption imageB"><strong>Layout B</strong> is better</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	{% endblock interface %}
+	
+{% endblock introduction %}
+
+
+{% block ending %}
+	<div class="well">
+		<p>Please provide any comments or suggestions you may have below, we 
+		appreciate your input! (optional)</p>
+		
+		<p>
+			<textarea id='hit_comments' name="hit_comments" style="width:500px;height:70px"></textarea>
+			</p>		
+		<span id="submitButton" class="btn" name="_submit" style="display:none;">Submit Results</span>
+	</div>
+	</form>
+	
+	<!--
+	<div class="dumbBoxWrap">
+	    <div class="dumbBoxOverlay">
+	        &nbsp;
+	    </div>
+	    <div class="vertical-offset">
+	        <div class="dumbBox">
+	            Thank you for completing this task.
+	            <br>
+	            Here is the confirmation text. Please copy this and send this to me when you are done.
+	            <br><br>
+	            <span id="confirmationText" class="confirmation"></span>
+	        </div>
+	    </div>
+	</div>
+	-->
+{% endblock ending %}
+
+{% block extraScripts %}
+
+	<script language="Javascript">
+ 
+ 		var assignmentID = getURLParameter('assignmentId');
+ 		var hitID = getURLParameter('hitId');
+ 		var studyName = getURLParameter('studyName');
+ 		$('input[name=assignmentId]').attr('value',assignmentID);
+ 		$('input[name=hitId]').attr('value',hitID);
+ 		$('input[name=studyName]').attr('value',studyName);
+ 		$('input[name=workerId]').attr('value',getURLParameter('workerId'));
+		//document.getElementById('assignmentId').value = assignmentId;
+		//document.getElementById('hitId').value = hitId;
+
+		//
+		// Check if the worker is PREVIEWING the HIT or if they've ACCEPTED the HIT
+		//
+		if (assignmentID == "ASSIGNMENT_ID_NOT_AVAILABLE")
+		{
+		  // If we're previewing, disable the button and give it a helpful message
+		  $('#submitButton').text("You must ACCEPT the HIT before you can do the full HIT or submit.");
+
+		  //document.getElementById('submitButton').value = "You must ACCEPT the HIT before you can do the full HIT or submit.";
+		}
+		else{
+			var form = $('#mturk_form'); //document.getElementById('mturk_form');
+			//console.log(document.referrer);
+			//console.log(document.referrer.indexOf('workersandbox') != -1);
+			if (document.referrer && ( document.referrer.indexOf('workersandbox') != -1) ) {
+			//if (hitID){
+				form.action = "https://www.mturk.com/mturk/externalSubmit";
+			}
+		}
+		function checkEnter(e){
+			e = e || event;
+			var txtArea = /textarea/i.test((e.target || e.srcElement).tagName);
+			return txtArea || (e.keyCode || e.which || e.charCode || 0) !== 13;
+		}
+			
+		//$('#submitButton').click(function(){submitForm();});
+		//document.querySelector('form').onkeypress = checkEnter;
+		processStudy(); // sets up the subtasks
+	</script>
+
+	<!--<script language="JavaScript" src="http://www.odonovan.comlu.com/ipaddr.js.php"></script>-->
+	
+{% endblock extraScripts %}
+ 
+
+
+
+</body>
+</html>

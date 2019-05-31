@@ -1,0 +1,284 @@
+{
+	"id": 1,
+	"width": 400,
+	"height": 600,
+	"name": "design_1371775487073",
+	"background_fname": "black.png",
+	"elements": [
+		{
+			"id": 1,
+			"fname": "artshow1.png",
+			"type": "graphic",
+			"importance": 3,
+			"x": 124,
+			"y": 163,
+			"height": 258,
+			"width": 151.70399999999998,
+			"group_id": -1,
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 0,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type_id": 2,
+			"aspect_ratio": 0.588,
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":124,\"y\":421,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":275.70399999999995,\"y\":421,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":124,\"y\":163,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":275.70399999999995,\"y\":163,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"fix_alignment": false,
+			"img": "{\"attrs\":{\"x\":124,\"y\":163,\"height\":258,\"width\":151.70399999999998,\"name\":1,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"draggable\":true},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":124,\"y\":163,\"height\":258,\"width\":151.70399999999998,\"name\":1,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"draggable\":true},\"className\":\"Image\"}"
+		},
+		{
+			"id": 2,
+			"text": "Ichiro Takimura",
+			"type": "text",
+			"importance": 3,
+			"x": 69,
+			"y": 101,
+			"height": 41,
+			"group_id": -1,
+			"bold": false,
+			"italic": false,
+			"align": "left",
+			"font": "Garamond",
+			"color": "#FF0000",
+			"background_color": "#00FF00",
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 1,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type_id": 1,
+			"sugg_align": "left",
+			"alternate_imgs": {
+				"left": "{\"attrs\":{\"x\":69,\"y\":101,\"width\":259.94,\"height\":41,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"left": "{\"attrs\":{\"x\":54,\"y\":106,\"width\":291.64,\"height\":46,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":69,\"y\":142,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":328.94,\"y\":142,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":69,\"y\":101,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":328.94,\"y\":101,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"aspect_ratio": 6.34,
+			"fix_alignment": false,
+			"width": 259.94,
+			"img": "{\"attrs\":{\"x\":69,\"y\":101,\"width\":259.94,\"height\":41,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":54,\"y\":106,\"width\":291.64,\"height\":46,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"2\",\"draggable\":true},\"className\":\"Image\"}"
+		},
+		{
+			"id": 3,
+			"text": "Portraits",
+			"type": "text",
+			"importance": 3,
+			"x": 136,
+			"y": 48,
+			"height": 38,
+			"group_id": -1,
+			"bold": false,
+			"italic": false,
+			"align": "center",
+			"font": "Garamond",
+			"color": "#FF0000",
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 1,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type_id": 1,
+			"sugg_align": "center",
+			"alternate_imgs": {
+				"center": "{\"attrs\":{\"x\":136,\"y\":48,\"width\":126.91999999999999,\"height\":38,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":122,\"y\":44,\"width\":153.64,\"height\":46,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":136,\"y\":86,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":262.91999999999996,\"y\":86,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":136,\"y\":48,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":262.91999999999996,\"y\":48,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"aspect_ratio": 3.34,
+			"fix_alignment": false,
+			"width": 126.91999999999999,
+			"img": "{\"attrs\":{\"x\":136,\"y\":48,\"width\":126.91999999999999,\"height\":38,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":122,\"y\":44,\"width\":153.64,\"height\":46,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"3\",\"draggable\":true},\"className\":\"Image\"}"
+		},
+		{
+			"id": 4,
+			"text": "July 21 - August 10, 2011",
+			"type": "text",
+			"importance": 1,
+			"x": 54,
+			"y": 435,
+			"height": 30,
+			"group_id": -1,
+			"bold": false,
+			"italic": false,
+			"align": "center",
+			"font": "Garamond",
+			"color": "#FFFFFF",
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 1,
+			"num_alternates": -1,
+			"selected": false,
+			"old_text": "",
+			"type_id": 1,
+			"sugg_align": "center",
+			"alternate_imgs": {
+				"center": "{\"attrs\":{\"x\":54,\"y\":435,\"width\":291.6,\"height\":30,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"center": "{\"attrs\":{\"x\":54,\"y\":435,\"width\":291.6,\"height\":30,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":54,\"y\":465,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":345.6,\"y\":465,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":54,\"y\":435,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":345.6,\"y\":435,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"aspect_ratio": 9.72,
+			"fix_alignment": false,
+			"width": 291.6,
+			"img": "{\"attrs\":{\"x\":54,\"y\":435,\"width\":291.6,\"height\":30,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":54,\"y\":435,\"width\":291.6,\"height\":30,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"4\",\"draggable\":true},\"className\":\"Image\"}"
+		},
+		{
+			"id": 5,
+			"text": "Gallery 81\n812 Spadina Ave\nToronto",
+			"type": "text",
+			"importance": 0,
+			"x": 122,
+			"y": 480,
+			"height": 72,
+			"bold": false,
+			"italic": false,
+			"group_id": -1,
+			"align": "center",
+			"font": "Garamond",
+			"color": "#FFFFFF",
+			"loaded": true,
+			"resizing": false,
+			"fixed": false,
+			"alternate": -1,
+			"num_lines": 3,
+			"num_alternates": 3,
+			"selected": false,
+			"old_text": "",
+			"type_id": 1,
+			"sugg_align": "center",
+			"alternate_imgs": {
+				"left": "{\"attrs\":{\"x\":0,\"y\":426,\"width\":250.79999999999998,\"height\":115.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}",
+				"center": "{\"attrs\":{\"x\":122,\"y\":480,\"width\":156.34285714285713,\"height\":72,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}",
+				"right": "{\"attrs\":{\"x\":0,\"y\":426,\"width\":250.79999999999998,\"height\":115.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"alternate_sugg_imgs": {
+				"left": "{\"attrs\":{\"x\":81,\"y\":416,\"width\":269.2571428571428,\"height\":124,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}",
+				"center": "{\"attrs\":{\"x\":112,\"y\":476,\"width\":175.88571428571427,\"height\":81,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}",
+				"right": "{\"attrs\":{\"x\":0,\"y\":426,\"width\":250.79999999999998,\"height\":115.5,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}"
+			},
+			"anchors": {
+				"topLeft": "{\"attrs\":{\"x\":122,\"y\":552,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"topRight": "{\"attrs\":{\"x\":278.34285714285716,\"y\":552,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"topRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomLeft": "{\"attrs\":{\"x\":122,\"y\":480,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomLeft\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}",
+				"bottomRight": "{\"attrs\":{\"x\":278.34285714285716,\"y\":480,\"fill\":\"#292\",\"opacity\":0.6,\"radius\":6,\"name\":\"bottomRight\",\"draggable\":true,\"visible\":false},\"className\":\"Circle\"}"
+			},
+			"aspect_ratio": 2.1714285714285713,
+			"fix_alignment": false,
+			"width": 156.34285714285713,
+			"img": "{\"attrs\":{\"x\":122,\"y\":480,\"width\":156.34285714285713,\"height\":72,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}",
+			"sugg_img": "{\"attrs\":{\"x\":112,\"y\":476,\"width\":175.88571428571427,\"height\":81,\"strokeEnabled\":false,\"stroke\":\"Red\",\"strokeWidth\":3,\"name\":\"5\",\"draggable\":true},\"className\":\"Image\"}"
+		}
+	],
+	"background": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":400,\"height\":600,\"name\":\"background\"},\"className\":\"Rect\"}",
+	"sugg_background": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":400,\"height\":600},\"className\":\"Rect\"}",
+	"overlap_regions": [
+		{
+			"elem_id": 1,
+			"x_min": 0,
+			"y_min": 0,
+			"x_max": 1,
+			"y_max": 1
+		},
+		{
+			"elem_id": 1,
+			"x_min": 0,
+			"y_min": 0,
+			"x_max": 1,
+			"y_max": 1
+		},
+		{
+			"elem_id": 1,
+			"x_min": 0,
+			"y_min": 0,
+			"x_max": 1,
+			"y_max": 1
+		},
+		{
+			"elem_id": 1,
+			"x_min": 0,
+			"y_min": 0,
+			"x_max": 1,
+			"y_max": 1
+		},
+		{
+			"elem_id": 1,
+			"x_min": 0,
+			"y_min": 0,
+			"x_max": 1,
+			"y_max": 1
+		},
+		{
+			"elem_id": 1,
+			"x_min": 0,
+			"y_min": 0,
+			"x_max": 1,
+			"y_max": 1
+		},
+		{
+			"elem_id": 1,
+			"x_min": 0,
+			"y_min": 0,
+			"x_max": 1,
+			"y_max": 1
+		}
+	],
+	"background_elem": {
+		"id": 0,
+		"type": "background",
+		"text": "",
+		"font": "Garamond",
+		"color": "#000",
+		"group_id": 0,
+		"importance": 0,
+		"anchors": {},
+		"loaded": false,
+		"resizing": false,
+		"selected": false,
+		"bold": false,
+		"italic": false,
+		"align": "center",
+		"x": 0,
+		"y": 0,
+		"img": "{\"attrs\":{\"x\":0,\"y\":0,\"width\":400,\"height\":600,\"name\":\"background\"},\"className\":\"Rect\"}"
+	}
+}

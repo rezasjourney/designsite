@@ -1,0 +1,993 @@
+{% extends "pages/abstract/baseTemplate.html" %}
+
+{% block scriptSources %}
+
+<script src="/design/static/bootstrap/js/bootstrap-tabs.js"></script>
+<script src="/design/static/js/jquery.fontselector.js"></script>
+<script src="/design/static/js/serverProcessing.js"></script>
+<script src="/design/static/js/design_abstract.js?v=1"></script>
+<script src="/design/static/js/rules.js"></script>
+<script src="/design/static/js/kinetic-v4.5.2.min.js"></script>
+<script src="/design/static/js/jscolor/jscolor.js"></script>
+<script src="/design/static/js/jquery.flot.min.js"></script>
+<script src="/design/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+<link rel="stylesheet" href="/design/static/css/fontselector.css">
+
+{{block.super}}
+{% endblock %}
+
+{% block content %}
+
+<br>
+<div class="row-fluid">
+	
+	<div class="span12" >
+		
+		
+		<span style="float:center">
+
+			<table  id="mainTable" border=0 >
+			<tr>
+			<td style="width:210px;padding:5px" id="suggestion_td" class='suggestions'>
+				
+				<span id='suggestion_text' style="font-family:FuturaLT Heavy;font-size:20px" > Tweak Your Design</span>
+		   			
+				
+				<span style="visibility:hidden" id=checkingImage><img style='height:18px;width:18px' src="/design/static/icons/snake2.gif"></span>
+		   			
+		   	
+		   		<div style="width:210px;height: 430px;">
+					<table id="suggestion_table" >
+						<tr><td class="suggestion"><div><canvas class="suggestions" onmouseover="viewLayout('suggestion',0)" onmouseout="viewLayout('interactive',-1)" onclick="setFixedLayout('suggestion',0)"  id="suggestion_layout0" width="200" height="133" style="solid #000000;background-color:#FFF" ></canvas></div></td></tr>
+						<tr><td class="suggestion"><div><canvas class="suggestions" onmouseover="viewLayout('suggestion',1)" onmouseout="viewLayout('interactive',-1)" onclick="setFixedLayout('suggestion',1)"  id="suggestion_layout1" width="200" height="133" style="solid #000000;background-color:#FFF"></canvas></div></td></tr>
+						<tr><td class="suggestion"><div><canvas class="suggestions" onmouseover="viewLayout('suggestion',2)" onmouseout="viewLayout('interactive',-1)" onclick="setFixedLayout('suggestion',2)"  id="suggestion_layout2" width="200" height="133" style="solid #000000;background-color:#FFF"></canvas></div></td></tr>
+						
+					</table>
+				</div>
+				<br>
+				<br>
+	        </td>
+
+			<td>
+			<span id="control_bar_full" style="float:left;line-height:30px">	
+				
+				
+							
+				<span class="dropdown modifications">
+					  <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
+					   <!-- <i class="icon-file"></i>-->
+					    <span style="font-family:FuturaLT Heavy">File</span>
+					    <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+					  	<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="createNewDesign()"><span style="font-family:FuturaLT">Create New Design</span> </a></li>
+					  	<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="openExistingDesign()"><span style="font-family:FuturaLT">Open Existing Design</span></a></li>
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="saveDesign()" ><span style="font-family:FuturaLT">Save Design</span></a></li>
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="duplicateDesign()"><span style="font-family:FuturaLT">Duplicate Design</span></a></li>
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="deleteDesign()"><span style="font-family:FuturaLT">Delete Design</span></a></li>
+					  </ul>
+				</span>	
+	
+					
+				
+				<span class="dropdown modifications">
+					  <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
+					   <!-- <i class="icon-file"></i>-->
+					    <span style="font-family:FuturaLT Heavy">Add</span>
+					    <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="startText()"  ><span style="font-family:FuturaLT">Add Text</span></a></li>
+					    <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="selectImage('graphic');"><span style="font-family:FuturaLT">Add Image</span></a></li>
+					  </ul>
+				</span>		
+				
+				<!--
+				<button id="addTextButton" type="button" name="align" class= "btn btn-small" onclick="startText()" data-content="Add Text" rel="popover" data-placement="bottom"  data-trigger="hover"><i class="icon-font"></i></button>
+				<button id="addImageButton" type="button" name="align" class= "btn btn-small" onclick="selectImage('graphic');" data-content="Add Image" rel="popover" data-placement="bottom"  data-trigger="hover"><i class="icon-camera"></i></button>
+				-->
+				<input type="file" id="fileInput" onchange="handleFiles(this.files)" style="visibility:hidden;position:absolute;top:-50;left:-50"/>
+				
+	
+				
+				
+				<span class="title_bar_spacer"></span>
+				
+				
+				<button id="undoButton" type="button" name="align" class= "btn btn-small" onclick="setSuggestionIndex(-1)"> <span style="font-family:FuturaLT Heavy">Undo </span></button>
+				<button id="redoButton" type="button" name="align" class= "btn btn-small" onclick="setSuggestionIndex(1)"> <span style="font-family:FuturaLT Heavy">Redo</span></button>
+			
+				<!--
+				<button id="undoButton" type="button" name="align" class= "btn btn-small suggestions" onclick="setSuggestionIndex(-1)" data-content="Undo" rel="popover" data-placement="bottom"  data-trigger="hover" ><i class="icon-arrow-left"> </i></button>
+				<button id="redoButton" type="button" name="align" class= "btn btn-small suggestions" onclick="setSuggestionIndex(1)" data-content="Redo" rel="popover" data-placement="bottom"  data-trigger="hover" ><i class="icon-arrow-right"> </i></button>
+				-->
+				
+				<span class="title_bar_spacer"></span>
+			
+			
+
+	
+				<button id="unlockButton" type="button" name="align" class= "btn btn-small suggestions" onclick="changeElementStates('unlocked')" data-content="Unlock Position" rel="popover" data-placement="bottom"  data-trigger="hover"><img style='height:20px;width:20px' src="/design/static/icons/unlocked.png"> </img></button>
+				
+				
+				<!--<button id="tweakableButton" style="display:none" type="button" name="align" class= "btn btn-small suggestions" onclick="changeElementStates('tweakable')" data-content="Rough Position" rel="popover" data-placement="bottom"  data-trigger="hover"><img style='height:20px;width:20px' src="/design/static/icons/tweakable.png"> </img></button>-->
+				<button id="lockedButton" type="button" name="align" class= "btn btn-small suggestions" onclick="changeElementStates('locked')" data-content="Lock Position" rel="popover" data-placement="bottom"  data-trigger="hover"><img style='height:20px;width:20px' src="/design/static/icons/locked.png"> </img></button>
+				
+				
+				
+				<span class="title_bar_spacer"></span>		
+				
+							   
+				<div class="btn-group" id="align_btns">
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+						<i class="icon-align-left"></i>
+						<span class="caret"></span>
+					</button>
+					<ul class="button-dropdown-menu dropdown-menu">
+						<li><button type="button" name="align" class= "btn align_select btn-small" value="left" onclick="controlsChanged('left')"><i class="icon-align-left"></i></button> </li>
+						<li><button type="button" name="align" class= "btn align_select btn-small active" value="center"  onclick="controlsChanged('center')"><i class="icon-align-center"></i></button></li>
+						<li><button type="button" name="align" class= "btn align_select btn-small" value="right"  onclick="controlsChanged('right')"><i class="icon-align-right"></i></button></li>
+					</ul>
+				</div>
+				
+				
+								
+				
+				<div class="btn-group"  id="font_size_btns">
+					<input style='width:28px;height:15px;margin-bottom:0px' type="text" id="fontSizeInput" value=12 onchange="fontSizeChanged()"></input>
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+						<span class="caret"></span>
+					</button>
+					<ul class="button-dropdown-menu dropdown-menu">
+					    <li style="display:none;" id='fontSizeLink' role="presentation"><a  style="line-height:15px" role="menuitem" tabindex="-1">6</a></li>					
+					</ul>
+				</div>
+						
+			
+				<span class="title_bar_spacer"></span>
+				<button  id="resetLayoutButton" type="button" name="align" class= "btn btn-small" onclick="resetLayout()" ><span style="font-family:FuturaLT Heavy">Randomize</span></button>
+				
+				<button id="saveLayoutButton"  type="button" name="align" class= "btn btn-small"  onclick="saveCurrentLayout()" ><span style="font-family:FuturaLT Heavy">Save</span></button>
+				
+				<button id="showGalleryButton"  type="button" name="align" class= "btn btn-small"  style=";display:none" onclick="showGalleryLayouts()" ><span style="font-family:FuturaLT Heavy">Brainstorm</span></button>
+
+			</span><br>
+			
+			<div id="canvas"></div>
+			<span id=group_constraints style="visibility:hidden">
+				<label class=" checkbox inline">
+		 		 	<input type="checkbox" id="size_constraint"  onchange="constraintsChanged('size')">Keep Same Size
+				</label><br>
+				<!--
+				<label class="checkbox inline">
+		 		 	<input type="checkbox" id="alignment_constraint"  onchange="constraintsChanged('alignment')">Keep Aligned
+				</label>
+				-->	
+				
+			</span>
+
+			
+			
+		
+		 </td>
+		  
+		<td style="padding:5px" class='suggestions'>
+	   
+			<!--<button type="button" name="align" class= "btn btn-small"  onclick="showMoreSimilarLayouts()" >Similar</button>-->
+			<!--
+			<button id="showMoreDifferentLayoutsButton" type="button" name="align" class= "btn btn-small suggestions"  onclick="showMoreDifferentLayouts()" >See More Designs</button>
+			<button id="showSavedButton" type="button" name="align" class= "btn btn-small"  onclick="$('#saved_lk').click()" >Show Saved</button>
+			-->
+			
+			<span id="gallery_text" style="font-family:FuturaLT Heavy;font-size:20px"> Brainstorm New Designs</span>
+			
+			
+			<span id="saved_text" style="font-family:FuturaLT Heavy;font-size:20px;display:none"> Saved Designs</span>
+			
+		   		<div>
+					<div id="my-tab-content" class="tab-content" >
+						
+						
+						 <div class="tab-pane active" id="saved_tab" >
+							<div style="width:250px;height: 430px;overflow-y:auto;">
+								<table  id="saved_table">
+								<tr style="display:none">
+									<td class="suggestion"><canvas  onmouseout="viewLayout('interactive',-1)"   id="saved_layout0" width="200" height="133" style="padding:1px border:1px solid #000000;background-color:#FFF"></canvas></td>
+									<td><button  id="remove_saved_layout0"  type="button" class= "btn btn-mini" ><i  class="icon-remove"></i></button> </td>
+														
+								</tr>
+								
+								</table>
+							</div>
+						</div>
+						<div class="tab-pane" id="gallery_tab">
+							<div style="width:250px;height: 430px;overflow-y:auto;"> <!-- style="width: 630px;overflow-x:auto;"-->
+								<table id="gallery_table">
+								<tr><td class="suggestion" ><canvas onmouseover="viewLayout('gallery',0)" onmouseout="viewLayout('interactive',-1)"  id="gallery_layout0" width="200" height="133" style="display:none;padding:1px border:1px solid #000000;background-color:#FFF"></canvas></td></tr>
+								</table>
+							</div>
+						</div>
+						<div class="tab-pane" id="retarget_tab">
+							<div style="width:250px;height: 430px;overflow-y:auto;"> 
+								Layout To Match:<br>
+								<img src='' id="retarget_img"/>
+							</div>
+						</div>  
+						
+						<!--
+						<div class="tab-pane " id="suggestion_tab">
+							<div ><
+								<table id="suggestion_table">
+								<tr><td><div class=""><canvas class="suggestions" onmouseover="viewLayout('suggestion',0)" onmouseout="viewLayout('interactive',-1)" onclick="setFixedLayout('suggestion',0)"  id="suggestion_layout0" width="200" height="133" style="solid #000000;background-color:#FFF"></canvas></div></td></tr>
+								<tr><td><div class=""><canvas class="suggestions" onmouseover="viewLayout('suggestion',1)" onmouseout="viewLayout('interactive',-1)" onclick="setFixedLayout('suggestion',1)"  id="suggestion_layout1" width="200" height="133" style="solid #000000;background-color:#FFF"></canvas></div></td></tr>
+								<tr><td><div class=""><canvas class="suggestions" onmouseover="viewLayout('suggestion',2)" onmouseout="viewLayout('interactive',-1)" onclick="setFixedLayout('suggestion',2)"  id="suggestion_layout2" width="200" height="133" style="solid #000000;background-color:#FFF"></canvas></div></td></tr>
+								
+								</table>
+							</div>
+						</div>
+						-->
+	
+						
+					</div>
+				</div>
+				<br>
+				<br>
+        </td>
+		  
+		  
+		</tr>	
+		</table>
+		
+	</div>
+	
+	
+</div>
+
+
+
+
+
+<div id="suggestion_canvas" style="display:none"></div>
+
+<button  style="display:none;"  id="rulesButton" type="button" name="align" class= "btn btn-small" onclick="toggleRules()" >Hide Rules</button>	
+
+<div id='suggReporting'>
+	<span id="updateText">Last Update:</span>
+	<button   id="reportGoodButton" type="button" name="align" class= "btn btn-small btn-success" onclick="initializeReport(true)" ><i class="icon-thumbs-up"> </i></button>	
+	<button   id="reportBadButton" type="button" name="align" class= "btn btn-small btn-danger" onclick="initializeReport(false)" > <i class="icon-thumbs-down"> </i></button>	
+	
+	
+	<div style="display:none" id="reponseCount">
+		<span id="numLikes">0</span> like(s) submitted<br>
+		<span id="numDislikes">0</span> dislike(s) submitted<br>
+		<span id="mturkBonusReminder">You will receive a bonus of $0.5 (and our gratitude!) if you submit at least 3 likes and 3 dislikes with helpful explanations.</span>
+	</div>
+</div>
+<button id="infoButton" type="button" name="align" class= "btn btn-small debug" onclick="toggleShowInfo()" >Show Debug Info</button>
+<br>
+<button style="display:none" id="nextDesignButton" type="button" name="align" class= "btn btn-large debug" onclick="moveToNextDesign()" > Create New Layout</button><br>			
+
+<button style="display:none" id="startStudyButton" type="button" name="align" class= "btn btn-large debug" onclick="startStudy()" >Press this Button to Start the Study</button><br>	
+
+<span style="background-color:#f00:display:none" id=study_status ></span><br>
+<span style="background-color:#f00;display:none" id=error_message class="debug"></span>	
+<span style="background-color:#f00" id=suggestion_status class="debug"></span>	
+
+<span id=reportStatus></span>
+<button style="display:none" id=restartButton type="button" name="align" class= "btn btn-small" onclick="startSuggestions()">Restart</button>	
+
+
+<!--
+
+<div class="row-fluid" id="rules" >
+	
+	
+	<div class="span12">
+		
+		
+		
+		<span style="float:center"> 
+			
+				
+
+			
+			
+	
+			<table style="width:500px">
+				<tr>
+				<td>
+					Possible Rules for Element(s):
+					<ul id="addRuleMenu" style="border:1" class="dropdownMenu">
+						<li  style="z-index: -1; display:none;" class="initRule">	
+							<a href="#" class="ui-corner-all">		
+								<span class=" ruleText" >
+									&nbsp;
+								</span>
+								<span style="display:none;" class="btn-inverse removeRuleButton">
+									<i class="icon-remove icon-white"></i>
+								</span>	
+							</a>
+							
+						</li>
+					</ul>	
+				</td>
+			
+				<td>		
+					Applied Rules for Element(s):
+					<ul id="appliedRuleMenu" style="border:1" class="dropdownMenu">
+					</ul>
+				</td>
+				</tr>	
+			</table>
+	
+			
+		</span>
+	</div>
+</div>
+-->
+
+
+<div class="row-fluid" style="display:none;" id="report"  >
+	<div class="span12 well">
+		<span style="float:right"> 
+			
+			
+			If the last user interaction is incorrect, please use the arrows until the left image is the correct "pre-update" design. 
+			<br>
+		
+			<button id="reportUndoButton" type="button" name="align" class= "btn btn-small" onclick="setUserLayoutIndex(-1)" ><i class="icon-arrow-left"> </i></button>
+			<button id="reportRedoButton" type="button" name="align" class= "btn btn-small" onclick="setUserLayoutIndex(1)"  ><i class="icon-arrow-right"> </i></button>
+	
+		
+			
+			<br>
+			<table style="width:600px">
+				<tr>
+					<td>
+						Last User Interaction
+					</td>
+					<td>
+						&nbsp;
+					</td>
+					<td>
+						Automatic Update		
+					</td>
+				</tr>	
+				<tr>
+					<td>
+						<img style='border:1px solid #000000' id="report_before_img"></img>
+					</td>
+					<td>
+						&nbsp;
+					</td>
+					<td>
+						<img  style='border:1px solid #000000' id="report_after_img"></img>
+					</td>
+				</tr>	
+				
+			</table>
+			<img  style='display:none' id="report_sugg_img"></img>
+			<br>
+			<span id=reportInstructions>
+			
+			</span>
+			<br>
+			<textarea id="reportText"  style="width:350px;overflow: auto;"  class="gray" rows=4 wrap=off name="reportText" value="" ></textarea>
+				
+			<br>
+			<button   id="cancelReportButton" type="button" name="align" class= "btn btn-small" onclick="cancelReport()" >Cancel</button>	
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<button   id="submitReportButton" type="button" name="align" class= "btn btn-small" onclick="submitReport()" >Submit</button>	
+		</span>
+	</div>
+</div>
+
+
+<div class="row-fluid">
+	<div class="span8">
+		<span style="float:right"> 
+		<div  id="controls">
+			<!--
+			<div id="layout_controls"  class="well">
+			
+	
+			</div>
+			
+			-->
+		
+			
+			<div id="background_controls" class="well" style="width:400px">
+				
+
+				
+				Design Width: <input type="text" id="design_width" value="" style="width:30px">
+				Height:<input type="text" id="design_height" value="" style="width:30px"><button id="designSizeButton" type="button" name="align" class= "btn btn-mini" onclick="designSizeChanged()">Update</button>
+				
+				<br>
+				Background Colour:
+				<input type="text" class="color" id="background_color_select" value="#f4f1e7" onchange="backgroundColorChanged()" style="width:50px">
+				
+				<br>
+				<button type="button" name="align" class= "btn btn-small" onclick="selectImage('background');">Set Background Image</button>
+				<img id="background_img"/>
+			
+				<span id=offset_controls>
+					Offset X: <input type="text" id="background_offset_x" value="0" style="width:30px" onchange="backgroundOffsetChanged()" >
+					Y:<input type="text" id="background_offset_y" value="0" style="width:30px" onchange="backgroundOffsetChanged()">
+				</span>
+			
+			</div>
+			
+		
+			<div id="region_controls" class="well" style="width:400px">
+				
+				
+				
+				Type:<br>
+				
+				<label class=" checkbox inline">
+		 		 	<input type="checkbox" id="region_text_select"  onchange="regionControlsChanged()">Text
+				</label><br>
+				<label class="checkbox inline">
+		 		 	<input type="checkbox" id="region_graphic_select"  onchange="regionControlsChanged()">Graphic
+				</label><br>
+				<label class="checkbox inline">
+		 		 	<input type="checkbox" id="region_overlap_select"  onchange="regionControlsChanged()">Graphic Overlap
+				</label>
+				<br>
+				
+				<label class=" checkbox inline">
+		 		 	<input type="checkbox" id="region_text_select"  onchange="regionControlsChanged()">Text
+				</label><br>
+				<label class="checkbox inline">
+		 		 	<input type="checkbox" id="region_graphic_select"  onchange="regionControlsChanged()">Graphic
+				</label><br>
+	
+				<!--
+				<br>
+				
+				Orientation:
+				<select id=importance_select  onchange="regionControlsChanged()" style="width:55%;align:">
+				  <option value=0>Vertical</option>
+				  <option value=1>Horizontal</option>
+				  <option value=2>Either</option>
+				</select>
+				-->			
+				
+				<button type="button" name="align" class= "btn btn-small" onclick="createRegion()">Create Region</button>
+			</div>
+			
+			<div id="element_controls" class="well">
+				
+			<span style="width:300px">	
+				<div id="font_select" class="fontSelect">
+					<div class="arrow-down"></div>
+				</div>
+			</span>
+			
+		
+				<!--
+				
+				
+				
+				<select id=font_select  onchange="controlsChanged()" style="width:150px">
+					
+					
+				  <option value="Garamond" >Garamond</option>
+				  <option value="Calibri">Calibri</option>
+	
+				  <option value="Arial">Arial</option>
+				  <option value="Helvetica">Helvetica</option>
+				  <option value="Marck Script">Marck Script</option>
+				  <option value="Sans-Serif">Sans-Serif</option>
+				  <option value="Serif">Serif</option>
+				  <option value="Times New Roman">Times New Roman</option>
+				  <option value="Trajan Pro">Trajan Pro</option>
+				  <option value="Exo Light">Exo Light</option>
+				  <option value="Exo SemiBold">Exo SemiBold</option>
+				</select>
+				
+				-->
+				
+				<label class=" checkbox inline">
+		 		 	<input type="checkbox" id="bold_select"  onchange="controlsChanged()"><i class="icon-bold"></i>
+				</label>
+				<label class="checkbox inline">
+		 		 	<input type="checkbox" id="italic_select"  onchange="controlsChanged()"><i class="icon-italic"></i>
+				</label>
+				<label class="checkbox inline">
+		 		 	<input type="checkbox" id="shadow_select"  onchange="controlsChanged()">Shadow
+				</label>		
+
+				
+				
+				
+				
+		
+		
+				
+				<input type="text" class="color" id="color_select" value="#000" style="width:50px" onchange="controlsChanged()">
+				
+		
+		
+		
+				<span data-toggle="buttons-radio" class="checkbuttons">
+					<button type="button" name="align" class= "btn align_select btn-small" value="left" onclick="controlsChanged('left')"><i class="icon-align-left"></i></button> 
+					<button type="button" name="align" class= "btn align_select btn-small active" value="center"  onclick="controlsChanged('center')"><i class="icon-align-center"></i></button>
+					<button type="button" name="align" class= "btn align_select btn-small" value="right"  onclick="controlsChanged('right')"><i class="icon-align-right"></i></button>
+					Fix: <input type="checkbox" id="fix_select"  onchange="controlsChanged()">
+				</span>
+				
+				<br>
+	
+				
+				Importance:
+				<select id=importance_select  onchange="controlsChanged()" style="width:95px;align:">
+				  <option value=4>Very High</option>
+				  <option value=3>High</option>
+				  <option value=2>Medium</option>
+				  <option value=1>Low</option>
+				  <option value=0>Very Low</option>
+				</select>
+				<span id="overlap_mod">
+				Allow Overlap: <input type="checkbox" id="overlap_select"  onchange="controlsChanged()">
+				</span>
+				
+				
+			
+				Group:
+				<select id=group_select  onchange="controlsChanged()" style="width:75px">
+					
+				  <option value=-1>None</option>
+				  <option value=1>1</option>
+				  <option value=2>2</option>
+				  <option value=3>3</option>
+				  <option value=4>4</option>
+				  <option value=5>5</option>
+				  <option value=6>6</option>
+				  <option value=7>7</option>
+				  <option value=8>8</option>
+				  <option value=9>9</option>
+				  <option value=10>10</option>
+				  <option value=11>11</option>
+				  <option value=12>12</option>
+				  <option value=13>13</option>
+				  <option value=14>14</option>
+				  <option value=15>15</option>
+				</select><br>
+				
+				# Lines:
+				<select id=num_lines_select  onchange="numLinesChanged()" style="width:50px">
+					
+				  <option value=1>1</option>
+				  <option value=2>2</option>
+				  <option value=3>3</option>
+				  <option value=4>4</option>
+				  <option value=5>5</option>
+				  <option value=6>6</option>
+				  <option value=7>7</option>
+				  <option value=8>8</option>
+				  <option value=9>9</option>
+				  <option value=10>10</option>
+				  <option value=11>11</option>
+				  <option value=12>12</option>
+				  <option value=13>13</option>
+				  <option value=14>14</option>
+				  <option value=15>15</option>
+				</select>	
+				Fix: <input type="checkbox" id="num_lines_fix_select"  onchange="controlsChanged()">
+				
+				<br>
+
+				
+				<div id="advanced_element_controls" style="display:none">
+				Optional: <input type="checkbox" id="optional_select"  onchange="controlsChanged()">
+				Hidden: <input type="checkbox" id="hidden_select"  onchange="controlsChanged()"><br>
+				<br>
+				</div>
+				
+
+				
+				
+				<textarea id="user_text"  style="width:400px;overflow: auto;"  class="gray" rows=5 wrap=off name="userText" value="" onchange="controlsChanged()"></textarea>
+				<button id="deleteElementButton" type="button" name="align" class= "btn btn-small" onclick="deleteCurrentElement()" data-content="Delete Element" rel="popover" data-placement="bottom"  data-trigger="hover"><i class="icon-trash"></i></button>
+				
+	
+	
+				<br>
+				
+		
+				
+			</div>
+	
+			
+			<!--
+			<div id="optControls" class="well" style='align:left'>
+	
+				
+				White Space:
+				<div id="whitespace_slider"></div>
+				
+				Text Size:
+				<div id="text_size_slider"></div>		
+				
+				Graphic Size:
+				<div id="graphic_size_slider"></div>
+				
+				Symmetry:
+				<div id="symmetry_slider"></div>	
+						
+				
+			</div>
+			-->
+				
+		</div>	
+		
+	</div>	
+</div>
+
+
+
+<div class="row-fluid">
+	<div class="span12">
+		<span id="layoutInfo"  style="float:left"> 
+			<button id="toggleSuggestionInterfaceButton"  type="button" name="align" class= "btn btn-small"  onclick="toggleSuggestionInterface()" >Toggle Suggestions</button><br>
+			
+			
+			Canvas Energy:
+			<span  id=canvas_energy class="debug"></span><br>
+			<span style="background-color:#0f0" id=counter_synced class="debug">Synced</span>
+			
+			Send Layout:
+			<span id=send_layout_time class="debug"></span>.
+			
+			Init Response:
+			<span id=mean_latency_time class="debug"></span>.	Convergence: <span id=mean_convergence_time class="debug"></span>
+			<br>
+			
+			
+			<div style="display:none" id="energy_plot_container" class="plot-container">
+			<div id="energy_plot" class="plot"></div>
+			</div>
+			
+			<textarea id="userLayout"  style="width:170px"  wrap='off' class=" gray" rows=8 name="userLayout" value=""></textarea>
+			<textarea id="suggLayout"  style="width:170px"  wrap='off' class=" gray" rows=8 name="suggLayout0" value=""></textarea>
+			<textarea id="design_out"  style="width:300px"  wrap='off' class=" gray" rows=8 name="design_out" value=""></textarea><br>
+			
+			
+		
+		
+			<textarea id="userLayoutFeatures"  style="width:400px;height:1000px" wrap='off' class=" gray" rows=20 name="userLayoutFeatures" value=""></textarea>
+			<textarea id="suggLayoutFeatures"  style="width:400px;height:1000px" wrap='off'  class=" gray" rows=20 name="suggLayoutFeatures" value=""></textarea><br>
+			
+			
+			
+			
+		
+			Interface Debug Options:<br>
+			<label class=" checkbox inline">
+			 	<input type="checkbox" id="lock_icon_select" >Show Lock Icons
+			</label><br>
+			<label class=" checkbox inline">
+			 	<input type="checkbox" id="infer_locking_select">Infer Locking
+			</label><br>
+			
+			<label class=" checkbox inline">
+			 	<input type="checkbox" id="fixed_opacity_select">Fixed Opacity
+			</label><br>
+		
+			<label class=" checkbox inline">
+			 	<input type="checkbox" id="alignment_select">Alignment Lines
+			</label><br>
+			
+			
+			<label class=" checkbox inline">
+			 	<input type="checkbox" id="mouseover_alignment_select">Mouseover Alignment Lines
+			</label><br>
+			
+			<label class=" checkbox inline" style="display:none">
+			 	<input type="checkbox" onchange="toggleInvert()" id="invert_select">Invert Visualization Color
+			</label><br>	
+		
+			<br>
+			<br>
+			
+		    <ul id="tabs" class="nav nav-tabs" style="margin-bottom:1px;width:245px;" data-tabs="tabs">
+		    	
+		    	
+		        <li><a id="suggestion_lk" href="#suggestion_tab" style="padding-top:3px;padding-bottom:3px" data-toggle="tab" >Refine</a></li>
+		        <li><a id='style_lk' href="#gallery_tab" style="padding-top:3px;padding-bottom:3px" data-toggle="tab"  >Styles</a></li>
+		        <li class="active"><a id='saved_lk' href="#saved_tab" style="padding-top:3px;padding-bottom:3px" data-toggle="tab">Saved</a></li>
+		        <li><a id='retarget_lk' href="#retarget_tab" style="padding-top:3px;padding-bottom:3px" data-toggle="tab">Retarget</a></li>
+		    </ul>
+		    
+		    <br>
+			
+			
+			
+			Suggestions: 	
+			
+			<!--<button id="pauseButton" type="button" name="align" class= "btn btn-medium btn-warning" onclick="switchPauseState()">Pause</button>-->
+			<button  type="button" name="align" class= "btn btn-small" onclick="stopSuggestions()">Stop</button>
+			<!--<button  type="button" name="align" class= "btn btn-small" onclick="startSuggestions()">Start</button>-->
+			<!--<button type="button" name="align" class= "btn btn-small" onclick="saveCurrentLayout()">Save Layout</button>-->
+			
+			<!--			
+			<button id="pauseButton" type="button" name="align" class= "btn btn-small btn-yellow"   onclick="pauseSuggestions()" data-content="Pause Automatic Updates" rel="popover" data-placement="bottom"  data-trigger="hover" ><i  class="icon-pause"> </i></button>
+			<button id="startButton" style="display:none" type="button" name="align"   class= "btn btn-small btn-green" onclick="resumeSuggestions()" data-content="Start Automatic Updates" rel="popover" data-placement="bottom"  data-trigger="hover" ><i class="icon-play"> </i></button>
+			-->
+		
+			<!--Region Proposals:<input type="checkbox" id="region_proposal_select"  onchange="regionProposalChanged()">-->
+		</span>	
+</div>
+</div>
+
+<span id="initFonts">
+<span id="initFont" style="font-family:'Arial'">&nbsp;</span>
+</span>
+
+{% endblock %}
+
+
+
+
+
+{% block scripts %}
+<script>
+	console.log("starting")
+	
+	createRules()
+	
+
+
+	
+	//$('#initFonts').hide()
+	
+	$('#timeLimitSeconds').val(111)
+	 
+	if (!isiPhonePad())
+	{
+		
+		
+		$('#deleteElementButton').popover();
+		
+		
+		$('#unlockButton').popover();
+		$('#tweakableButton').popover();
+		$('#lockedButton').popover();
+		
+		
+		
+	}	
+
+
+	$('#canvas').data("randomizeInit",gup("randomizeInit")=='1')
+
+
+
+	$("#lock_icon_select").prop("checked",true) 
+	$("#alignment_select").prop("checked",true) 
+	$("#mouseover_alignment_select").prop("checked",false) 
+	$("#infer_locking_select").prop("checked",true) 
+	
+
+	///setupSliders()
+	var design_name="{{design}}"
+	if (gup('design')!='')
+	{
+		design_name=gup('design').split("?")[0];
+	}
+	
+		
+		
+	 if (getURLParameter('assignmentId') == "ASSIGNMENT_ID_NOT_AVAILABLE")
+	 {
+	 	$('#suggestion_status').text("You must ACCEPT the HIT before you can use the interface.")
+	 	$('.modifications').hide()
+	 	$('.suggestions').hide()
+	 	$('#startStudyButton').hide()	
+	 }
+	 else
+	 {
+	 	if (design_name!='')
+	 		loadDesignFile(design_name)
+	 	
+	 }
+	 
+
+	//toggleShowInfo()
+	
+	$('#element_controls').hide()
+	$('#background_controls').hide()
+	$('#region_controls').hide()
+	$('#layoutInfo').hide()
+	
+	
+	$('#redoButton').fadeTo(0,0.4)
+	$('#undoButton').fadeTo(0,0.4)
+	$('#reportRedoButton').fadeTo(0,0.4)
+	$('#reportUndoButton').fadeTo(0,0.4)
+	
+	$("#color_select").keyup(function(event){
+	    if(event.keyCode == 13){
+	        controlsChanged();
+	    }
+	});
+	$("#color_select").focusout(function(){
+	    controlsChanged();
+	});
+	
+    
+	//console.log("setting up tabs")
+    $('#tabs').tab();
+    
+   
+
+	$('#canvas').data("hideContent",gup("hideContent")=='1')
+	
+
+	var noSugg=((gup("noSuggestions")==1) || (design_name=='new'));
+	$('#canvas').data("suggestionsEnabled",!noSugg)
+	
+	
+	var noMod=gup("noModifications")==1;
+	$('#canvas').data("modificationsEnabled",!noMod)
+	
+	
+	if (noMod)
+	{
+		$('.modifications').hide()
+		//$('#saveLayoutButton').show()
+	}
+	else
+	{
+		fonts=[ 'Anonymous,sans-serif',
+				'AdventPro-Light,sans-serif',
+				'AdventPro-SemiBold,sans-serif',
+				'Arial,serif',
+				'Arial Black,sans-serif',
+				'Butcherman,serif',
+				'Calibri,Calibri,serif',
+				'Comic Sans MS,Comic Sans MS,cursive',
+				'Courier New,Courier New,Courier,monospace',
+				'Dancing Script,serif',
+				'Eater Caps,serif',
+				'Exo Light,sans-serif',
+				'Exo SemiBold,sans-serif',
+				'FuturaLT Heavy,sans-serif',
+				'FuturaLT Bold Oblique,sans-serif',
+				'Eater Caps,sans-serif',
+				'Garamond,Garamond,serif',
+				'Gill Sans,Geneva,sans-serif',
+				'Helvetica,Helvetica,sans-serif',
+				'Impact,Charcoal,sans-serif',
+				'Lucida Console,Monaco,monospace',
+				'Marck Script,serif',
+				'Metal Mania,serif',
+				'Nosifer,serif',
+				'Tahoma,Geneva,sans-serif',
+				'Times New Roman,Times,serif',
+				'Trajan Pro,Trajan Pro,sans-serif',
+				'Verdana,Geneva,sans-serif']
+				/*
+			for (var i=0;i<fonts.length;i++)
+			{
+				var fdiv=$('#initFont').clone()
+				fdiv.css("font-family",fonts[i].split(",")[0])
+				fdiv.attr("id",fonts[i].split(",")[0])
+				$('#initFont').parent().append(fdiv)
+				//console.log("setting font:"+fonts[i].split(",")[0])
+			}
+			*/
+			$(function() {
+				$('#font_select').fontSelector({
+					'hide_fallbacks' : true,
+					'initial' : 'Garamond,Garamond,serif',
+					'selected' : function(style) { fontSelected(style); },
+					'fonts' : fonts
+				});
+			});
+		
+	}
+	
+	$('#suggReporting').hide()
+	
+	
+	
+	
+	
+	if ((noSugg) )
+	{
+		//$('#saved_lk').click()
+		//$('#saveLayoutButton').show()
+		
+		$('.suggestions').hide()
+		$('#infoButton').hide()
+	}
+	
+	if (noSugg && noMod)
+		$('.title_bar_spacer').hide() 
+	
+
+	$('#style_lk').click()
+	
+
+	if(gup("automaticUpdate")=="1")
+	{
+		
+		$('#showSavedButton').css('visibility','hidden')
+		$('#showMoreDifferentLayoutsButton').css('visibility','hidden')
+		$('#canvas').data("automaticUpdate",true)	
+		//$('#saved_lk').click()
+		
+		$('#checkingImage').appendTo($('#control_bar_full'))
+		
+		$('#suggestion_td').hide()
+		
+		
+	}
+	else
+	{
+		$('#canvas').data("automaticUpdate",false)
+		
+		
+		
+
+	}
+
+
+	//$('#saveLayoutButton').css('visibility','hidden')
+	//$('#showSavedButton').css('visibility','hidden')
+   
+   $("#fontSizeInput").keyup(function (e) {
+    if (e.keyCode == 13) 
+    {
+    	e.preventDefault();
+        fontSizeChanged() 
+      }
+       
+    });
+    $('#mturk_form').bind("keyup keypress", function(e) {
+	  var code = e.keyCode || e.which; 
+	  if (code  == 13) {               
+	    e.preventDefault();
+	    return false;
+	  }
+	});
+	
+    
+    
+    var sizes=[6,8,10,12,14,16,18,20,24,28,32,36,40,48,56]
+    
+    console.log('sizes '+sizes)
+    
+    for (var i=0;i<sizes.length;i++)
+    {
+    	var link=$('#fontSizeLink');
+    	
+    	var new_link=link.clone()
+    	new_link.show()
+    	
+    	new_link.attr("id","fontSizeLink"+i)
+    	new_link.find("a").text(sizes[i])
+    	new_link.data("size",sizes[i])
+    	new_link.click(function() {
+    		var size=$(this).data("size")
+    		console.log('on change:'+size)
+		  	fontSizeChanged(size)
+		});
+		
+    	link.parent().append(new_link)
+    	//console.log("adding size "+sizes[i])
+    }
+    //<li class='fontSizeLink' role="presentation"><a  role="menuitem" tabindex="-1" href="#" onchange="fontSizeChanged(6)">6</a></li>		-->
+    
+
+    
+   
+	
+</script>
+{% endblock %}

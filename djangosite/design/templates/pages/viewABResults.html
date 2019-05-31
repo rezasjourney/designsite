@@ -1,0 +1,127 @@
+{% extends "pages/abstract/baseTemplate.html" %}
+
+{% block scriptSources %}
+<script src="/design/static/js/serverProcessing.js"></script>
+<script src="/design/static/js/design.js"></script>
+<script src="/design/static/js/viewABResults.js"></script>
+<script src="/design/static/js/kinetic-v4.5.2.min.js"></script>
+
+{{block.super}}
+{% endblock %}
+
+{% block content %}
+
+
+	
+<div class="row-fluid">
+	
+	<div class="span12" >
+		
+		<div id="stats">
+			
+			<strong>Total Suggestion Votes: </strong>
+			<span id="numSuggestionVotes" ></span><br>	
+			
+			<strong>Total Baseline Votes: </strong>
+			<span id="numBaselineVotes" ></span><br>	
+			
+			<strong>Suggestion Wins: </strong>
+			<span id="numSuggestionWins" ></span><br>	
+			
+			<strong>Baseline Wins: </strong>
+			<span id="numBaselineWins" ></span><br>
+			
+			<strong>Ties: </strong>
+			<span id="numTies" ></span><br>	
+			
+			
+			<strong>Suggestion Score: </strong>
+			<span id="suggestionScore" ></span><br>	
+			
+			<strong>Baseline Score: </strong>
+			<span id="baselineScore" ></span><br>
+			
+			<hr style="background:#000; border:0; height:4px" />
+		</div>
+		
+		
+		<div id="ab_comparison">
+			<strong>Test #<span id="testNumber" ></span></strong><br><br>
+			<table border=1>
+			
+				<tr  class='image_row'>
+					<td><img id="imageA"  src=''></img></td>
+					<td><img id="imageB"  src=''></img></td>
+				</tr>	
+				
+				<tr class='stats_row'>
+					<td>Interface: <span id="interfaceA"></span><br>
+						Votes: <span id="votesA"></span><br>
+						Score: <span id="scoreA"></span><br>
+						Rank: <span id="rankA"></span><br>
+					</td>
+					<td>Interface: <span id="interfaceB"></span><br>
+						Votes: <span id="votesB"></span><br>
+						Score: <span id="scoreB"></span><br>
+						Rank: <span id="rankB"></span><br>
+					</td>
+					</tr>
+			</table>
+			
+			<!--
+			<strong>Design: </strong><br>
+			<a style="color:#0000FF;" class="designID" href=viewLayouts></a><br>
+			-->
+			
+			<hr style="background:#000; border:0; height:2px" />
+		</div>
+		
+	
+	</div>
+	
+</div>
+
+
+<strong>User Comments</strong>
+<div id="user_comments"></div>
+
+
+
+<div id="accept_hits"></div>
+
+
+<div id="reject_hits"></div>
+
+
+
+<div id="ranked_images">
+	
+	<div id="rank_image">
+		<img id="img"  src=''></img><br>		
+		Rank:	<span id="rank"></span><br>
+		Score:	<span id="score"></span><br>
+		Interface:	<span id="interface"></span><br>
+	</div>
+	
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+	
+	
+	///setupSliders()
+	var design_name="{{design}}"
+	if (gup('design')!='')
+	{
+		design_name=gup('design').split("?")[0];
+	}
+		
+		
+	getABResults();	
+	
+	
+	
+</script>
+{% endblock %}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+	<script type="text/javascript" src="/design/static/jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/design/static/jquery/ui-1.8.24/jquery-ui.min.js"></script>
+	
+	<script type="text/javascript" src="/design/static/js/sprintf-0.6.js"></script>
+	<script type="text/javascript" src="/design/static/jquery/jquery.dataSelector.js"></script>
+	
+
+	{% block javascriptSources %}
+		<script type="text/javascript" src="/design/static/js/main.js"></script>
+	{% endblock javascriptSources %}
+	<!--end javascript-->
+	<!--css-->
+
+	
+	{% block cssSources %}
+		
+		
+		
+		<link href="/design/static/css/custom-theme/jquery-ui-1.8.24.custom.css" rel="stylesheet" type="text/css" />
+		<link href="/design/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="/design/static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+		
+		<link rel="stylesheet" type="text/css" href="/design/static/css/font.css" />
+		<link rel="stylesheet" type="text/css" href="/design/static/css/main.css" />
+	{% endblock cssSources %}
+	{% block pageTitle %}
+		<title>DesignScape</title>
+	{% endblock pageTitle %}
+	<!--end css-->
+
+{% block scriptSources %}
+<!-- should be blank - to be deprecated -->
+{% endblock %}
+
+
+</head>
+<!-- Extra white-space below is just to make it easier to read. :-) -->
+
+<!--[if IE]>   <body class="ie">          <![endif]-->
+<!--[!(IE)]><!-->    <body> <!--<![endif]-->
+	<div class="container">
+
+		
+		{% block bootstrap_guide %}
+			{% comment %}
+			<div class="row-fluid">
+				<div class="span1 gray">1</div>
+				<div class="span1 gray">2</div>
+				<div class="span1 gray">3</div>
+				<div class="span1 gray">4</div>
+				<div class="span1 gray">5</div>
+				<div class="span1 gray">6</div>
+				<div class="span1 gray">7</div>
+				<div class="span1 gray">8</div>
+				<div class="span1 gray">9</div>
+				<div class="span1 gray">10</div>
+				<div class="span1 gray">11</div>
+				<div class="span1 gray">12</div>
+			</div>			
+			{% endcomment %}
+			
+			
+		{% endblock bootstrap_guide %}
+
+		{% block beginning %}
+		{% endblock beginning %}
+
+		{% block introduction %}
+		{% endblock introduction %}
+
+
+		{% block content %}
+		<div id="content"> </div>
+		{% endblock %}
+
+		{% block ending %}
+		{% endblock ending %}
+
+		{% block scripts %}
+		{% endblock scripts %}
+		{% block extraScripts %}
+		{% endblock extraScripts %}
+		{% block errorHandling %}
+		{% endblock errorHandling %}
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+http://127.0.0.1:8080/design/static/gd_comp/simple2/,50
+http://127.0.0.1:8080/design/static/gd_comp/absdesign/,50
+http://127.0.0.1:8080/design/static/gd_comp/simple/,50

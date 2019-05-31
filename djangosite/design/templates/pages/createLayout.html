@@ -1,0 +1,76 @@
+{% extends "pages/abstract/baseTemplate.html" %}
+
+{% block scriptSources %}
+<script src="/design/static/js/createLayout.js"></script>
+
+{{block.super}}
+{% endblock %}
+
+{% block content %}
+
+
+<div id="flashContent" class="span12">
+
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="700" height="800" id="creategd" align="middle">
+		<param name="movie" value="/design/static/flash/interactiveDesign.swf" />
+
+		<param name="quality" value="high" />
+		<param name="bgcolor" value="#CCCCCC" />
+		<param name="play" value="true" />
+		<param name="loop" value="true" />
+		<param name="wmode" value="window" />
+		<param name="scale" value="showall" />
+		<param name="menu" value="true" />
+		<param name="devicefont" value="false" />
+		<param name="salign" value="" />
+		<param name="allowScriptAccess" value="always" />
+		<param name="flashvars" id="flvar" value="testVar=abc" />
+
+		<!--[if !IE]>-->
+		<object type="application/x-shockwave-flash" data="/design/static/flash/interactiveDesign.swf" width="700" height="800" id="flashapp">
+			<param name="movie" value="/design/static/flash/interactiveDesign.swf" />
+			<param name="quality" value="high" />
+			<param name="bgcolor" value="#CCCCCC" />
+			<param name="play" value="true" />
+			<param name="loop" value="true" />
+			<param name="wmode" value="window" />
+			<param name="scale" value="showall" />
+			<param name="menu" value="true" />
+			<param name="devicefont" value="false" />
+			<param name="salign" value="" />
+			<param name="allowScriptAccess" value="always" />
+			<script language="Javascript">document.write('<param name="FlashVars" value="imagetime=60&filename='+gup('url')+'&assignmentid='+gup('assignmentId')+'" />')</script>
+		<!--<![endif]-->
+			<a href="http://www.adobe.com/go/getflash">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+			</a>
+		<!--[if !IE]>-->
+		</object>
+		<!--<![endif]-->
+	</object>
+	<br>
+</div>
+<br>
+<span>
+
+<textarea id="userLayoutFeatures"  class="span6 gray" rows=20 name="userLayoutFeatures" value=""></textarea>
+<textarea id="suggLayoutFeatures"  class="span6 gray" rows=20 name="suggLayoutFeatures" value=""></textarea>
+</span>	
+
+<br>
+	<textarea id="userLayout"   class="span3 gray" rows=8 name="userLayout" value=""></textarea>
+	<textarea id="suggLayout"   class="span3 gray" rows=8 name="suggLayout0" value=""></textarea>
+	<br>
+	
+	<textarea id="design"   class="span6 gray" rows=8 name="design" value=""></textarea>
+	
+	
+	
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+ startNewRun();
+</script>
+{% endblock %}
